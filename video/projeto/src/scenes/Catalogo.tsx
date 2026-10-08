@@ -5,7 +5,7 @@ import {TopLogo} from '../components/FeatureScene';
 import {Headline, Kicker} from '../components/Headline';
 import {C, FONT} from '../theme';
 
-// Cálculos disponíveis em produção (os que estão "em manutenção" ficam de fora).
+// Cálculos disponíveis no sistema, por área.
 const AREAS: {area: string; items: string[]}[] = [
   {
     area: 'Previdenciário',
@@ -19,7 +19,10 @@ const AREAS: {area: string; items: string[]}[] = [
     ],
   },
   {area: 'Trabalhista', items: ['Rescisão do Contrato', 'Horas Extras e Reflexos', 'Apuração do Ponto', 'Revisão do FGTS']},
-  {area: 'Cível', items: ['Atualização de Débitos', 'Pensão Alimentícia']},
+  {area: 'Cível', items: ['Atualização de Débitos', 'Pensão Alimentícia', 'Parcelamento art. 916 CPC']},
+  {area: 'Tributário', items: ['Ações Tributárias', 'Fazenda Pública', 'Comparação de Regimes']},
+  {area: 'Bancário', items: ['Tarifas abusivas']},
+  {area: 'Penal', items: ['Dosimetria da Pena']},
 ];
 const TOTAL = AREAS.reduce((a, b) => a + b.items.length, 0);
 
@@ -37,18 +40,18 @@ export const Catalogo: React.FC = () => {
         <div style={{height: 24}} />
         <Headline text={`**${n} cálculos** prontos para usar`} size={80} delay={6} />
       </div>
-      <div style={{position: 'absolute', top: 720, left: 60, right: 60, display: 'flex', flexDirection: 'column', gap: 44}}>
+      <div style={{position: 'absolute', top: 650, left: 60, right: 60, display: 'flex', flexWrap: 'wrap', columnGap: 40, rowGap: 30}}>
         {AREAS.map((a, ai) => {
-          const hp = spring({frame: frame - 30 - ai * 40, fps, config: {damping: 200}});
+          const hp = spring({frame: frame - 30 - ai * 24, fps, config: {damping: 200}});
           return (
-            <div key={a.area}>
-              <div style={{display: 'flex', alignItems: 'center', gap: 18, opacity: hp, marginBottom: 20}}>
-                <div style={{fontFamily: FONT, fontWeight: 800, fontSize: 40, color: '#fff', textTransform: 'uppercase', letterSpacing: 3}}>{a.area}</div>
+            <div key={a.area} style={{width: a.items.length === 1 ? 460 : '100%'}}>
+              <div style={{display: 'flex', alignItems: 'center', gap: 18, opacity: hp, marginBottom: 14}}>
+                <div style={{fontFamily: FONT, fontWeight: 800, fontSize: 32, color: '#fff', textTransform: 'uppercase', letterSpacing: 3}}>{a.area}</div>
                 <div
                   style={{
                     fontFamily: FONT,
                     fontWeight: 800,
-                    fontSize: 30,
+                    fontSize: 26,
                     color: '#fff',
                     background: C.bordoLight,
                     borderRadius: 30,
@@ -59,20 +62,20 @@ export const Catalogo: React.FC = () => {
                 </div>
                 <div style={{flex: 1, height: 2, background: 'rgba(255,255,255,0.2)'}} />
               </div>
-              <div style={{display: 'flex', flexWrap: 'wrap', gap: 14}}>
+              <div style={{display: 'flex', flexWrap: 'wrap', gap: 12}}>
                 {a.items.map((t) => {
-                  const p = spring({frame: frame - 38 - ai * 40 - k++ * 4, fps, config: {damping: 200}});
+                  const p = spring({frame: frame - 36 - ai * 24 - k++ * 3, fps, config: {damping: 200}});
                   return (
                     <div
                       key={t}
                       style={{
                         fontFamily: FONT,
                         fontWeight: 600,
-                        fontSize: 30,
+                        fontSize: 27,
                         color: C.navy,
                         background: '#fff',
                         borderRadius: 18,
-                        padding: '16px 24px',
+                        padding: '12px 20px',
                         opacity: p,
                         transform: `translateY(${interpolate(p, [0, 1], [24, 0])}px)`,
                         boxShadow: '0 12px 30px rgba(0,0,0,0.25)',

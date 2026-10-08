@@ -5,7 +5,7 @@ import {TopLogo} from '../components/FeatureScene';
 import {Headline} from '../components/Headline';
 import {C, FONT} from '../theme';
 
-const ITEMS = ['12 cálculos jurídicos', 'AdvogAI, a IA do sistema', 'Gestão de clientes', 'Agenda e prazos', 'Controle financeiro', 'Funil Jurídico', 'Modelos de peças', 'Marketplace'];
+const ITEMS = ['18 cálculos jurídicos', 'AdvogAI, a IA do sistema', 'Gestão de clientes', 'Agenda e prazos', 'Controle financeiro', 'Funil Jurídico', 'Modelos de peças', 'Marketplace'];
 
 export const Recap: React.FC = () => {
   const frame = useCurrentFrame();

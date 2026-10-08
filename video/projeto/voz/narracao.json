@@ -1,0 +1,68 @@
+{
+  "voz": "pt-BR-Chirp3-HD-Sulafat",
+  "videos": {
+    "jc": {
+      "Abertura": [{"at": 8, "text": "Seu escritório ainda depende de planilhas e anotações soltas?"}],
+      "Marca": [{"at": 6, "text": "Conheça o JC Jurídico: o sistema completo para a advocacia."}],
+      "Calculos": [
+        {"at": 10, "text": "Faça cálculos jurídicos em segundos."},
+        {"at": 40, "text": "Você preenche os dados do caso,"},
+        {"at": 125, "text": "e o relatório técnico sai pronto, com reflexos em DSR, décimo terceiro, férias e FGTS."}
+      ],
+      "AdvogAI": [
+        {"at": 10, "text": "E conte com a AdvogAI, a inteligência artificial do sistema."},
+        {"at": 110, "text": "Pergunte sobre cálculos, prazos e legislação, a qualquer hora."}
+      ],
+      "Clientes": [{"at": 8, "text": "Acompanhe cada cliente, do primeiro contato até o contrato fechado."}],
+      "Agenda": [{"at": 8, "text": "Prazos, audiências e reuniões organizados na agenda."}],
+      "Financeiro": [
+        {"at": 10, "text": "No financeiro, veja a receita recebida e o lucro líquido,"},
+        {"at": 100, "text": "as receitas e despesas mês a mês,"},
+        {"at": 170, "text": "e o status de cada lançamento."}
+      ],
+      "Funil": [{"at": 10, "text": "Com o Funil Jurídico, o sistema planeja os posts e stories da semana para o Instagram do seu escritório."}],
+      "Biblioteca": [{"at": 8, "text": "Use cinquenta e dois modelos de peças prontos para adaptar."}],
+      "Marketplace": [{"at": 8, "text": "E encontre apoio para audiências e diligências em outras cidades."}],
+      "Resumo": [{"at": 8, "text": "Tudo isso em um só lugar."}],
+      "Chamada": [{"at": 10, "text": "Teste grátis por trinta dias. Acesse jota cê jurídico ponto com ponto bê érre."}]
+    },
+    "funil": {
+      "F-Gancho": [{"at": 8, "text": "Falta tempo para cuidar do Instagram do escritório?"}],
+      "F-Problema": [{"at": 8, "text": "Publicar sem planejamento não traz clientes: são posts sem estratégia, semanas sem publicar e nenhuma chamada para ação."}],
+      "F-Apresenta": [{"at": 8, "text": "Conheça o Funil Jurídico, o planejador de conteúdo do JC Jurídico que monta a semana de posts do seu escritório."}],
+      "F-Passos": [{"at": 8, "text": "Tudo funciona em três passos."}],
+      "F-Passo1": [
+        {"at": 10, "text": "Primeiro, conte sobre o seu escritório:"},
+        {"at": 64, "text": "as suas áreas de atuação,"},
+        {"at": 204, "text": "o público que você atende,"},
+        {"at": 245, "text": "e o diferencial do escritório."}
+      ],
+      "F-Passo2": [
+        {"at": 10, "text": "Depois, escolha quando e como postar:"},
+        {"at": 88, "text": "os dias de postagem,"},
+        {"at": 168, "text": "se prefere posts, stories ou os dois,"},
+        {"at": 243, "text": "e o tom de voz da comunicação."}
+      ],
+      "F-Noticias": [
+        {"at": 10, "text": "Se você ativar a opção usar notícias atuais,"},
+        {"at": 165, "text": "a inteligência artificial pesquisa na internet as notícias e tendências do momento,"},
+        {"at": 275, "text": "e sugere posts ligados ao que está em alta na sua área."}
+      ],
+      "F-Passo3": [
+        {"at": 10, "text": "Por fim, é só gerar o planejamento."},
+        {"at": 144, "text": "O conteúdo vem dividido por etapa do funil,"},
+        {"at": 238, "text": "com o calendário da semana organizado."}
+      ],
+      "F-Etapas": [{"at": 10, "text": "Cada post tem um objetivo: o topo atrai quem ainda não conhece você, o meio gera confiança e autoridade, e o fundo convida para a consulta."}],
+      "F-Post": [
+        {"at": 10, "text": "E cada post vem pronto para publicar,"},
+        {"at": 54, "text": "com legenda e chamada para ação,"},
+        {"at": 154, "text": "roteiro para Reels,"},
+        {"at": 254, "text": "e hashtags. Você ainda marca o que já foi publicado."}
+      ],
+      "F-Otimiza": [{"at": 10, "text": "O planejamento da semana sai em poucos minutos, com temas alinhados ao seu público e aos assuntos em alta."}],
+      "F-Ganhos": [{"at": 10, "text": "E o seu escritório ganha presença constante nas redes, autoridade na sua área, mais pessoas chegando até você, e mais tempo para advogar."}],
+      "F-Chamada": [{"at": 10, "text": "Teste o Funil Jurídico grátis por trinta dias, junto com todo o JC Jurídico. Acesse jota cê jurídico ponto com ponto bê érre."}]
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+ "jc": {
+  "Abertura": [
+   {
+    "at": 8,
+    "src": "voz/jc/Abertura-0.mp3",
+    "frames": 125
+   }
+  ],
+  "Marca": [
+   {
+    "at": 6,
+    "src": "voz/jc/Marca-0.mp3",
+    "frames": 132
+   }
+  ],
+  "Calculos": [
+   {
+    "at": 10,
+    "src": "voz/jc/Calculos-0.mp3",
+    "frames": 75
+   },
+   {
+    "at": 91,
+    "src": "voz/jc/Calculos-1.mp3",
+    "frames": 68
+   },
+   {
+    "at": 165,
+    "src": "voz/jc/Calculos-2.mp3",
+    "frames": 233
+   }
+  ],
+  "AdvogAI": [
+   {
+    "at": 10,
+    "src": "voz/jc/AdvogAI-0.mp3",
+    "frames": 148
+   },
+   {
+    "at": 164,
+    "src": "voz/jc/AdvogAI-1.mp3",
+    "frames": 107
+   }
+  ],
+  "Clientes": [
+   {
+    "at": 8,
+    "src": "voz/jc/Clientes-0.mp3",
+    "frames": 138
+   }
+  ],
+  "Agenda": [
+   {
+    "at": 8,
+    "src": "voz/jc/Agenda-0.mp3",
+    "frames": 103
+   }
+  ],
+  "Financeiro": [
+   {
+    "at": 10,
+    "src": "voz/jc/Financeiro-0.mp3",
+    "frames": 114
+   },
+   {
+    "at": 130,
+    "src": "voz/jc/Financeiro-1.mp3",
+    "frames": 76
+   },
+   {
+    "at": 212,
+    "src": "voz/jc/Financeiro-2.mp3",
+    "frames": 60
+   }
+  ],
+  "Funil": [
+   {
+    "at": 10,
+    "src": "voz/jc/Funil-0.mp3",
+    "frames": 175
+   }
+  ],
+  "Biblioteca": [
+   {
+    "at": 8,
+    "src": "voz/jc/Biblioteca-0.mp3",
+    "frames": 121
+   }
+  ],
+  "Marketplace": [
+   {
+    "at": 8,
+    "src": "voz/jc/Marketplace-0.mp3",
+    "frames": 145
+   }
+  ],
+  "Resumo": [
+   {
+    "at": 8,
+    "src": "voz/jc/Resumo-0.mp3",
+    "frames": 48
+   }
+  ],
+  "Chamada": [
+   {
+    "at": 10,
+    "src": "voz/jc/Chamada-0.mp3",
+    "frames": 173
+   }
+  ]
+ },
+ "funil": {
+  "F-Gancho": [
+   {
+    "at": 8,
+    "src": "voz/funil/F-Gancho-0.mp3",
+    "frames": 87
+   }
+  ],
+  "F-Problema": [
+   {
+    "at": 8,
+    "src": "voz/funil/F-Problema-0.mp3",
+    "frames": 230
+   }
+  ],
+  "F-Apresenta": [
+   {
+    "at": 8,
+    "src": "voz/funil/F-Apresenta-0.mp3",
+    "frames": 219
+   }
+  ],
+  "F-Passos": [
+   {
+    "at": 8,
+    "src": "voz/funil/F-Passos-0.mp3",
+    "frames": 58
+   }
+  ],
+  "F-Passo1": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Passo1-0.mp3",
+    "frames": 73
+   },
+   {
+    "at": 89,
+    "src": "voz/funil/F-Passo1-1.mp3",
+    "frames": 55
+   },
+   {
+    "at": 204,
+    "src": "voz/funil/F-Passo1-2.mp3",
+    "frames": 55
+   },
+   {
+    "at": 265,
+    "src": "voz/funil/F-Passo1-3.mp3",
+    "frames": 67
+   }
+  ],
+  "F-Passo2": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Passo2-0.mp3",
+    "frames": 105
+   },
+   {
+    "at": 121,
+    "src": "voz/funil/F-Passo2-1.mp3",
+    "frames": 46
+   },
+   {
+    "at": 173,
+    "src": "voz/funil/F-Passo2-2.mp3",
+    "frames": 89
+   },
+   {
+    "at": 268,
+    "src": "voz/funil/F-Passo2-3.mp3",
+    "frames": 73
+   }
+  ],
+  "F-Noticias": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Noticias-0.mp3",
+    "frames": 103
+   },
+   {
+    "at": 165,
+    "src": "voz/funil/F-Noticias-1.mp3",
+    "frames": 150
+   },
+   {
+    "at": 321,
+    "src": "voz/funil/F-Noticias-2.mp3",
+    "frames": 114
+   }
+  ],
+  "F-Passo3": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Passo3-0.mp3",
+    "frames": 75
+   },
+   {
+    "at": 144,
+    "src": "voz/funil/F-Passo3-1.mp3",
+    "frames": 84
+   },
+   {
+    "at": 238,
+    "src": "voz/funil/F-Passo3-2.mp3",
+    "frames": 69
+   }
+  ],
+  "F-Etapas": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Etapas-0.mp3",
+    "frames": 294
+   }
+  ],
+  "F-Post": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Post-0.mp3",
+    "frames": 79
+   },
+   {
+    "at": 95,
+    "src": "voz/funil/F-Post-1.mp3",
+    "frames": 76
+   },
+   {
+    "at": 177,
+    "src": "voz/funil/F-Post-2.mp3",
+    "frames": 37
+   },
+   {
+    "at": 254,
+    "src": "voz/funil/F-Post-3.mp3",
+    "frames": 112
+   }
+  ],
+  "F-Otimiza": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Otimiza-0.mp3",
+    "frames": 197
+   }
+  ],
+  "F-Ganhos": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Ganhos-0.mp3",
+    "frames": 306
+   }
+  ],
+  "F-Chamada": [
+   {
+    "at": 10,
+    "src": "voz/funil/F-Chamada-0.mp3",
+    "frames": 276
+   }
+  ]
+ }
+}

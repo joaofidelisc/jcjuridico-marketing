@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Audio} from '@remotion/media';
 import {TransitionSeries, linearTiming} from '@remotion/transitions';
+import {SceneDur, Voice, sceneDur} from './voz/Voice';
 import {fade} from '@remotion/transitions/fade';
 import {slide} from '@remotion/transitions/slide';
 import {Hook} from './scenes/Hook';
@@ -14,7 +15,8 @@ import {CTA} from './scenes/CTA';
 export const TRANSITION = 12;
 
 // Ordem do vídeo: nome, componente, duração (frames) e transição de entrada.
-export const SCENES: {id: string; name: string; C: React.FC; dur: number; tr: 'fade' | 'slide'}[] = [
+type Scene = {id: string; name: string; C: React.FC; dur: number; tr: 'fade' | 'slide'};
+export const SCENES: Scene[] = ([
   {id: 'Abertura', name: 'Abertura', C: Hook, dur: 120, tr: 'fade'},
   {id: 'Marca', name: 'Marca', C: Brand, dur: 90, tr: 'fade'},
   {id: 'Calculos', name: 'Cálculos', C: Calculos, dur: 240, tr: 'slide'},
@@ -25,15 +27,15 @@ export const SCENES: {id: string; name: string; C: React.FC; dur: number; tr: 'f
   {id: 'Funil', name: 'Funil Jurídico', C: FunilJuridico, dur: 225, tr: 'slide'},
   {id: 'Biblioteca', name: 'Biblioteca', C: Biblioteca, dur: 120, tr: 'slide'},
   {id: 'Marketplace', name: 'Marketplace', C: Marketplace, dur: 120, tr: 'slide'},
-  {id: 'Resumo', name: 'Resumo', C: Recap, dur: 135, tr: 'fade'},
+  {id: 'Resumo', name: 'Resumo', C: Recap, dur: 90, tr: 'fade'},
   {id: 'Chamada', name: 'Chamada', C: CTA, dur: 165, tr: 'fade'},
-];
+] as Scene[]).map((s) => ({...s, dur: sceneDur('jc', s.id, s.dur)}));
 export const TOTAL = SCENES.reduce((a, s) => a + s.dur, 0) - TRANSITION * (SCENES.length - 1);
 
 const Music: React.FC<{src: string}> = ({src}) => {
   const frame = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
-  const vol = interpolate(frame, [0, fps, durationInFrames - 2.5 * fps, durationInFrames], [0, 0.85, 0.85, 0], {
+  const vol = interpolate(frame, [0, fps, durationInFrames - 2.5 * fps, durationInFrames], [0, 0.2, 0.2, 0], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
   });
@@ -52,7 +54,10 @@ export const JCPromo: React.FC<{music: string}> = ({music}) => {
               <TransitionSeries.Transition presentation={s.tr === 'fade' ? fade() : slide({direction: 'from-right'})} timing={t} />
             )}
             <TransitionSeries.Sequence name={s.name} durationInFrames={s.dur} premountFor={fps}>
-              <s.C />
+              <SceneDur.Provider value={s.dur}>
+                <s.C />
+                <Voice video="jc" id={s.id} />
+              </SceneDur.Provider>
             </TransitionSeries.Sequence>
           </React.Fragment>
         ))}

@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Audio} from '@remotion/media';
 import {TransitionSeries, linearTiming} from '@remotion/transitions';
+import {SceneDur, Voice, sceneDur} from '../voz/Voice';
 import {fade} from '@remotion/transitions/fade';
 import {wipe} from '@remotion/transitions/wipe';
 import {F} from './ui';
@@ -9,11 +10,12 @@ import {FApresenta, FCTA, FEtapas, FGanhos, FHook, FOtimiza, FPassos, FPasso1, F
 
 export const F_TRANSITION = 14;
 
-export const F_SCENES: {id: string; C: React.FC; dur: number; tr: 'fade' | 'wipe'}[] = [
-  {id: 'F-Gancho', C: FHook, dur: 150, tr: 'fade'},
+type Scene = {id: string; C: React.FC; dur: number; tr: 'fade' | 'wipe'};
+export const F_SCENES: Scene[] = ([
+  {id: 'F-Gancho', C: FHook, dur: 120, tr: 'fade'},
   {id: 'F-Problema', C: FProblema, dur: 190, tr: 'wipe'},
   {id: 'F-Apresenta', C: FApresenta, dur: 150, tr: 'wipe'},
-  {id: 'F-Passos', C: FPassos, dur: 165, tr: 'wipe'},
+  {id: 'F-Passos', C: FPassos, dur: 110, tr: 'wipe'},
   {id: 'F-Passo1', C: FPasso1, dur: 345, tr: 'wipe'},
   {id: 'F-Passo2', C: FPasso2, dur: 345, tr: 'wipe'},
   {id: 'F-Noticias', C: FNoticias, dur: 380, tr: 'wipe'},
@@ -23,13 +25,13 @@ export const F_SCENES: {id: string; C: React.FC; dur: number; tr: 'fade' | 'wipe
   {id: 'F-Otimiza', C: FOtimiza, dur: 240, tr: 'wipe'},
   {id: 'F-Ganhos', C: FGanhos, dur: 210, tr: 'wipe'},
   {id: 'F-Chamada', C: FCTA, dur: 180, tr: 'fade'},
-];
+] as Scene[]).map((s) => ({...s, dur: sceneDur('funil', s.id, s.dur)}));
 export const F_TOTAL = F_SCENES.reduce((a, s) => a + s.dur, 0) - F_TRANSITION * (F_SCENES.length - 1);
 
 const Music: React.FC<{src: string}> = ({src}) => {
   const frame = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
-  const vol = interpolate(frame, [0, fps, durationInFrames - 2.5 * fps, durationInFrames], [0, 0.8, 0.8, 0], {
+  const vol = interpolate(frame, [0, fps, durationInFrames - 2.5 * fps, durationInFrames], [0, 0.2, 0.2, 0], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
   });
@@ -52,7 +54,10 @@ export const FunilPromo: React.FC<{music: string}> = ({music}) => {
               )
             )}
             <TransitionSeries.Sequence name={s.id} durationInFrames={s.dur} premountFor={fps}>
-              <s.C />
+              <SceneDur.Provider value={s.dur}>
+                <s.C />
+                <Voice video="funil" id={s.id} />
+              </SceneDur.Provider>
             </TransitionSeries.Sequence>
           </React.Fragment>
         ))}

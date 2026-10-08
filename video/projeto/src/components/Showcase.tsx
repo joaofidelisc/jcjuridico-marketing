@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {SceneDur} from '../voz/Voice';
 import {Easing, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, FONT} from '../theme';
 
@@ -52,7 +53,10 @@ export const Showcase: React.FC<{
   calloutTop: number;
   calloutMaxH: number;
   calloutW?: number;
-}> = ({src, imgW, imgH, width, top, focus, calloutTop, calloutMaxH, calloutW = 960}) => {
+}> = ({src, imgW, imgH, width, top, focus: rawFocus, calloutTop, calloutMaxH, calloutW = 960}) => {
+  const sceneEnd = useContext(SceneDur);
+  // O último destaque permanece até o fim da cena, que pode ter sido estendida pela narração.
+  const focus = rawFocus.map((f, i) => (i === rawFocus.length - 1 ? {...f, to: Math.max(f.to, sceneEnd + 20)} : f));
   const frame = useCurrentFrame();
   const enter = useEnter(4);
   const s = width / imgW;

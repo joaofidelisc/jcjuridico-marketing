@@ -1,13 +1,10 @@
 import React from 'react';
-import {AbsoluteFill, Img, staticFile} from 'remotion';
+import {AbsoluteFill} from 'remotion';
 import {Background} from './Background';
 import {Headline, Kicker, SubText} from './Headline';
 
-export const TopLogo: React.FC = () => (
-  <div style={{position: 'absolute', top: 110, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
-    <Img src={staticFile('logo_white.png')} style={{height: 120}} />
-  </div>
-);
+// O logo agora fica no canto superior esquerdo (Background).
+export const TopLogo: React.FC = () => null;
 
 // Cena padrão de recurso: rótulo, título, tela do sistema e frase de apoio.
 export const FeatureScene: React.FC<{

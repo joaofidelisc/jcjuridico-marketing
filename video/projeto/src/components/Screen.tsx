@@ -35,7 +35,7 @@ export const Screen: React.FC<{
         borderRadius: 28,
         overflow: 'hidden',
         background: '#fff',
-        boxShadow: '0 40px 90px rgba(0,0,0,0.45)',
+        boxShadow: '0 30px 80px rgba(20,33,61,0.18)', border: '2px solid #E4E1DA',
         opacity: enter,
         transform: `translateY(${interpolate(enter, [0, 1], [80, 0])}px) scale(${interpolate(enter, [0, 1], [0.94, 1])})`,
       }}

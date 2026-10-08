@@ -23,7 +23,7 @@ const useP = (delay: number, damping = 200) => {
 };
 
 // Fundo claro: brilho rosado suave, grade de pontos discreta, logo no topo e rodapé com o site.
-export const Paper: React.FC<{logo?: boolean; footer?: boolean}> = ({logo = true, footer = true}) => {
+export const Paper: React.FC<{logo?: boolean; footer?: boolean; label?: string}> = ({logo = true, footer = true, label = 'Funil Jurídico'}) => {
   const frame = useCurrentFrame();
   const gx = interpolate(frame, [0, 400], [85, 70], {extrapolateRight: 'clamp'});
   return (
@@ -53,7 +53,7 @@ export const Paper: React.FC<{logo?: boolean; footer?: boolean}> = ({logo = true
           }}
         >
           <span>jcjuridico.com.br</span>
-          <span style={{color: F.bordo}}>Funil Jurídico</span>
+          <span style={{color: F.bordo}}>{label}</span>
         </div>
       )}
     </AbsoluteFill>

@@ -12,9 +12,9 @@ export const CTA: React.FC = () => {
   const pulse = 1 + Math.sin(frame / 7) * 0.025 * (frame > 45 ? 1 : 0);
   return (
     <AbsoluteFill>
-      <Background variant="deep" />
+      <Background logo={false} footer={false} />
       <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', gap: 56, padding: '0 80px'}}>
-        <Img src={staticFile('logo_white.png')} style={{height: 230, opacity: s, transform: `scale(${interpolate(s, [0, 1], [0.8, 1])})`}} />
+        <Img src={staticFile('logo_color.png')} style={{height: 230, opacity: s, transform: `scale(${interpolate(s, [0, 1], [0.8, 1])})`}} />
         <Headline text="Teste **grátis** por 30 dias" size={104} delay={10} />
         <SubText text="Sem compromisso. Cancele quando quiser." delay={22} size={46} />
         <div
@@ -23,17 +23,17 @@ export const CTA: React.FC = () => {
             fontFamily: FONT,
             fontWeight: 800,
             fontSize: 52,
-            color: C.navy,
-            background: '#fff',
+            color: '#fff',
+            background: C.bordo,
             padding: '30px 64px',
             borderRadius: 80,
             transform: `scale(${pill * pulse})`,
-            boxShadow: '0 24px 60px rgba(0,0,0,0.4)',
+            boxShadow: '0 24px 60px rgba(139,26,43,0.3)',
           }}
         >
           jcjuridico.com.br
         </div>
-        <div style={{fontFamily: FONT, fontWeight: 600, fontSize: 36, color: C.ice, opacity: pill}}>@jcjuridico.br</div>
+        <div style={{fontFamily: FONT, fontWeight: 600, fontSize: 36, color: C.navy, opacity: pill}}>@jcjuridico.br</div>
       </AbsoluteFill>
     </AbsoluteFill>
   );

@@ -36,7 +36,8 @@ export const Hook: React.FC = () => {
               fontSize: 34,
               padding: '22px 30px',
               borderRadius: 10,
-              boxShadow: '0 18px 40px rgba(0,0,0,0.35)',
+              boxShadow: '0 16px 36px rgba(20,33,61,0.14)',
+              border: '2px solid #E4E1DA',
               opacity: interpolate(frame, [95, 115], [1, 0.25], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}),
             }}
           >

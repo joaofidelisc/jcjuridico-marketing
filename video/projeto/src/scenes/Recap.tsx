@@ -29,16 +29,17 @@ export const Recap: React.FC = () => {
                 gap: 30,
                 opacity: p,
                 transform: `translateX(${interpolate(p, [0, 1], [-60, 0])}px)`,
-                background: 'rgba(255,255,255,0.08)',
-                border: '2px solid rgba(255,255,255,0.18)',
+                background: '#fff',
+                boxShadow: '0 10px 26px rgba(20,33,61,0.07)',
+                border: '2px solid #E4E1DA',
                 borderRadius: 24,
                 padding: '18px 30px',
               }}
             >
-              <div style={{width: 64, height: 64, borderRadius: 32, background: C.bordoLight, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <div style={{width: 64, height: 64, borderRadius: 32, background: C.bordo, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                 <svg width="34" height="34" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </div>
-              <div style={{fontFamily: FONT, fontWeight: 700, fontSize: 42, color: '#fff'}}>{t}</div>
+              <div style={{fontFamily: FONT, fontWeight: 700, fontSize: 42, color: C.navy}}>{t}</div>
             </div>
           );
         })}

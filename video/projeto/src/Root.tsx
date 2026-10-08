@@ -8,7 +8,7 @@ const V = {width: 1080, height: 1920, fps: 30};
 
 export const RemotionRoot: React.FC = () => (
   <>
-    <Composition id="JCPromo" component={JCPromo} durationInFrames={TOTAL} {...V} defaultProps={{music: 'music/160.mp3'}} />
+    <Composition id="JCPromo" component={JCPromo} durationInFrames={TOTAL} {...V} defaultProps={{music: 'music/726_ext.mp3'}} />
     <Folder name="Cenas">
       {SCENES.map((s) => (
         <Composition key={s.id} id={s.id} component={s.C} durationInFrames={s.dur} {...V} />

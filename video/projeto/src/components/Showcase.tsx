@@ -71,7 +71,7 @@ export const Showcase: React.FC<{
           borderRadius: 24,
           overflow: 'hidden',
           background: '#fff',
-          boxShadow: '0 40px 90px rgba(0,0,0,0.45)',
+          boxShadow: '0 30px 80px rgba(20,33,61,0.18)', border: '2px solid #E4E1DA',
           opacity: enter,
           transform: `translateY(${interpolate(enter, [0, 1], [80, 0])}px) scale(${interpolate(enter, [0, 1], [0.94, 1])})`,
         }}
@@ -92,8 +92,8 @@ export const Showcase: React.FC<{
                   width: (x1 - x0) * s,
                   height: (y1 - y0) * s,
                   borderRadius: 10,
-                  border: `4px solid ${C.bordoLight}`,
-                  boxShadow: `0 0 0 9999px rgba(7,15,40,${0.38 * a})`,
+                  border: `4px solid ${C.bordo}`,
+                  boxShadow: `0 0 0 9999px rgba(20,33,61,${0.2 * a})`,
                   opacity: a,
                 }}
               />
@@ -133,7 +133,7 @@ export const Showcase: React.FC<{
                 fontWeight: 700,
                 fontSize: 36,
                 color: '#fff',
-                background: C.bordoLight,
+                background: C.bordo,
                 padding: '12px 30px',
                 borderRadius: 40,
                 maxWidth: 960,
@@ -150,8 +150,8 @@ export const Showcase: React.FC<{
                 overflow: 'hidden',
                 position: 'relative',
                 background: '#fff',
-                border: `4px solid ${C.bordoLight}`,
-                boxShadow: '0 30px 70px rgba(0,0,0,0.5)',
+                border: `4px solid ${C.bordo}`,
+                boxShadow: '0 24px 60px rgba(20,33,61,0.18)',
               }}
             >
               <Img
@@ -196,7 +196,7 @@ export const ScrollScreen: React.FC<{
         borderRadius: 24,
         overflow: 'hidden',
         background: '#fff',
-        boxShadow: '0 40px 90px rgba(0,0,0,0.45)',
+        boxShadow: '0 30px 80px rgba(20,33,61,0.18)', border: '2px solid #E4E1DA',
         opacity: enter,
         transform: `translateY(${interpolate(enter, [0, 1], [80, 0])}px) scale(${interpolate(enter, [0, 1], [0.94, 1])})`,
       }}

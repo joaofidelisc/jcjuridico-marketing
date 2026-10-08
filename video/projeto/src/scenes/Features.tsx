@@ -15,7 +15,8 @@ const Chip: React.FC<{text: string; delay: number; active?: boolean}> = ({text, 
         fontWeight: 700,
         fontSize: 32,
         color: active ? '#fff' : C.navy,
-        background: active ? C.bordoLight : '#fff',
+        background: active ? C.bordo : '#fff',
+        border: active ? 'none' : '2px solid #E4E1DA',
         padding: '16px 28px',
         borderRadius: 40,
         opacity: p,
@@ -30,7 +31,7 @@ const Chip: React.FC<{text: string; delay: number; active?: boolean}> = ({text, 
 const Arrow: React.FC<{delay: number}> = ({delay}) => {
   const frame = useCurrentFrame();
   const o = interpolate(frame, [delay, delay + 8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  return <div style={{color: C.ice, fontSize: 40, fontWeight: 800, opacity: o, fontFamily: FONT}}>→</div>;
+  return <div style={{color: C.bordo, fontSize: 40, fontWeight: 800, opacity: o, fontFamily: FONT}}>→</div>;
 };
 
 export const Clientes: React.FC = () => (
@@ -59,9 +60,9 @@ export const Biblioteca: React.FC = () => {
   const n = Math.round(interpolate(frame, [10, 50], [0, 52], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
   return (
     <FeatureScene kicker="Biblioteca de modelos" title="Peças prontas para **adaptar**" sub="Petições, contratos, procurações e recursos." screenTop={1000} subTop={1640}>
-      <div style={{position: 'absolute', top: -330, left: 0, right: 0, textAlign: 'center', fontFamily: FONT, color: '#fff'}}>
+      <div style={{position: 'absolute', top: -330, left: 0, right: 0, textAlign: 'center', fontFamily: FONT, color: C.navy}}>
         <span style={{fontSize: 260, fontWeight: 900, lineHeight: 1}}>{n}</span>
-        <span style={{fontSize: 48, fontWeight: 700, marginLeft: 20, color: C.ice}}>modelos</span>
+        <span style={{fontSize: 48, fontWeight: 700, marginLeft: 20, color: C.bordo}}>modelos</span>
       </div>
       <Screen src="telas/biblioteca.jpg" imgW={1568} imgH={737} crop={[244, 300, 1536, 737]} width={920} zoomTo={1.08} delay={14} />
     </FeatureScene>
@@ -69,7 +70,7 @@ export const Biblioteca: React.FC = () => {
 };
 
 export const Marketplace: React.FC = () => (
-  <FeatureScene kicker="Marketplace" title="Apoio em **outras cidades**" sub="Publique demandas de audiências e diligências para outros advogados." screenTop={740} subTop={1720}>
+  <FeatureScene kicker="Marketplace" title="Apoio em **outras cidades**" sub="Publique demandas de audiências e diligências para outros advogados." screenTop={620} subTop={1630}>
     <Screen src="telas/marketplace_form.jpg" imgW={1568} imgH={784} crop={[567, 102, 1000, 686]} width={640} zoomTo={1.06} label="Nova Demanda" />
   </FeatureScene>
 );

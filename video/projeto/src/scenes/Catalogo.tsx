@@ -46,21 +46,21 @@ export const Catalogo: React.FC = () => {
           return (
             <div key={a.area} style={{width: a.items.length === 1 ? 460 : '100%'}}>
               <div style={{display: 'flex', alignItems: 'center', gap: 18, opacity: hp, marginBottom: 14}}>
-                <div style={{fontFamily: FONT, fontWeight: 800, fontSize: 32, color: '#fff', textTransform: 'uppercase', letterSpacing: 3}}>{a.area}</div>
+                <div style={{fontFamily: FONT, fontWeight: 800, fontSize: 32, color: C.navy, textTransform: 'uppercase', letterSpacing: 3}}>{a.area}</div>
                 <div
                   style={{
                     fontFamily: FONT,
                     fontWeight: 800,
                     fontSize: 26,
                     color: '#fff',
-                    background: C.bordoLight,
+                    background: C.bordo,
                     borderRadius: 30,
                     padding: '4px 18px',
                   }}
                 >
                   {a.items.length}
                 </div>
-                <div style={{flex: 1, height: 2, background: 'rgba(255,255,255,0.2)'}} />
+                <div style={{flex: 1, height: 2, background: '#E4E1DA'}} />
               </div>
               <div style={{display: 'flex', flexWrap: 'wrap', gap: 12}}>
                 {a.items.map((t) => {
@@ -74,11 +74,12 @@ export const Catalogo: React.FC = () => {
                         fontSize: 27,
                         color: C.navy,
                         background: '#fff',
+                        border: '2px solid #E4E1DA',
                         borderRadius: 18,
                         padding: '12px 20px',
                         opacity: p,
                         transform: `translateY(${interpolate(p, [0, 1], [24, 0])}px)`,
-                        boxShadow: '0 12px 30px rgba(0,0,0,0.25)',
+                        boxShadow: '0 10px 24px rgba(20,33,61,0.08)',
                       }}
                     >
                       {t}

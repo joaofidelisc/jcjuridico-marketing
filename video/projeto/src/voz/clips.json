@@ -11,22 +11,34 @@
    {
     "at": 6,
     "src": "voz/jc/Marca-0.mp3",
-    "frames": 132
+    "frames": 154
+   }
+  ],
+  "Catalogo": [
+   {
+    "at": 8,
+    "src": "voz/jc/Catalogo-0.mp3",
+    "frames": 114
+   },
+   {
+    "at": 128,
+    "src": "voz/jc/Catalogo-1.mp3",
+    "frames": 161
    }
   ],
   "Calculos": [
    {
     "at": 10,
     "src": "voz/jc/Calculos-0.mp3",
-    "frames": 75
+    "frames": 105
    },
    {
-    "at": 91,
+    "at": 121,
     "src": "voz/jc/Calculos-1.mp3",
     "frames": 68
    },
    {
-    "at": 165,
+    "at": 195,
     "src": "voz/jc/Calculos-2.mp3",
     "frames": 233
    }

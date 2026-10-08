@@ -10,6 +10,7 @@ import {Brand} from './scenes/Brand';
 import {Calculos, AdvogAI, Financeiro, FunilJuridico} from './scenes/Telas';
 import {Clientes, Agenda, Biblioteca, Marketplace} from './scenes/Features';
 import {Recap} from './scenes/Recap';
+import {Catalogo} from './scenes/Catalogo';
 import {CTA} from './scenes/CTA';
 
 export const TRANSITION = 12;
@@ -19,6 +20,7 @@ type Scene = {id: string; name: string; C: React.FC; dur: number; tr: 'fade' | '
 export const SCENES: Scene[] = ([
   {id: 'Abertura', name: 'Abertura', C: Hook, dur: 120, tr: 'fade'},
   {id: 'Marca', name: 'Marca', C: Brand, dur: 90, tr: 'fade'},
+  {id: 'Catalogo', name: 'Catálogo de cálculos', C: Catalogo, dur: 210, tr: 'slide'},
   {id: 'Calculos', name: 'Cálculos', C: Calculos, dur: 240, tr: 'slide'},
   {id: 'AdvogAI', name: 'AdvogAI', C: AdvogAI, dur: 255, tr: 'slide'},
   {id: 'Clientes', name: 'Clientes', C: Clientes, dur: 135, tr: 'slide'},

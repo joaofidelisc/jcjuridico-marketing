@@ -51,3 +51,6 @@ A trilha usada é "Motivating Mornings" (Mixkit, faixa 480), com a Mixkit Stock 
 - Na tela de cálculo, o Relatório Técnico é fixo (sticky). Use um print em que o relatório inteiro aparece, em vez de juntar vários.
 - Cada geração no Funil Jurídico gasta 1 dos 2 usos semanais.
 - Conta de demonstração: dados fictícios (clientes, agenda e financeiro).
+
+## Trilha do vídeo viral
+"Upbeat Happy Corporate", de kornevmusic (Pixabay, faixa 487426), sob a Licença de Conteúdo do Pixabay: uso gratuito, inclusive comercial. Baixe em https://pixabay.com/pt/music/corporativo-upbeat-happy-corporate-487426/ e salve em public/music/pixabay-upbeat-happy-corporate.mp3.

@@ -239,7 +239,7 @@ export const ViralRescisao: React.FC<{music: string}> = ({music}) => {
   const {fps} = useVideoConfig();
   const frame = useCurrentFrame();
   let start = 0;
-  const vol = interpolate(frame, [0, fps, V_TOTAL - 2 * fps, V_TOTAL], [0, 0.14, 0.14, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const vol = interpolate(frame, [0, fps, V_TOTAL - 2 * fps, V_TOTAL], [0, 0.2, 0.2, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{background: F.paper}}>
       {V_SCENES.map((s) => {

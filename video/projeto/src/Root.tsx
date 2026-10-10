@@ -21,6 +21,6 @@ export const RemotionRoot: React.FC = () => (
         <Composition key={s.id} id={s.id} component={s.C} durationInFrames={s.dur} {...V} />
       ))}
     </Folder>
-    <Composition id="ViralRescisao" component={ViralRescisao} durationInFrames={V_TOTAL} {...V} defaultProps={{music: 'music/726_ext.mp3'}} />
+    <Composition id="ViralRescisao" component={ViralRescisao} durationInFrames={V_TOTAL} {...V} defaultProps={{music: 'music/pixabay-upbeat-happy-corporate.mp3'}} />
   </>
 );

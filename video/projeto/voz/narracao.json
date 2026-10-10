@@ -236,6 +236,66 @@
           "text": "Teste o Funil Jurídico grátis por trinta dias, junto com todo o JC Jurídico. Acesse jota cê jurídico ponto com ponto bê érre."
         }
       ]
+    },
+    "viral": {
+      "Gancho": [
+        {
+          "at": 4,
+          "text": "Quanto tempo você leva para calcular uma rescisão completa?"
+        },
+        {
+          "at": 96,
+          "text": "Valendo!"
+        }
+      ],
+      "Corrida": [
+        {
+          "at": 40,
+          "text": "Salário."
+        },
+        {
+          "at": 112,
+          "text": "Aviso prévio indenizado."
+        },
+        {
+          "at": 188,
+          "text": "Data de admissão."
+        },
+        {
+          "at": 262,
+          "text": "Data de demissão."
+        },
+        {
+          "at": 336,
+          "text": "Saldo do FGTS."
+        },
+        {
+          "at": 400,
+          "text": "Calcular!"
+        }
+      ],
+      "Resultado": [
+        {
+          "at": 20,
+          "text": "Pronto! Aviso prévio de quarenta e dois dias, décimo terceiro, férias com um terço e a multa do FGTS."
+        },
+        {
+          "at": 175,
+          "text": "Tudo em quinze segundos."
+        }
+      ],
+      "Chamada": [
+        {
+          "at": 6,
+          "text": "E você, quanto tempo leva? Conta aqui nos comentários."
+        }
+      ]
+    }
+  },
+  "vozes": {
+    "viral": {
+      "name": "pt-BR-Chirp3-HD-Schedar",
+      "rate": 1.08
     }
   }
 }

@@ -4,26 +4,26 @@
    {
     "at": 8,
     "src": "voz/jc/Abertura-0.mp3",
-    "frames": 125
+    "frames": 107
    }
   ],
   "Marca": [
    {
     "at": 6,
     "src": "voz/jc/Marca-0.mp3",
-    "frames": 154
+    "frames": 161
    }
   ],
   "Catalogo": [
    {
     "at": 8,
     "src": "voz/jc/Catalogo-0.mp3",
-    "frames": 114
+    "frames": 94
    },
    {
-    "at": 128,
+    "at": 108,
     "src": "voz/jc/Catalogo-1.mp3",
-    "frames": 284
+    "frames": 310
    }
   ],
   "Calculos": [
@@ -35,10 +35,10 @@
    {
     "at": 121,
     "src": "voz/jc/Calculos-1.mp3",
-    "frames": 68
+    "frames": 71
    },
    {
-    "at": 195,
+    "at": 198,
     "src": "voz/jc/Calculos-2.mp3",
     "frames": 233
    }
@@ -47,41 +47,41 @@
    {
     "at": 10,
     "src": "voz/jc/AdvogAI-0.mp3",
-    "frames": 148
+    "frames": 145
    },
    {
-    "at": 164,
+    "at": 161,
     "src": "voz/jc/AdvogAI-1.mp3",
-    "frames": 107
+    "frames": 118
    }
   ],
   "Clientes": [
    {
     "at": 8,
     "src": "voz/jc/Clientes-0.mp3",
-    "frames": 138
+    "frames": 150
    }
   ],
   "Agenda": [
    {
     "at": 8,
     "src": "voz/jc/Agenda-0.mp3",
-    "frames": 103
+    "frames": 107
    }
   ],
   "Financeiro": [
    {
     "at": 10,
     "src": "voz/jc/Financeiro-0.mp3",
-    "frames": 114
+    "frames": 127
    },
    {
-    "at": 130,
+    "at": 143,
     "src": "voz/jc/Financeiro-1.mp3",
-    "frames": 76
+    "frames": 73
    },
    {
-    "at": 212,
+    "at": 222,
     "src": "voz/jc/Financeiro-2.mp3",
     "frames": 60
    }
@@ -90,35 +90,35 @@
    {
     "at": 10,
     "src": "voz/jc/Funil-0.mp3",
-    "frames": 175
+    "frames": 194
    }
   ],
   "Biblioteca": [
    {
     "at": 8,
     "src": "voz/jc/Biblioteca-0.mp3",
-    "frames": 121
+    "frames": 123
    }
   ],
   "Marketplace": [
    {
     "at": 8,
     "src": "voz/jc/Marketplace-0.mp3",
-    "frames": 145
+    "frames": 136
    }
   ],
   "Resumo": [
    {
     "at": 8,
     "src": "voz/jc/Resumo-0.mp3",
-    "frames": 48
+    "frames": 43
    }
   ],
   "Chamada": [
    {
     "at": 10,
     "src": "voz/jc/Chamada-0.mp3",
-    "frames": 173
+    "frames": 191
    }
   ]
  },
@@ -127,14 +127,14 @@
    {
     "at": 8,
     "src": "voz/funil/F-Gancho-0.mp3",
-    "frames": 87
+    "frames": 100
    }
   ],
   "F-Problema": [
    {
     "at": 8,
     "src": "voz/funil/F-Problema-0.mp3",
-    "frames": 230
+    "frames": 243
    }
   ],
   "F-Apresenta": [
@@ -148,17 +148,17 @@
    {
     "at": 8,
     "src": "voz/funil/F-Passos-0.mp3",
-    "frames": 58
+    "frames": 84
    }
   ],
   "F-Passo1": [
    {
     "at": 10,
     "src": "voz/funil/F-Passo1-0.mp3",
-    "frames": 73
+    "frames": 75
    },
    {
-    "at": 89,
+    "at": 91,
     "src": "voz/funil/F-Passo1-1.mp3",
     "frames": 55
    },
@@ -170,113 +170,178 @@
    {
     "at": 265,
     "src": "voz/funil/F-Passo1-3.mp3",
-    "frames": 67
+    "frames": 60
    }
   ],
   "F-Passo2": [
    {
     "at": 10,
     "src": "voz/funil/F-Passo2-0.mp3",
-    "frames": 105
+    "frames": 87
    },
    {
-    "at": 121,
+    "at": 103,
     "src": "voz/funil/F-Passo2-1.mp3",
-    "frames": 46
+    "frames": 42
    },
    {
-    "at": 173,
+    "at": 168,
     "src": "voz/funil/F-Passo2-2.mp3",
-    "frames": 89
+    "frames": 87
    },
    {
-    "at": 268,
+    "at": 261,
     "src": "voz/funil/F-Passo2-3.mp3",
-    "frames": 73
+    "frames": 67
    }
   ],
   "F-Noticias": [
    {
     "at": 10,
     "src": "voz/funil/F-Noticias-0.mp3",
-    "frames": 103
+    "frames": 87
    },
    {
     "at": 165,
     "src": "voz/funil/F-Noticias-1.mp3",
-    "frames": 150
+    "frames": 187
    },
    {
-    "at": 321,
+    "at": 358,
     "src": "voz/funil/F-Noticias-2.mp3",
-    "frames": 114
+    "frames": 116
    }
   ],
   "F-Passo3": [
    {
     "at": 10,
     "src": "voz/funil/F-Passo3-0.mp3",
-    "frames": 75
+    "frames": 71
    },
    {
     "at": 144,
     "src": "voz/funil/F-Passo3-1.mp3",
-    "frames": 84
+    "frames": 89
    },
    {
-    "at": 238,
+    "at": 239,
     "src": "voz/funil/F-Passo3-2.mp3",
-    "frames": 69
+    "frames": 71
    }
   ],
   "F-Etapas": [
    {
     "at": 10,
     "src": "voz/funil/F-Etapas-0.mp3",
-    "frames": 294
+    "frames": 302
    }
   ],
   "F-Post": [
    {
     "at": 10,
     "src": "voz/funil/F-Post-0.mp3",
-    "frames": 79
+    "frames": 78
    },
    {
-    "at": 95,
+    "at": 94,
     "src": "voz/funil/F-Post-1.mp3",
-    "frames": 76
+    "frames": 64
    },
    {
-    "at": 177,
+    "at": 164,
     "src": "voz/funil/F-Post-2.mp3",
-    "frames": 37
+    "frames": 63
    },
    {
     "at": 254,
     "src": "voz/funil/F-Post-3.mp3",
-    "frames": 112
+    "frames": 114
    }
   ],
   "F-Otimiza": [
    {
     "at": 10,
     "src": "voz/funil/F-Otimiza-0.mp3",
-    "frames": 197
+    "frames": 220
    }
   ],
   "F-Ganhos": [
    {
     "at": 10,
     "src": "voz/funil/F-Ganhos-0.mp3",
-    "frames": 306
+    "frames": 297
    }
   ],
   "F-Chamada": [
    {
     "at": 10,
     "src": "voz/funil/F-Chamada-0.mp3",
-    "frames": 276
+    "frames": 284
+   }
+  ]
+ },
+ "viral": {
+  "Gancho": [
+   {
+    "at": 6,
+    "src": "voz/viral/Gancho-0.mp3",
+    "frames": 88
+   },
+   {
+    "at": 100,
+    "src": "voz/viral/Gancho-1.mp3",
+    "frames": 21
+   }
+  ],
+  "Corrida": [
+   {
+    "at": 40,
+    "src": "voz/viral/Corrida-0.mp3",
+    "frames": 21
+   },
+   {
+    "at": 112,
+    "src": "voz/viral/Corrida-1.mp3",
+    "frames": 46
+   },
+   {
+    "at": 188,
+    "src": "voz/viral/Corrida-2.mp3",
+    "frames": 33
+   },
+   {
+    "at": 262,
+    "src": "voz/viral/Corrida-3.mp3",
+    "frames": 37
+   },
+   {
+    "at": 336,
+    "src": "voz/viral/Corrida-4.mp3",
+    "frames": 41
+   },
+   {
+    "at": 400,
+    "src": "voz/viral/Corrida-5.mp3",
+    "frames": 20
+   }
+  ],
+  "Resultado": [
+   {
+    "at": 20,
+    "src": "voz/viral/Resultado-0.mp3",
+    "frames": 222
+   },
+   {
+    "at": 248,
+    "src": "voz/viral/Resultado-1.mp3",
+    "frames": 38
+   }
+  ],
+  "Chamada": [
+   {
+    "at": 6,
+    "src": "voz/viral/Chamada-0.mp3",
+    "frames": 85
    }
   ]
  }

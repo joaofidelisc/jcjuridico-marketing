@@ -15,14 +15,14 @@ cache = ROOT / 'voz/cache'
 cache.mkdir(exist_ok=True)
 
 
-def tts(text: str) -> Path:
-    h = hashlib.sha1((cfg['voz'] + text).encode()).hexdigest()[:16]
+def tts(text: str, voice: str, rate: float = 1.0) -> Path:
+    h = hashlib.sha1(f'{voice}|{rate}|{text}'.encode()).hexdigest()[:16]
     f = cache / f'{h}.mp3'
     if not f.exists():
         body = {
             'input': {'text': text},
-            'voice': {'languageCode': 'pt-BR', 'name': cfg['voz']},
-            'audioConfig': {'audioEncoding': 'MP3', 'sampleRateHertz': 44100},
+            'voice': {'languageCode': 'pt-BR', 'name': voice},
+            'audioConfig': {'audioEncoding': 'MP3', 'sampleRateHertz': 44100, 'speakingRate': rate},
         }
         req = urllib.request.Request(
             'https://texttospeech.googleapis.com/v1/text:synthesize?key=' + KEY,
@@ -43,11 +43,13 @@ for video, scenes in cfg['videos'].items():
     outdir = ROOT / 'public/voz' / video
     outdir.mkdir(parents=True, exist_ok=True)
     clips[video] = {}
+    vz = cfg.get('vozes', {}).get(video, {})  # voz própria do vídeo (opcional)
+    voice, rate = vz.get('name', cfg['voz']), vz.get('rate', 1.0)
     for scene, items in scenes.items():
         end = 0
         lst = []
         for n, it in enumerate(items):
-            src = tts(it['text'])
+            src = tts(it['text'], voice, rate)
             dst = outdir / f'{scene}-{n}.mp3'
             # normaliza o volume da fala para ficar igual em todas as cenas
             subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', str(src), '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '44100', '-b:a', '160k', str(dst)], check=True)

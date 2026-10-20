@@ -4,121 +4,140 @@
    {
     "at": 8,
     "src": "voz/jc/Abertura-0.mp3",
-    "frames": 107
+    "frames": 107,
+    "text": "Seu escritório ainda depende de planilhas e anotações soltas?"
    }
   ],
   "Marca": [
    {
     "at": 6,
     "src": "voz/jc/Marca-0.mp3",
-    "frames": 161
+    "frames": 161,
+    "text": "Conheça o JC Jurídico: o sistema de cálculos e gestão para a advocacia."
    }
   ],
   "Catalogo": [
    {
     "at": 8,
     "src": "voz/jc/Catalogo-0.mp3",
-    "frames": 94
+    "frames": 94,
+    "text": "Os cálculos são o coração do JC Jurídico."
    },
    {
     "at": 108,
     "src": "voz/jc/Catalogo-1.mp3",
-    "frames": 310
+    "frames": 310,
+    "text": "São dezoito cálculos prontos para usar, em seis áreas: previdenciária, trabalhista, cível, tributária, bancária e penal."
    }
   ],
   "Calculos": [
    {
     "at": 10,
     "src": "voz/jc/Calculos-0.mp3",
-    "frames": 105
+    "frames": 105,
+    "text": "Veja um exemplo: a estimativa de horas extras."
    },
    {
     "at": 121,
     "src": "voz/jc/Calculos-1.mp3",
-    "frames": 71
+    "frames": 71,
+    "text": "Você preenche os dados do caso,"
    },
    {
     "at": 198,
     "src": "voz/jc/Calculos-2.mp3",
-    "frames": 233
+    "frames": 233,
+    "text": "e o relatório técnico sai pronto, com reflexos em DSR, décimo terceiro, férias e FGTS."
    }
   ],
   "AdvogAI": [
    {
     "at": 10,
     "src": "voz/jc/AdvogAI-0.mp3",
-    "frames": 145
+    "frames": 145,
+    "text": "E conte com a AdvogAI, a inteligência artificial do sistema."
    },
    {
     "at": 161,
     "src": "voz/jc/AdvogAI-1.mp3",
-    "frames": 118
+    "frames": 118,
+    "text": "Pergunte sobre cálculos, prazos e legislação, a qualquer hora."
    }
   ],
   "Clientes": [
    {
     "at": 8,
     "src": "voz/jc/Clientes-0.mp3",
-    "frames": 150
+    "frames": 150,
+    "text": "Acompanhe cada cliente, do primeiro contato até o contrato fechado."
    }
   ],
   "Agenda": [
    {
     "at": 8,
     "src": "voz/jc/Agenda-0.mp3",
-    "frames": 107
+    "frames": 107,
+    "text": "Prazos, audiências e reuniões organizados na agenda."
    }
   ],
   "Financeiro": [
    {
     "at": 10,
     "src": "voz/jc/Financeiro-0.mp3",
-    "frames": 127
+    "frames": 127,
+    "text": "No financeiro, veja a receita recebida e o lucro líquido,"
    },
    {
     "at": 143,
     "src": "voz/jc/Financeiro-1.mp3",
-    "frames": 73
+    "frames": 73,
+    "text": "as receitas e despesas mês a mês,"
    },
    {
     "at": 222,
     "src": "voz/jc/Financeiro-2.mp3",
-    "frames": 60
+    "frames": 60,
+    "text": "e o status de cada lançamento."
    }
   ],
   "Funil": [
    {
     "at": 10,
     "src": "voz/jc/Funil-0.mp3",
-    "frames": 194
+    "frames": 194,
+    "text": "Com o Funil Jurídico, o sistema planeja os posts e stories da semana para o Instagram do seu escritório."
    }
   ],
   "Biblioteca": [
    {
     "at": 8,
     "src": "voz/jc/Biblioteca-0.mp3",
-    "frames": 123
+    "frames": 123,
+    "text": "Use cinquenta e dois modelos de peças prontos para adaptar."
    }
   ],
   "Marketplace": [
    {
     "at": 8,
     "src": "voz/jc/Marketplace-0.mp3",
-    "frames": 136
+    "frames": 136,
+    "text": "E encontre apoio para audiências e diligências em outras cidades."
    }
   ],
   "Resumo": [
    {
     "at": 8,
     "src": "voz/jc/Resumo-0.mp3",
-    "frames": 43
+    "frames": 43,
+    "text": "Tudo isso em um só lugar."
    }
   ],
   "Chamada": [
    {
     "at": 10,
     "src": "voz/jc/Chamada-0.mp3",
-    "frames": 191
+    "frames": 191,
+    "text": "Teste grátis por trinta dias. Acesse jota cê jurídico ponto com ponto bê érre."
    }
   ]
  },
@@ -127,156 +146,182 @@
    {
     "at": 8,
     "src": "voz/funil/F-Gancho-0.mp3",
-    "frames": 100
+    "frames": 100,
+    "text": "Falta tempo para cuidar do Instagram do escritório?"
    }
   ],
   "F-Problema": [
    {
     "at": 8,
     "src": "voz/funil/F-Problema-0.mp3",
-    "frames": 243
+    "frames": 243,
+    "text": "Publicar sem planejamento não traz clientes: são posts sem estratégia, semanas sem publicar e nenhuma chamada para ação."
    }
   ],
   "F-Apresenta": [
    {
     "at": 8,
     "src": "voz/funil/F-Apresenta-0.mp3",
-    "frames": 219
+    "frames": 219,
+    "text": "Conheça o Funil Jurídico, o planejador de conteúdo do JC Jurídico que monta a semana de posts do seu escritório."
    }
   ],
   "F-Passos": [
    {
     "at": 8,
     "src": "voz/funil/F-Passos-0.mp3",
-    "frames": 84
+    "frames": 84,
+    "text": "Tudo funciona em três passos."
    }
   ],
   "F-Passo1": [
    {
     "at": 10,
     "src": "voz/funil/F-Passo1-0.mp3",
-    "frames": 75
+    "frames": 75,
+    "text": "Primeiro, conte sobre o seu escritório:"
    },
    {
     "at": 91,
     "src": "voz/funil/F-Passo1-1.mp3",
-    "frames": 55
+    "frames": 55,
+    "text": "as suas áreas de atuação,"
    },
    {
     "at": 204,
     "src": "voz/funil/F-Passo1-2.mp3",
-    "frames": 55
+    "frames": 55,
+    "text": "o público que você atende,"
    },
    {
     "at": 265,
     "src": "voz/funil/F-Passo1-3.mp3",
-    "frames": 60
+    "frames": 60,
+    "text": "e o diferencial do escritório."
    }
   ],
   "F-Passo2": [
    {
     "at": 10,
     "src": "voz/funil/F-Passo2-0.mp3",
-    "frames": 87
+    "frames": 87,
+    "text": "Depois, escolha quando e como postar:"
    },
    {
     "at": 103,
     "src": "voz/funil/F-Passo2-1.mp3",
-    "frames": 42
+    "frames": 42,
+    "text": "os dias de postagem,"
    },
    {
     "at": 168,
     "src": "voz/funil/F-Passo2-2.mp3",
-    "frames": 87
+    "frames": 87,
+    "text": "se prefere posts, stories ou os dois,"
    },
    {
     "at": 261,
     "src": "voz/funil/F-Passo2-3.mp3",
-    "frames": 67
+    "frames": 67,
+    "text": "e o tom de voz da comunicação."
    }
   ],
   "F-Noticias": [
    {
     "at": 10,
     "src": "voz/funil/F-Noticias-0.mp3",
-    "frames": 87
+    "frames": 87,
+    "text": "Se você ativar a opção usar notícias atuais,"
    },
    {
     "at": 165,
     "src": "voz/funil/F-Noticias-1.mp3",
-    "frames": 187
+    "frames": 187,
+    "text": "a inteligência artificial pesquisa na internet as notícias e tendências do momento,"
    },
    {
     "at": 358,
     "src": "voz/funil/F-Noticias-2.mp3",
-    "frames": 116
+    "frames": 116,
+    "text": "e sugere posts ligados ao que está em alta na sua área."
    }
   ],
   "F-Passo3": [
    {
     "at": 10,
     "src": "voz/funil/F-Passo3-0.mp3",
-    "frames": 71
+    "frames": 71,
+    "text": "Por fim, é só gerar o planejamento."
    },
    {
     "at": 144,
     "src": "voz/funil/F-Passo3-1.mp3",
-    "frames": 89
+    "frames": 89,
+    "text": "O conteúdo vem dividido por etapa do funil,"
    },
    {
     "at": 239,
     "src": "voz/funil/F-Passo3-2.mp3",
-    "frames": 71
+    "frames": 71,
+    "text": "com o calendário da semana organizado."
    }
   ],
   "F-Etapas": [
    {
     "at": 10,
     "src": "voz/funil/F-Etapas-0.mp3",
-    "frames": 302
+    "frames": 302,
+    "text": "Cada post tem um objetivo: o topo atrai quem ainda não conhece você, o meio gera confiança e autoridade, e o fundo convida para a consulta."
    }
   ],
   "F-Post": [
    {
     "at": 10,
     "src": "voz/funil/F-Post-0.mp3",
-    "frames": 78
+    "frames": 78,
+    "text": "E cada post vem pronto para publicar,"
    },
    {
     "at": 94,
     "src": "voz/funil/F-Post-1.mp3",
-    "frames": 64
+    "frames": 64,
+    "text": "com legenda e chamada para ação,"
    },
    {
     "at": 164,
     "src": "voz/funil/F-Post-2.mp3",
-    "frames": 63
+    "frames": 63,
+    "text": "roteiro para Reels,"
    },
    {
     "at": 254,
     "src": "voz/funil/F-Post-3.mp3",
-    "frames": 114
+    "frames": 114,
+    "text": "e hashtags. Você ainda marca o que já foi publicado."
    }
   ],
   "F-Otimiza": [
    {
     "at": 10,
     "src": "voz/funil/F-Otimiza-0.mp3",
-    "frames": 220
+    "frames": 220,
+    "text": "O planejamento da semana sai em poucos minutos, com temas alinhados ao seu público e aos assuntos em alta."
    }
   ],
   "F-Ganhos": [
    {
     "at": 10,
     "src": "voz/funil/F-Ganhos-0.mp3",
-    "frames": 297
+    "frames": 297,
+    "text": "E o seu escritório ganha presença constante nas redes, autoridade na sua área, mais pessoas chegando até você, e mais tempo para advogar."
    }
   ],
   "F-Chamada": [
    {
     "at": 10,
     "src": "voz/funil/F-Chamada-0.mp3",
-    "frames": 284
+    "frames": 284,
+    "text": "Teste o Funil Jurídico grátis por trinta dias, junto com todo o JC Jurídico. Acesse jota cê jurídico ponto com ponto bê érre."
    }
   ]
  },
@@ -285,63 +330,166 @@
    {
     "at": 6,
     "src": "voz/viral/Gancho-0.mp3",
-    "frames": 88
+    "frames": 88,
+    "text": "Quanto tempo você leva para calcular uma rescisão completa?"
    },
    {
     "at": 100,
     "src": "voz/viral/Gancho-1.mp3",
-    "frames": 21
+    "frames": 21,
+    "text": "Valendo!"
    }
   ],
   "Corrida": [
    {
     "at": 40,
     "src": "voz/viral/Corrida-0.mp3",
-    "frames": 21
+    "frames": 21,
+    "text": "Salário."
    },
    {
     "at": 112,
     "src": "voz/viral/Corrida-1.mp3",
-    "frames": 46
+    "frames": 46,
+    "text": "Aviso prévio indenizado."
    },
    {
     "at": 188,
     "src": "voz/viral/Corrida-2.mp3",
-    "frames": 33
+    "frames": 33,
+    "text": "Data de admissão."
    },
    {
     "at": 262,
     "src": "voz/viral/Corrida-3.mp3",
-    "frames": 37
+    "frames": 37,
+    "text": "Data de demissão."
    },
    {
     "at": 336,
     "src": "voz/viral/Corrida-4.mp3",
-    "frames": 41
+    "frames": 41,
+    "text": "Saldo do FGTS."
    },
    {
     "at": 400,
     "src": "voz/viral/Corrida-5.mp3",
-    "frames": 20
+    "frames": 20,
+    "text": "Calcular!"
    }
   ],
   "Resultado": [
    {
     "at": 20,
     "src": "voz/viral/Resultado-0.mp3",
-    "frames": 222
+    "frames": 222,
+    "text": "Pronto! Aviso prévio de quarenta e dois dias, décimo terceiro, férias com um terço e a multa do FGTS."
    },
    {
     "at": 248,
     "src": "voz/viral/Resultado-1.mp3",
-    "frames": 38
+    "frames": 38,
+    "text": "Tudo em quinze segundos."
    }
   ],
   "Chamada": [
    {
     "at": 6,
     "src": "voz/viral/Chamada-0.mp3",
-    "frames": 85
+    "frames": 85,
+    "text": "E você, quanto tempo leva? Conta aqui nos comentários."
+   }
+  ]
+ },
+ "advogai": {
+  "Teste": [
+   {
+    "at": 12,
+    "src": "voz/advogai/Teste-0.mp3",
+    "frames": 165,
+    "text": "Olá! Eu sou a AdvogAI, a assistente inteligente do JC Jurídico."
+   },
+   {
+    "at": 183,
+    "src": "voz/advogai/Teste-1.mp3",
+    "frames": 143,
+    "text": "Pode me perguntar sobre cálculos, prazos e legislação, a qualquer hora."
+   }
+  ],
+  "Intro": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Intro-0.mp3",
+    "frames": 165,
+    "text": "Olá! Eu sou a AdvogAI, a assistente inteligente do JC Jurídico."
+   },
+   {
+    "at": 181,
+    "src": "voz/advogai/Intro-1.mp3",
+    "frames": 147,
+    "text": "Eu trabalho com você, dentro do sistema, para o seu escritório ganhar tempo."
+   }
+  ],
+  "Duvidas": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Duvidas-0.mp3",
+    "frames": 163,
+    "text": "Você pode me perguntar sobre cálculos, prazos e legislação, a qualquer hora."
+   }
+  ],
+  "Calculo": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Calculo-0.mp3",
+    "frames": 225,
+    "text": "Quando você faz um cálculo, eu explico o resultado em linguagem simples, para você conferir e repassar ao cliente."
+   }
+  ],
+  "Dados": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Dados-0.mp3",
+    "frames": 154,
+    "text": "Também consulto a sua agenda, os seus clientes e o financeiro do escritório."
+   }
+  ],
+  "Cadastro": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Cadastro-0.mp3",
+    "frames": 176,
+    "text": "E posso cadastrar clientes, compromissos e lançamentos financeiros, conversando com você pelo chat."
+   }
+  ],
+  "Navegacao": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Navegacao-0.mp3",
+    "frames": 122,
+    "text": "Se preferir fazer você mesmo, eu te levo direto para a tela certa."
+   }
+  ],
+  "Seguranca": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Seguranca-0.mp3",
+    "frames": 132,
+    "text": "Eu acesso apenas os dados do seu escritório, com segurança."
+   }
+  ],
+  "Chamada": [
+   {
+    "at": 10,
+    "src": "voz/advogai/Chamada-0.mp3",
+    "frames": 118,
+    "text": "Teste o JC Jurídico grátis por trinta dias e converse comigo."
+   },
+   {
+    "at": 134,
+    "src": "voz/advogai/Chamada-1.mp3",
+    "frames": 114,
+    "text": "Acesse jota cê jurídico ponto com ponto bê érre."
    }
   ]
  }

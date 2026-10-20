@@ -56,7 +56,7 @@ for video, scenes in cfg['videos'].items():
             dur = duration(dst)
             at = max(it['at'], end + GAP)
             end = at + round(dur * FPS)
-            lst.append({'at': at, 'src': f'voz/{video}/{scene}-{n}.mp3', 'frames': round(dur * FPS)})
+            lst.append({'at': at, 'src': f'voz/{video}/{scene}-{n}.mp3', 'frames': round(dur * FPS), 'text': it['text']})
         clips[video][scene] = lst
         print(video, scene, 'termina no frame', end)
 

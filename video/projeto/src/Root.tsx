@@ -4,6 +4,8 @@ import './fonts';
 import {JCPromo, SCENES, TOTAL} from './JCPromo';
 import {FunilPromo, F_SCENES, F_TOTAL} from './funil/FunilPromo';
 import {ViralRescisao, V_TOTAL} from './viral/Rescisao';
+import {AdvogAITeste, ADVOGAI_TESTE_DUR} from './advogai/Teste';
+import {AdvogAIApresentacao, ADVOGAI_TOTAL} from './advogai/Apresentacao';
 
 const V = {width: 1080, height: 1920, fps: 30};
 
@@ -22,5 +24,7 @@ export const RemotionRoot: React.FC = () => (
       ))}
     </Folder>
     <Composition id="ViralRescisao" component={ViralRescisao} durationInFrames={V_TOTAL} {...V} defaultProps={{music: 'music/pixabay-upbeat-happy-corporate.mp3'}} />
+    <Composition id="AdvogAITeste" component={AdvogAITeste} durationInFrames={ADVOGAI_TESTE_DUR} {...V} />
+    <Composition id="AdvogAIApresentacao" component={AdvogAIApresentacao} durationInFrames={ADVOGAI_TOTAL} {...V} defaultProps={{music: 'music/pixabay-calm-corporate.mp3'}} />
   </>
 );

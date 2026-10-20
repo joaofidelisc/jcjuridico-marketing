@@ -290,6 +290,74 @@
           "text": "E você, quanto tempo leva? Conta aqui nos comentários."
         }
       ]
+    },
+    "advogai": {
+      "Teste": [
+        {
+          "at": 12,
+          "text": "Olá! Eu sou a AdvogAI, a assistente inteligente do JC Jurídico."
+        },
+        {
+          "at": 150,
+          "text": "Pode me perguntar sobre cálculos, prazos e legislação, a qualquer hora."
+        }
+      ],
+      "Intro": [
+        {
+          "at": 10,
+          "text": "Olá! Eu sou a AdvogAI, a assistente inteligente do JC Jurídico."
+        },
+        {
+          "at": 140,
+          "text": "Eu trabalho com você, dentro do sistema, para o seu escritório ganhar tempo."
+        }
+      ],
+      "Duvidas": [
+        {
+          "at": 10,
+          "text": "Você pode me perguntar sobre cálculos, prazos e legislação, a qualquer hora."
+        }
+      ],
+      "Calculo": [
+        {
+          "at": 10,
+          "text": "Quando você faz um cálculo, eu explico o resultado em linguagem simples, para você conferir e repassar ao cliente."
+        }
+      ],
+      "Dados": [
+        {
+          "at": 10,
+          "text": "Também consulto a sua agenda, os seus clientes e o financeiro do escritório."
+        }
+      ],
+      "Cadastro": [
+        {
+          "at": 10,
+          "text": "E posso cadastrar clientes, compromissos e lançamentos financeiros, conversando com você pelo chat."
+        }
+      ],
+      "Navegacao": [
+        {
+          "at": 10,
+          "text": "Se preferir fazer você mesmo, eu te levo direto para a tela certa."
+        }
+      ],
+      "Seguranca": [
+        {
+          "at": 10,
+          "text": "Eu acesso apenas os dados do seu escritório, com segurança."
+        }
+      ],
+      "Chamada": [
+        {
+          "at": 10,
+          "text": "Teste o JC Jurídico grátis por trinta dias e converse comigo."
+        },
+        {
+          "at": 120,
+          "text": "Acesse jota cê jurídico ponto com ponto bê érre."
+        }
+      ]
     }
   },
   "vozes": {

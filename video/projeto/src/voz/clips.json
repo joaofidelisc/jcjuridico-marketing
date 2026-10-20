@@ -482,14 +482,14 @@
    {
     "at": 10,
     "src": "voz/advogai/Chamada-0.mp3",
-    "frames": 118,
-    "text": "Teste o JC Jurídico grátis por trinta dias e converse comigo."
+    "frames": 150,
+    "text": "Acesse o JC Jurídico e, qualquer dúvida que tiver, conte comigo!"
    },
    {
-    "at": 134,
+    "at": 166,
     "src": "voz/advogai/Chamada-1.mp3",
-    "frames": 114,
-    "text": "Acesse jota cê jurídico ponto com ponto bê érre."
+    "frames": 71,
+    "text": "Um abraço e até a próxima!"
    }
   ]
  }

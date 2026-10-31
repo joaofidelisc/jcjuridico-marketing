@@ -2,3 +2,4 @@ agendador/.env
 agendador/estado.db
 agendador/*.log
 agendador/.trava
+scripts/__pycache__/

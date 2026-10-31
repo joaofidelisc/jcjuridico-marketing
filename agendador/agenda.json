@@ -11,6 +11,22 @@
       "ativo": false
     },
     {
+      "id": "2026-10-31-trabalho",
+      "quando": "2026-10-31T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v23/trabalho_31_01.jpg",
+        "v23/trabalho_31_02.jpg",
+        "v23/trabalho_31_03.jpg",
+        "v23/trabalho_31_04.jpg",
+        "v23/trabalho_31_05.jpg",
+        "v23/trabalho_31_06.jpg",
+        "v23/trabalho_31_07.jpg"
+      ],
+      "legenda": "5 coisas que são proibidas por lei no trabalho, mas que quase todo mundo acha normal. A 4ª acontece todo dia.\n\n1. Descontar do salário quando o caixa fecha negativo, sem acordo prévio ou prova de que o funcionário agiu de propósito (CLT, art. 462, § 1º).\n2. Proibir ou cronometrar as idas ao banheiro: a Justiça do Trabalho tem condenado empresas por dano moral.\n3. Mudar o horário ou o turno sem a concordância do funcionário, quando isso prejudica a rotina dele (CLT, art. 468).\n4. Exigir que o funcionário chegue 15 minutos antes, todo dia, sem bater o ponto: passou de 10 minutos no dia, é hora extra (CLT, art. 58, § 1º, e Súmula 366 do TST).\n5. Não pagar hora extra porque o funcionário \"é de confiança\", sem cargo de gestão de verdade e gratificação de pelo menos 40% (CLT, art. 62).\n\nCada caso tem detalhes. Ficou com dúvida sobre o seu? Procure um advogado de sua confiança.\n\nQual desses você já viu acontecer? Conta nos comentários, manda no grupo (em off) para quem precisa saber e salve para consultar depois.\n\n#direitotrabalhista #clt #trabalhador #direitos #horaextra #advocacia #advogado",
+      "ativo": true
+    },
+    {
       "id": "2026-10-31-fiador-story",
       "quando": "2026-10-31T19:02:00-03:00",
       "tipo": "story",
@@ -18,6 +34,15 @@
         "v23/fiador_31_story.jpg"
       ],
       "ativo": false
+    },
+    {
+      "id": "2026-10-31-trabalho-story",
+      "quando": "2026-10-31T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v23/trabalho_31_story.jpg"
+      ],
+      "ativo": true
     },
     {
       "id": "2026-10-31-voto-nulo",
@@ -31,7 +56,7 @@
         "v23/voto_nulo_31_05.jpg"
       ],
       "legenda": "Você já ouviu que, se mais da metade votar nulo, a eleição é anulada? É um dos mitos eleitorais mais compartilhados do Brasil. E é falso.\n\nVotos brancos e nulos não entram na conta. Vence quem tiver a maioria dos votos válidos, ou seja, dados a algum candidato. A confusão vem do art. 224 do Código Eleitoral, que prevê nova eleição quando mais da metade dos votos é anulada pela Justiça Eleitoral, por fraude ou cassação, por exemplo, e não pelo voto nulo do eleitor.\n\nE por que dizem que votar nulo é \"votar em quem está ganhando\"? Porque, sem os nulos na conta, quem lidera precisa de menos votos para alcançar a maioria.\n\nBase legal: CF, art. 77, § 2º; Código Eleitoral, art. 224; Lei 9.504/1997, art. 2º.\n\nVocê acreditava nesse mito? Conte nos comentários e compartilhe com quem ainda acredita.\n\n#direitoeleitoral #eleicoes #votonulo #direito #vocesabia #advocacia #advogado",
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-10-31-voto-nulo-story",
@@ -40,7 +65,7 @@
       "midia": [
         "v23/voto_nulo_31_story.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-01-silencio",

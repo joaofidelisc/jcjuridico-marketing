@@ -18,6 +18,6 @@ ENV
 fi
 chmod 600 "$DEST/.env"
 LINHA="*/5 * * * * cd $DEST && ulimit -v 300000 && nice -n 19 ionice -c3 timeout 900 /usr/bin/python3 publicar.py >> $DEST/agendador.log 2>&1"
-( crontab -l 2>/dev/null | grep -v 'jc-agendador' ; echo "$LINHA" ) | crontab -
+( crontab -l 2>/dev/null | grep -v 'jc-agendador' || true ; echo "$LINHA" ) | crontab -
 echo "instalado em $DEST"
 crontab -l | grep jc-agendador

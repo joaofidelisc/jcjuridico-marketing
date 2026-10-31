@@ -12,7 +12,7 @@ Só usa a biblioteca padrão do Python (nada para instalar na VM).
 Configuração (arquivo .env ao lado deste script, permissão 600):
   IG_USER_ID=...           id da conta do Instagram
   IG_TOKEN=...             token de acesso (instagram_business_basic + instagram_business_content_publish)
-  GRAPH_HOST=graph.instagram.com   (ou graph.facebook.com, se o token for do login do Facebook)
+  GRAPH_HOST=graph.facebook.com    (token de usuário do sistema do login unificado, não expira; use graph.instagram.com para token do login do Instagram)
   AGENDA_URL=https://raw.githubusercontent.com/joaofidelisc/jcjuridico-marketing/main/agendador/agenda.json
   MIDIA_BASE=https://raw.githubusercontent.com/joaofidelisc/jcjuridico-marketing/main/
   TOLERANCIA_MIN=120       atraso máximo para ainda publicar (ex.: VM fora do ar); depois disso marca 'perdido'

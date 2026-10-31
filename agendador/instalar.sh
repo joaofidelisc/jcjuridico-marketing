@@ -12,7 +12,7 @@ if [ ! -f "$DEST/.env" ]; then
 # Preencha e salve. Este arquivo não sai da VM.
 IG_USER_ID=
 IG_TOKEN=
-GRAPH_HOST=graph.instagram.com
+GRAPH_HOST=graph.facebook.com
 TOLERANCIA_MIN=120
 ENV
 fi

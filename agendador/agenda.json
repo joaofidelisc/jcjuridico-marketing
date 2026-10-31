@@ -20,6 +20,29 @@
       "ativo": false
     },
     {
+      "id": "2026-10-31-voto-nulo",
+      "quando": "2026-10-31T20:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v23/voto_nulo_31_01.jpg",
+        "v23/voto_nulo_31_02.jpg",
+        "v23/voto_nulo_31_03.jpg",
+        "v23/voto_nulo_31_04.jpg",
+        "v23/voto_nulo_31_05.jpg"
+      ],
+      "legenda": "Você já ouviu que, se mais da metade votar nulo, a eleição é anulada? É um dos mitos eleitorais mais compartilhados do Brasil. E é falso.\n\nVotos brancos e nulos não entram na conta. Vence quem tiver a maioria dos votos válidos, ou seja, dados a algum candidato. A confusão vem do art. 224 do Código Eleitoral, que prevê nova eleição quando mais da metade dos votos é anulada pela Justiça Eleitoral, por fraude ou cassação, por exemplo, e não pelo voto nulo do eleitor.\n\nE por que dizem que votar nulo é \"votar em quem está ganhando\"? Porque, sem os nulos na conta, quem lidera precisa de menos votos para alcançar a maioria.\n\nBase legal: CF, art. 77, § 2º; Código Eleitoral, art. 224; Lei 9.504/1997, art. 2º.\n\nVocê acreditava nesse mito? Conte nos comentários e compartilhe com quem ainda acredita.\n\n#direitoeleitoral #eleicoes #votonulo #direito #vocesabia #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-10-31-voto-nulo-story",
+      "quando": "2026-10-31T20:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v23/voto_nulo_31_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-01-silencio",
       "quando": "2026-11-01T09:00:00-03:00",
       "tipo": "imagem",
@@ -27,7 +50,7 @@
         "v22/silencio_01.jpg"
       ],
       "legenda": "Você já ouviu falar que \"quem cala consente\"? No processo penal, não é bem assim.\n\nA Constituição garante a qualquer pessoa presa, investigada ou acusada o direito de permanecer em silêncio. E o Código de Processo Penal é claro: o silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.\n\nBase legal: CF, art. 5º, LXIII, e CPP, art. 186, parágrafo único.\n\nSalve este post e compartilhe com quem precisa saber disso.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #direitopenal",
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-01-silencio-story",
@@ -36,7 +59,7 @@
       "midia": [
         "v22/silencio_story.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-01-flagrante",
@@ -164,7 +187,7 @@
         "v22/novembro-azul_01.jpg"
       ],
       "legenda": "Novembro Azul é o mês de conscientização sobre a saúde do homem e a prevenção do câncer de próstata.\n\nE muita gente não sabe: a CLT permite faltar ao trabalho, sem desconto no salário, até 3 dias a cada 12 meses para fazer exames preventivos de câncer, desde que comprovados.\n\nBase legal: CLT, art. 473, XII, incluído pela Lei 13.767/2018.\n\nCuide da saúde e compartilhe com quem precisa ouvir isso.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #novembroazul #saude",
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-04-novembro-azul-story",
@@ -173,7 +196,7 @@
       "midia": [
         "v22/novembro-azul_story.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-04-metricool-story",

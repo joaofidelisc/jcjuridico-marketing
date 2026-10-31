@@ -46,7 +46,7 @@ def cabecalho(img, spec, dark, y=280):
     if spec.get('sub'):
         y = P.para(img, 70, y + 14, spec['sub'], spec.get('sub_size', 30), W - 140, c['sub'], bold_color=c['bold'])
     if spec.get('callout'):
-        y = P.callout(img, 70, y + 22, W - 140, spec['callout'], dark)
+        y = P.callout(img, 70, y + 22, W - 140, spec['callout'], dark, label=spec.get('callout_label', 'NO JC JURÍDICO'))
     return y
 
 

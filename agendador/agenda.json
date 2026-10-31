@@ -1,3 +1,706 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": "2026-11-01-silencio",
+      "quando": "2026-11-01T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/silencio_01.jpg"
+      ],
+      "legenda": "Você já ouviu falar que \"quem cala consente\"? No processo penal, não é bem assim.\n\nA Constituição garante a qualquer pessoa presa, investigada ou acusada o direito de permanecer em silêncio. E o Código de Processo Penal é claro: o silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.\n\nBase legal: CF, art. 5º, LXIII, e CPP, art. 186, parágrafo único.\n\nSalve este post e compartilhe com quem precisa saber disso.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #direitopenal",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-01-flagrante",
+      "quando": "2026-11-01T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/flagrante_01.jpg",
+        "v22/flagrante_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: qualquer pessoa pode prender alguém em flagrante?\n\nResposta no segundo slide. 👉\n\nO Código de Processo Penal diz que qualquer do povo PODE e as autoridades policiais DEVEM prender quem esteja em flagrante delito. Atenção: o uso da força deve ser só o necessário, e a pessoa presa deve ser entregue à autoridade policial.\n\nBase legal: CPP, art. 301.\n\nVocê acertou? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #direitopenal",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-feriado-dobro",
+      "quando": "2026-11-02T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/feriado-dobro_01.jpg"
+      ],
+      "legenda": "Hoje é feriado de Finados. Se você está trabalhando, vale saber:\n\nO trabalho em feriado que não for compensado com uma folga em outro dia deve ser pago em dobro, sem prejuízo da remuneração do repouso.\n\nBase legal: Lei 605/1949, art. 9º, e Súmula 146 do TST.\n\nAtenção: algumas categorias têm regras próprias em convenção coletiva.\n\nEnvie este post para um amigo que está trabalhando hoje.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #feriado #finados",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-heranca-mitos",
+      "quando": "2026-11-02T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/heranca-mitos_01.jpg",
+        "v22/heranca-mitos_02.jpg",
+        "v22/heranca-mitos_03.jpg",
+        "v22/heranca-mitos_04.jpg",
+        "v22/heranca-mitos_05.jpg",
+        "v22/heranca-mitos_06.jpg",
+        "v22/heranca-mitos_07.jpg"
+      ],
+      "legenda": "No Dia de Finados, muitas famílias lembram também das questões de herança. E é aí que aparecem os mitos.\n\nDeslize e veja 5 coisas que muita gente acredita, mas que a lei diz de outro jeito:\n\n1. Deserdar sem motivo\n2. Deixar tudo para quem quiser\n3. Dívidas passando para os filhos\n4. Cônjuge sem herança\n5. Inventário sem prazo\n\nCada caso tem detalhes próprios. Ficou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nQual desses mitos você já ouviu? Conte nos comentários.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #inventario",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-03-faltas-justificadas",
+      "quando": "2026-11-03T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/faltas-justificadas_01.jpg",
+        "v22/faltas-justificadas_02.jpg",
+        "v22/faltas-justificadas_03.jpg",
+        "v22/faltas-justificadas_04.jpg",
+        "v22/faltas-justificadas_05.jpg",
+        "v22/faltas-justificadas_06.jpg",
+        "v22/faltas-justificadas_07.jpg",
+        "v22/faltas-justificadas_08.jpg"
+      ],
+      "legenda": "Nem toda falta pode ser descontada do salário. A CLT lista situações em que o trabalhador pode faltar sem perder a remuneração.\n\nDeslize e veja 6 delas, com a base legal de cada uma.\n\nConvenções coletivas podem prever ainda mais situações.\n\nSalve este post e compartilhe com quem precisa saber disso.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-03-cobranca-dobro",
+      "quando": "2026-11-03T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/cobranca-dobro_01.jpg"
+      ],
+      "legenda": "Pagou uma cobrança que não devia? A lei manda devolver em dobro.\n\nPelo Código de Defesa do Consumidor, o consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, com correção monetária e juros. A exceção é o engano justificável.\n\nBase legal: CDC, art. 42, parágrafo único.\n\nGuarde sempre comprovantes e faturas.\n\nMarque alguém que vive reclamando de cobrança errada.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-04-novembro-azul",
+      "quando": "2026-11-04T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/novembro-azul_01.jpg"
+      ],
+      "legenda": "Novembro Azul é o mês de conscientização sobre a saúde do homem e a prevenção do câncer de próstata.\n\nE muita gente não sabe: a CLT permite faltar ao trabalho, sem desconto no salário, até 3 dias a cada 12 meses para fazer exames preventivos de câncer, desde que comprovados.\n\nBase legal: CLT, art. 473, XII, incluído pela Lei 13.767/2018.\n\nCuide da saúde e compartilhe com quem precisa ouvir isso.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #novembroazul #saude",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-04-pensao-18",
+      "quando": "2026-11-04T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/pensao-18_01.jpg",
+        "v22/pensao-18_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: a pensão alimentícia acaba automaticamente quando o filho faz 18 anos?\n\nResposta no segundo slide. 👉\n\nSegundo o STJ, o cancelamento da pensão do filho que atingiu a maioridade depende de decisão judicial, com direito de o filho se manifestar. A Justiça também costuma manter a pensão enquanto o filho estuda, conforme o caso.\n\nBase legal: Súmula 358 do STJ.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #pensaoalimenticia",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-05-preco-menor",
+      "quando": "2026-11-05T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/preco-menor_01.jpg"
+      ],
+      "legenda": "Viu um preço na prateleira e outro no caixa? Não precisa pagar o maior.\n\nPela Lei 10.962/2004, no caso de divergência de preços para o mesmo produto entre os sistemas de informação do estabelecimento, o consumidor pagará o menor dentre eles.\n\nBase legal: Lei 10.962/2004, art. 5º.\n\nDica: tire uma foto da etiqueta antes de ir ao caixa.\n\nCompartilhe com quem faz as compras da casa.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-05-voo-atrasado",
+      "quando": "2026-11-05T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/voo-atrasado_01.jpg",
+        "v22/voo-atrasado_02.jpg",
+        "v22/voo-atrasado_03.jpg",
+        "v22/voo-atrasado_04.jpg",
+        "v22/voo-atrasado_05.jpg",
+        "v22/voo-atrasado_06.jpg"
+      ],
+      "legenda": "Com as viagens de fim de ano chegando, salve este post.\n\nA Resolução 400 da ANAC define a assistência que a companhia aérea deve dar ao passageiro em caso de atraso:\n\n• 1 hora: comunicação\n• 2 horas: alimentação\n• 4 horas: hospedagem (se houver pernoite) e transporte\n• Mais de 4 horas: reacomodação, reembolso integral ou outro transporte\n\nGuarde comprovantes e registre a reclamação.\n\nMarque quem vai viajar no fim do ano.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #voo #anac",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-06-amostra-gratis",
+      "quando": "2026-11-06T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/amostra-gratis_01.jpg"
+      ],
+      "legenda": "Chegou um cartão, um produto ou um serviço que você não pediu? A lei protege você.\n\nO Código de Defesa do Consumidor proíbe enviar produto ou fornecer serviço sem solicitação prévia. E, se isso acontecer, o produto ou serviço é equiparado a amostra grátis, sem obrigação de pagamento.\n\nBase legal: CDC, art. 39, III e parágrafo único.\n\nVocê já passou por isso? Conte nos comentários.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-06-golpe-pix",
+      "quando": "2026-11-06T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/golpe-pix_01.jpg",
+        "v22/golpe-pix_02.jpg",
+        "v22/golpe-pix_03.jpg",
+        "v22/golpe-pix_04.jpg",
+        "v22/golpe-pix_05.jpg",
+        "v22/golpe-pix_06.jpg"
+      ],
+      "legenda": "Golpes com Pix estão entre os mais comuns do país. Se acontecer com você ou com alguém da família, o primeiro passo é agir rápido.\n\nPelo Mecanismo Especial de Devolução (MED) do Banco Central, a vítima pode contestar a transação pelo aplicativo do banco em até 80 dias da transferência. A devolução depende de haver saldo na conta de destino.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nEnvie este post para os seus pais e avós.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #pix #golpe",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-07-habeas-corpus",
+      "quando": "2026-11-07T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/habeas-corpus_01.jpg",
+        "v22/habeas-corpus_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: só advogado pode entrar com habeas corpus?\n\nResposta no segundo slide. 👉\n\nO habeas corpus é uma das garantias mais importantes da Constituição e pode ser impetrado por qualquer pessoa, em seu favor ou de outra, assim como pelo Ministério Público. Mesmo assim, a atuação de um advogado costuma fazer diferença.\n\nBase legal: CPP, art. 654.\n\nVocê sabia? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #habeascorpus",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-07-juizado",
+      "quando": "2026-11-07T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/juizado_01.jpg"
+      ],
+      "legenda": "Você sabia que dá para entrar com uma ação no Juizado Especial Cível sem advogado?\n\nNas causas de valor até 20 salários mínimos, a assistência de advogado é facultativa. Acima disso, e até 40 salários mínimos, o advogado é obrigatório.\n\nBase legal: Lei 9.099/1995, art. 9º.\n\nAtenção: para recorrer da sentença, é preciso advogado. E, mesmo em causas pequenas, a orientação profissional ajuda a não perder direitos.\n\nSalve para consultar quando precisar.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #juizadoespecial",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-08-inquilino",
+      "quando": "2026-11-08T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/inquilino_01.jpg",
+        "v22/inquilino_02.jpg",
+        "v22/inquilino_03.jpg",
+        "v22/inquilino_04.jpg",
+        "v22/inquilino_05.jpg",
+        "v22/inquilino_06.jpg",
+        "v22/inquilino_07.jpg"
+      ],
+      "legenda": "Mora de aluguel? A Lei do Inquilinato tem regras que protegem você, e muita gente não conhece.\n\nDeslize e veja 5 direitos do inquilino, cada um com a base legal.\n\nO contrato pode trazer cláusulas específicas, mas não pode contrariar a lei.\n\nMarque alguém que mora de aluguel.\n\n#direitoimobiliario #aluguel #inquilino #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-08-nome-sujo-5anos",
+      "quando": "2026-11-08T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/nome-sujo-5anos_01.jpg"
+      ],
+      "legenda": "Dívida antiga não deixa o nome negativado para sempre.\n\nPelo Código de Defesa do Consumidor, os cadastros de proteção ao crédito não podem manter informações negativas por período superior a 5 anos. Depois disso, o registro deve ser retirado.\n\nBase legal: CDC, art. 43, § 1º.\n\nImportante: a retirada do cadastro não significa que a dívida deixou de existir.\n\nCompartilhe com quem precisa saber disso.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #nomesujo #serasa",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-09-arrependimento",
+      "quando": "2026-11-09T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/arrependimento_01.jpg"
+      ],
+      "legenda": "Comprou pela internet, por telefone ou por catálogo e se arrependeu? Você tem 7 dias.\n\nO direito de arrependimento vale para compras feitas fora do estabelecimento comercial. O prazo é de 7 dias a contar da assinatura ou do recebimento do produto, e os valores pagos devem ser devolvidos, inclusive o frete.\n\nBase legal: CDC, art. 49.\n\nNão precisa explicar o motivo.\n\nSalve para a Black Friday.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #comprasonline",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-09-ferias-regras",
+      "quando": "2026-11-09T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/ferias-regras_01.jpg",
+        "v22/ferias-regras_02.jpg",
+        "v22/ferias-regras_03.jpg",
+        "v22/ferias-regras_04.jpg",
+        "v22/ferias-regras_05.jpg",
+        "v22/ferias-regras_06.jpg",
+        "v22/ferias-regras_07.jpg"
+      ],
+      "legenda": "Fim de ano é época de férias. Antes de sair, confira se as regras estão sendo cumpridas.\n\nDeslize e veja 5 regras importantes, com a base legal de cada uma.\n\nSalve este post e compartilhe com quem precisa saber disso.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #ferias",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-10-cobranca-vexatoria",
+      "quando": "2026-11-10T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/cobranca-vexatoria_01.jpg"
+      ],
+      "legenda": "Dever não tira a dignidade de ninguém.\n\nO Código de Defesa do Consumidor proíbe cobranças que exponham o consumidor ao ridículo ou que usem constrangimento, ameaça ou afirmações falsas. Em alguns casos, a conduta é até crime.\n\nBase legal: CDC, art. 42 (cobrança de dívidas) e art. 71 (crime).\n\nExemplos comuns: ligações para o trabalho expondo a dívida, cobrança na frente de outras pessoas e ameaças.\n\nCompartilhe com quem está passando por isso.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #cobranca",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-10-testamento-tudo",
+      "quando": "2026-11-10T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/testamento-tudo_01.jpg",
+        "v22/testamento-tudo_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: dá para deixar todos os bens para uma pessoa só em testamento?\n\nResposta no segundo slide. 👉\n\nSe houver herdeiros necessários (descendentes, ascendentes ou cônjuge), metade dos bens é a chamada legítima e pertence a eles por lei. O testamento só pode dispor da outra metade.\n\nBase legal: Código Civil, arts. 1.789, 1.845 e 1.846.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #testamento",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-11-gestante",
+      "quando": "2026-11-11T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/gestante_01.jpg",
+        "v22/gestante_02.jpg",
+        "v22/gestante_03.jpg",
+        "v22/gestante_04.jpg",
+        "v22/gestante_05.jpg",
+        "v22/gestante_06.jpg"
+      ],
+      "legenda": "A gestante tem estabilidade no emprego, e as regras são mais amplas do que muita gente imagina.\n\nDeslize e veja 4 pontos importantes, com a base legal de cada um.\n\nA dispensa por justa causa segue regras próprias.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nEnvie para uma amiga que está grávida.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #gestante",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-11-celular-volante",
+      "quando": "2026-11-11T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/celular-volante_01.jpg"
+      ],
+      "legenda": "Aquela olhadinha no celular no semáforo pode sair cara.\n\nDirigir segurando ou manuseando o telefone celular é infração gravíssima pelo Código de Trânsito Brasileiro: 7 pontos na carteira e multa.\n\nBase legal: CTB, art. 252, parágrafo único.\n\nCompartilhe com quem não larga o celular no carro.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #transito #ctb",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-12-prazo-trabalhista",
+      "quando": "2026-11-12T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/prazo-trabalhista_01.jpg"
+      ],
+      "legenda": "Saiu da empresa e acha que tem direitos a receber? Atenção ao prazo.\n\nO trabalhador tem até 2 anos depois do fim do contrato para entrar com a ação trabalhista. E a ação alcança os créditos dos últimos 5 anos, contados da data em que ela é proposta.\n\nBase legal: CF, art. 7º, XXIX.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nEnvie para quem saiu do emprego recentemente.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #prescricao",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-12-produto-defeito",
+      "quando": "2026-11-12T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/produto-defeito_01.jpg",
+        "v22/produto-defeito_02.jpg",
+        "v22/produto-defeito_03.jpg",
+        "v22/produto-defeito_04.jpg",
+        "v22/produto-defeito_05.jpg",
+        "v22/produto-defeito_06.jpg"
+      ],
+      "legenda": "Comprou um produto e ele veio com defeito? O Código de Defesa do Consumidor tem um caminho claro.\n\nDeslize e veja o passo a passo, com a base legal de cada etapa.\n\nGuarde nota fiscal, protocolo de atendimento e conversas.\n\nSalve este post e compartilhe com quem precisa saber disso.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #garantia",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-13-pensao-avos",
+      "quando": "2026-11-13T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/pensao-avos_01.jpg"
+      ],
+      "legenda": "Pensão alimentícia não é só assunto de pai e mãe.\n\nPelo Código Civil, a obrigação alimentar se estende aos ascendentes. Segundo o STJ, a obrigação dos avós é complementar e subsidiária: só se configura quando os pais não conseguem arcar total ou parcialmente com a pensão.\n\nBase legal: Código Civil, arts. 1.696 e 1.698, e Súmula 596 do STJ.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #pensaoalimenticia",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-13-bafometro",
+      "quando": "2026-11-13T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/bafometro_01.jpg",
+        "v22/bafometro_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: quem recusa o bafômetro escapa da multa?\n\nResposta no segundo slide. 👉\n\nO Código de Trânsito prevê infração específica para quem se recusa a fazer o teste, com as mesmas penalidades da embriaguez: multa multiplicada por 10 e suspensão do direito de dirigir por 12 meses.\n\nBase legal: CTB, art. 165-A.\n\nSe beber, não dirija. Compartilhe.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #transito #leiseca",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-14-ir-5mil",
+      "quando": "2026-11-14T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/ir-5mil_01.jpg",
+        "v22/ir-5mil_02.jpg",
+        "v22/ir-5mil_03.jpg",
+        "v22/ir-5mil_04.jpg",
+        "v22/ir-5mil_05.jpg"
+      ],
+      "legenda": "A nova regra do Imposto de Renda já está valendo em 2026, e muita gente ainda tem dúvida sobre o que mudou.\n\nDeslize e veja os 3 pontos principais:\n\n• isenção para quem ganha até R$ 5 mil por mês;\n• desconto gradual até R$ 7.350;\n• imposto mínimo para rendas acima de R$ 600 mil por ano.\n\nA mudança aparece no contracheque desde janeiro e será refletida na declaração de 2027.\n\nCompartilhe com quem ainda não entendeu a mudança.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #impostoderenda #ir2026",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-14-lgpd-dados",
+      "quando": "2026-11-14T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/lgpd-dados_01.jpg"
+      ],
+      "legenda": "Recebe ligação de empresa que você nunca contratou? Você tem o direito de saber o que ela sabe sobre você.\n\nA Lei Geral de Proteção de Dados garante ao titular, entre outros, o direito de confirmar se a empresa trata seus dados, de acessá-los, de corrigi-los e de pedir a eliminação em determinadas situações.\n\nBase legal: Lei 13.709/2018 (LGPD), art. 18.\n\nSalve e compartilhe.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #lgpd #protecaodedados",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-15-constituicoes",
+      "quando": "2026-11-15T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/constituicoes_01.jpg"
+      ],
+      "legenda": "Hoje, 15 de novembro, celebramos a Proclamação da República.\n\nE você sabia que o Brasil já teve sete Constituições?\n\n• 1824, a do Império\n• 1891, a primeira da República\n• 1934\n• 1937\n• 1946\n• 1967\n• 1988, a Constituição Cidadã, em vigor até hoje\n\nAlguns estudiosos contam também a Emenda nº 1 de 1969 como uma oitava, por ter reescrito o texto de 1967.\n\nQual delas você estudou na faculdade? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #proclamacaodarepublica #constituicao",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-15-voto-idade",
+      "quando": "2026-11-15T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/voto-idade_01.jpg",
+        "v22/voto-idade_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: o voto é obrigatório para todos os eleitores?\n\nResposta no segundo slide. 👉\n\nPela Constituição, o alistamento eleitoral e o voto são obrigatórios para os maiores de 18 anos e facultativos para os analfabetos, os maiores de 70 anos e os maiores de 16 e menores de 18 anos.\n\nBase legal: CF, art. 14, § 1º.\n\nVocê acertou? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #eleicoes #voto",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-16-tipos-demissao",
+      "quando": "2026-11-16T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/tipos-demissao_01.jpg",
+        "v22/tipos-demissao_02.jpg",
+        "v22/tipos-demissao_03.jpg",
+        "v22/tipos-demissao_04.jpg",
+        "v22/tipos-demissao_05.jpg",
+        "v22/tipos-demissao_06.jpg"
+      ],
+      "legenda": "Cada forma de encerrar o contrato de trabalho dá direito a verbas diferentes. Saber disso evita surpresas na rescisão.\n\nDeslize e compare os 4 tipos mais comuns: sem justa causa, pedido de demissão, acordo e justa causa.\n\nO valor exato depende do tempo de contrato e de outros detalhes.\n\nAdvogado: no JC Jurídico, o cálculo de rescisão sai em segundos, com cada verba detalhada no relatório.\n\nSalve este post e compartilhe com quem precisa saber disso.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #rescisao",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-16-prisao-pensao",
+      "quando": "2026-11-16T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/prisao-pensao_01.jpg"
+      ],
+      "legenda": "A pensão alimentícia é a única dívida que pode levar alguém à prisão no Brasil.\n\nO atraso das 3 prestações anteriores ao ajuizamento da execução, e das que vencerem durante o processo, autoriza o pedido de prisão civil, por 1 a 3 meses, em regime fechado. A prisão não quita a dívida.\n\nBase legal: CPC, art. 528, §§ 3º, 4º e 7º, e Súmula 309 do STJ.\n\nAdvogado: no JC Jurídico, você calcula a pensão alimentícia em atraso com atualização, pronta para a execução.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #pensaoalimenticia",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-17-intervalo-almoco",
+      "quando": "2026-11-17T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/intervalo-almoco_01.jpg"
+      ],
+      "legenda": "Almoça em 15 minutos porque a empresa não libera o intervalo completo? Isso tem consequência.\n\nPela CLT, a não concessão ou a concessão parcial do intervalo para repouso e alimentação obriga o empregador a pagar o período suprimido com acréscimo de 50% sobre o valor da hora normal.\n\nBase legal: CLT, art. 71, § 4º.\n\nPara quem trabalha mais de 6 horas por dia, o intervalo mínimo é de 1 hora.\n\nEnvie para um colega de trabalho.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #intervalo",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-17-uniao-estavel",
+      "quando": "2026-11-17T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/uniao-estavel_01.jpg",
+        "v22/uniao-estavel_02.jpg",
+        "v22/uniao-estavel_03.jpg",
+        "v22/uniao-estavel_04.jpg",
+        "v22/uniao-estavel_05.jpg",
+        "v22/uniao-estavel_06.jpg",
+        "v22/uniao-estavel_07.jpg"
+      ],
+      "legenda": "União estável gera muitos direitos, e muitas dúvidas.\n\nDeslize e veja 5 perguntas comuns, com a base legal de cada resposta.\n\nCada relação tem particularidades. Ficou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nMarque seu par. 😉\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #uniaoestavel",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-18-cinema-pipoca",
+      "quando": "2026-11-18T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/cinema-pipoca_01.jpg",
+        "v22/cinema-pipoca_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: o cinema pode proibir a entrada com pipoca comprada fora?\n\nResposta no segundo slide. 👉\n\nO Superior Tribunal de Justiça já decidiu que impedir o consumidor de entrar com alimentos comprados em outro lugar, obrigando-o a comprar no próprio cinema, configura venda casada, prática abusiva proibida pelo Código de Defesa do Consumidor.\n\nBase legal: STJ, REsp 1.331.948, e CDC, art. 39, I.\n\nMarque quem você leva ao cinema. 🍿\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #vendacasada",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-18-adicional-noturno",
+      "quando": "2026-11-18T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/adicional-noturno_01.jpg"
+      ],
+      "legenda": "Trabalha à noite? A hora noturna vale mais, e é mais curta.\n\nPara o trabalhador urbano, o trabalho entre 22h e 5h tem adicional de, no mínimo, 20% sobre a hora diurna. E cada hora noturna é contada como 52 minutos e 30 segundos: 7 horas de relógio equivalem a 8 horas de trabalho.\n\nBase legal: CLT, art. 73.\n\nRural e outras categorias têm regras próprias.\n\nEnvie para quem trabalha no turno da noite.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #adicionalnoturno",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-19-bpc-leigo",
+      "quando": "2026-11-19T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/bpc-leigo_01.jpg",
+        "v22/bpc-leigo_02.jpg",
+        "v22/bpc-leigo_03.jpg",
+        "v22/bpc-leigo_04.jpg",
+        "v22/bpc-leigo_05.jpg",
+        "v22/bpc-leigo_06.jpg"
+      ],
+      "legenda": "O BPC/LOAS garante 1 salário mínimo por mês à pessoa idosa ou com deficiência em situação de baixa renda. E muita gente deixa de pedir por falta de informação.\n\nDeslize e veja 4 pontos importantes, com a base legal.\n\nAdvogado: no JC Jurídico, a análise de BPC/LOAS já considera a exclusão do § 14 no cálculo da renda.\n\nCompartilhe com quem pode ter direito.\n\n#direitoprevidenciario #inss #bpcloas #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-19-usucapiao",
+      "quando": "2026-11-19T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/usucapiao_01.jpg"
+      ],
+      "legenda": "Mora há anos em um imóvel que não está no seu nome? Talvez a usucapião seja o caminho.\n\nNa usucapião especial urbana, quem possui como seu, por 5 anos ininterruptos e sem oposição, área urbana de até 250 m², usando-a como moradia própria ou da família, adquire o domínio, desde que não seja proprietário de outro imóvel.\n\nBase legal: CF, art. 183, e Código Civil, art. 1.240.\n\nExistem outras modalidades, com prazos diferentes. Ficou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #usucapiao #imoveis",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-20-injuria-racial",
+      "quando": "2026-11-20T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/injuria-racial_01.jpg"
+      ],
+      "legenda": "Hoje é o Dia Nacional de Zumbi e da Consciência Negra.\n\nDesde a Lei 14.532/2023, a injúria racial foi equiparada ao crime de racismo. Na prática, ela passou a ser inafiançável e imprescritível, como prevê a Constituição para o racismo, com pena de reclusão de 2 a 5 anos.\n\nBase legal: Lei 7.716/1989, art. 2º-A (incluído pela Lei 14.532/2023), e CF, art. 5º, XLII.\n\nRacismo é crime. Denuncie.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #consciencianegra #racismoecrime",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-20-desconto-salario",
+      "quando": "2026-11-20T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/desconto-salario_01.jpg"
+      ],
+      "legenda": "Quebrou um equipamento no trabalho? A empresa não pode simplesmente descontar do salário.\n\nPela CLT, é vedado ao empregador fazer descontos no salário, salvo adiantamentos, descontos previstos em lei ou em contrato coletivo. Em caso de dano causado pelo empregado, o desconto só é lícito se houver acordo prévio ou se o dano for doloso (intencional).\n\nBase legal: CLT, art. 462, caput e § 1º.\n\nEnvie para um colega de trabalho.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #salario",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-21-bagagem",
+      "quando": "2026-11-21T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/bagagem_01.jpg"
+      ],
+      "legenda": "Sua mala não chegou? Registre a reclamação ainda no aeroporto e fique atento aos prazos.\n\nPela Resolução 400 da ANAC, a companhia aérea tem até 7 dias para devolver a bagagem extraviada em voos domésticos e até 21 dias em voos internacionais. Se não devolver, deve indenizar o passageiro.\n\nBase legal: Resolução ANAC 400/2016, art. 32.\n\nGuarde o comprovante de despacho e os gastos de emergência.\n\nSalve para a próxima viagem.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #anac #viagem",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-21-prisao-divida",
+      "quando": "2026-11-21T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/prisao-divida_01.jpg",
+        "v22/prisao-divida_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: alguém pode ser preso por dívida no Brasil?\n\nResposta no segundo slide. 👉\n\nA Constituição proíbe a prisão civil por dívida, com uma exceção que vale na prática: o devedor de pensão alimentícia. O texto também cita o depositário infiel, mas o STF considerou essa prisão ilícita.\n\nBase legal: CF, art. 5º, LXVII, e Súmula Vinculante 25 do STF.\n\nVocê sabia? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #pensaoalimenticia",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-22-negativacao-aviso",
+      "quando": "2026-11-22T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/negativacao-aviso_01.jpg"
+      ],
+      "legenda": "Descobriu que estava com o nome negativado só na hora de pedir crédito? A lei exige aviso prévio.\n\nPelo Código de Defesa do Consumidor, a abertura de cadastro com dados do consumidor deve ser comunicada por escrito a ele. Segundo o STJ, essa notificação cabe ao órgão mantenedor do cadastro, antes da inscrição.\n\nBase legal: CDC, art. 43, § 2º, e Súmula 359 do STJ.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #nomesujo",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-22-mitos-trabalho",
+      "quando": "2026-11-22T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/mitos-trabalho_01.jpg",
+        "v22/mitos-trabalho_02.jpg",
+        "v22/mitos-trabalho_03.jpg",
+        "v22/mitos-trabalho_04.jpg",
+        "v22/mitos-trabalho_05.jpg",
+        "v22/mitos-trabalho_06.jpg"
+      ],
+      "legenda": "No direito do trabalho, há muita informação errada circulando.\n\nDeslize e veja 4 mitos comuns, com o que a lei realmente diz.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nQual desses você já ouviu no trabalho?\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-23-plano-saude-24h",
+      "quando": "2026-11-23T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/plano-saude-24h_01.jpg"
+      ],
+      "legenda": "Acabou de contratar o plano de saúde e precisou de atendimento de urgência? A carência máxima é de 24 horas.\n\nPela Lei dos Planos de Saúde, os prazos máximos de carência são de 24 horas para urgência e emergência e de 300 dias para parto a termo. Para os demais casos, o limite é de 180 dias.\n\nBase legal: Lei 9.656/1998, art. 12, V.\n\nCompartilhe com quem acabou de contratar um plano.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #planodesaude",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-23-gravar-conversa",
+      "quando": "2026-11-23T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/gravar-conversa_01.jpg",
+        "v22/gravar-conversa_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: gravar uma conversa sem o outro saber vale como prova?\n\nResposta no segundo slide. 👉\n\nO STF firmou, com repercussão geral, que é lícita a prova consistente em gravação ambiental realizada por um dos interlocutores sem o conhecimento do outro. Atenção: isso é diferente de grampear conversa de terceiros, que é crime sem autorização judicial.\n\nBase legal: STF, RE 583.937 (Tema 237).\n\nVocê acertou? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #provas",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-24-13-proporcional",
+      "quando": "2026-11-24T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/13-proporcional_01.jpg"
+      ],
+      "legenda": "O 13º salário está chegando, e uma regra pouco conhecida pode aumentar o valor.\n\nNo cálculo do 13º proporcional, a fração igual ou superior a 15 dias de trabalho no mês é considerada como mês integral. Quem foi admitido no dia 10, por exemplo, já tem aquele mês contado.\n\nBase legal: Lei 4.090/1962, art. 1º, § 2º.\n\nA primeira parcela deve ser paga até 30 de novembro e a segunda até 20 de dezembro.\n\nEnvie para quem começou a trabalhar este ano.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #13salario #decimoterceiro",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-24-teste-gravidez",
+      "quando": "2026-11-24T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/teste-gravidez_01.jpg"
+      ],
+      "legenda": "Pedir teste de gravidez para contratar ou manter alguém no emprego é crime no Brasil.\n\nA Lei 9.029/1995 proíbe qualquer prática discriminatória para acesso ou manutenção do emprego e define como crime a exigência de teste, exame, perícia, laudo, atestado ou declaração relativos à esterilização ou ao estado de gravidez.\n\nBase legal: Lei 9.029/1995, arts. 1º e 2º.\n\nCompartilhe com quem está em processo seletivo.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #discriminacao",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-25-troca-gosto",
+      "quando": "2026-11-25T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/troca-gosto_01.jpg",
+        "v22/troca-gosto_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: a loja física é obrigada a trocar um produto que não serviu ou de que você não gostou?\n\nResposta no segundo slide. 👉\n\nO CDC obriga a troca em caso de defeito (vício). Já a troca por tamanho, cor ou gosto é uma política da loja: não é obrigatória, mas, se for oferecida (na etiqueta, no cartaz ou pelo vendedor), passa a valer como compromisso. Nas compras online, vale o direito de arrependimento de 7 dias.\n\nBase legal: CDC, arts. 18, 30 e 49.\n\nSalve para as compras de fim de ano.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #blackfriday",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-25-seguro-desemprego",
+      "quando": "2026-11-25T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/seguro-desemprego_01.jpg"
+      ],
+      "legenda": "Pensando em pedir demissão? Saiba que o seguro-desemprego não vem junto.\n\nO seguro-desemprego é devido ao trabalhador dispensado sem justa causa, inclusive na rescisão indireta (quando a falta grave é do empregador), desde que cumpridos os requisitos de tempo de trabalho. Quem pede demissão ou faz acordo com a empresa não tem direito.\n\nBase legal: Lei 7.998/1990, art. 3º, e CLT, art. 484-A, § 4º.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #segurodesemprego",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-26-inventario",
+      "quando": "2026-11-26T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/inventario_01.jpg",
+        "v22/inventario_02.jpg",
+        "v22/inventario_03.jpg",
+        "v22/inventario_04.jpg",
+        "v22/inventario_05.jpg",
+        "v22/inventario_06.jpg"
+      ],
+      "legenda": "Perder alguém já é difícil, e a parte burocrática pode pesar ainda mais se ficar para depois.\n\nDeslize e veja 4 pontos sobre o inventário, com a base legal.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nSalve e compartilhe com a família.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #inventario",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-26-maquiagem-preco",
+      "quando": "2026-11-26T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/maquiagem-preco_01.jpg"
+      ],
+      "legenda": "A Black Friday é amanhã. E a famosa \"metade do dobro\" continua aparecendo.\n\nAumentar o preço dias antes para anunciar um desconto que não existe é publicidade enganosa: informação capaz de induzir o consumidor a erro sobre o preço. É proibida pelo Código de Defesa do Consumidor.\n\nBase legal: CDC, art. 37, § 1º.\n\nDica: acompanhe o histórico de preços dos produtos que você quer comprar.\n\nMarque quem vai às compras amanhã.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #blackfriday",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-27-black-friday",
+      "quando": "2026-11-27T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/black-friday_01.jpg",
+        "v22/black-friday_02.jpg",
+        "v22/black-friday_03.jpg",
+        "v22/black-friday_04.jpg",
+        "v22/black-friday_05.jpg",
+        "v22/black-friday_06.jpg"
+      ],
+      "legenda": "Hoje é Black Friday. Antes de clicar em \"comprar\", salve este post.\n\nDeslize e veja 4 direitos que valem para qualquer compra, com promoção ou sem.\n\nGuarde prints dos anúncios e os comprovantes.\n\nEnvie para quem vai às compras hoje.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #blackfriday",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-27-oferta-vincula",
+      "quando": "2026-11-27T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/oferta-vincula_01.jpg"
+      ],
+      "legenda": "Anúncio com preço baixo e a loja se recusou a vender? A oferta obriga quem anuncia.\n\nPelo CDC, a informação suficientemente precisa da oferta vincula o fornecedor. Se ele recusar, o consumidor pode exigir o cumprimento forçado, aceitar produto equivalente ou desistir, com devolução do que pagou.\n\nBase legal: CDC, arts. 30 e 35.\n\nAtenção: a Justiça costuma afastar erros grosseiros e evidentes, como um televisor anunciado a R$ 1.\n\nVocê já passou por isso? Conte nos comentários.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #blackfriday",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-28-filho-fora",
+      "quando": "2026-11-28T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/filho-fora_01.jpg",
+        "v22/filho-fora_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: o filho de fora do casamento herda menos?\n\nResposta no segundo slide. 👉\n\nA Constituição de 1988 acabou com a distinção entre filhos. Havidos ou não da relação de casamento, ou por adoção, todos têm os mesmos direitos e qualificações, inclusive na herança.\n\nBase legal: CF, art. 227, § 6º, e Código Civil, art. 1.596.\n\nVocê acertou? Conte nos comentários.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #heranca",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-28-divorcio-cartorio",
+      "quando": "2026-11-28T19:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/divorcio-cartorio_01.jpg"
+      ],
+      "legenda": "Divórcio não precisa, necessariamente, passar pelo Judiciário.\n\nO divórcio consensual pode ser feito por escritura pública em cartório, com a assistência de advogado, desde que observados os requisitos legais (como as questões envolvendo filhos menores). É, em regra, mais rápido que o processo judicial.\n\nBase legal: CPC, art. 733, e normas do CNJ sobre atos notariais.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #divorcio",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-29-recesso",
+      "quando": "2026-11-29T09:00:00-03:00",
+      "tipo": "imagem",
+      "midia": [
+        "v22/recesso_01.jpg"
+      ],
+      "legenda": "Advogado, o recesso forense está chegando. Planeje dezembro.\n\nPelo CPC, os prazos processuais ficam suspensos entre 20 de dezembro e 20 de janeiro, inclusive. Nesse período, não se realizam audiências nem sessões de julgamento, mas magistrados e servidores continuam trabalhando.\n\nBase legal: CPC, art. 220.\n\nNo JC Jurídico, você organiza prazos e compromissos na agenda do escritório.\n\nMarque um colega que já está contando os dias.\n\n#advocacia #advogado #cpc #prazos #processocivil #rotinajuridica #recessoforense",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-29-prazo-uteis",
+      "quando": "2026-11-29T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/prazo-uteis_01.jpg",
+        "v22/prazo-uteis_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: no processo civil, o prazo conta sábado e domingo?\n\nResposta no segundo slide. 👉\n\nDesde o CPC de 2015, na contagem de prazo em dias, estabelecido por lei ou pelo juiz, computam-se somente os dias úteis. A regra vale para prazos processuais. No processo penal, os prazos continuam em dias corridos.\n\nBase legal: CPC, art. 219.\n\nAdvogado, salve e compartilhe com o estagiário. 😄\n\n#advocacia #advogado #cpc #prazos #processocivil #rotinajuridica",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-30-cpc-curiosidades",
+      "quando": "2026-11-30T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/cpc-curiosidades_01.jpg",
+        "v22/cpc-curiosidades_02.jpg",
+        "v22/cpc-curiosidades_03.jpg",
+        "v22/cpc-curiosidades_04.jpg",
+        "v22/cpc-curiosidades_05.jpg",
+        "v22/cpc-curiosidades_06.jpg"
+      ],
+      "legenda": "Advogado, algumas regras do processo passam despercebidas na correria. Deslize e confira 4 delas, com a base legal.\n\nNo JC Jurídico, prazos, compromissos e cálculos ficam no mesmo sistema.\n\nSalve e compartilhe com a equipe do escritório.\n\n#advocacia #advogado #cpc #prazos #processocivil #rotinajuridica",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-30-fechamento-ano",
+      "quando": "2026-11-30T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/fechamento-ano_01.jpg",
+        "v22/fechamento-ano_02.jpg",
+        "v22/fechamento-ano_03.jpg",
+        "v22/fechamento-ano_04.jpg",
+        "v22/fechamento-ano_05.jpg",
+        "v22/fechamento-ano_06.jpg"
+      ],
+      "legenda": "Dezembro chega amanhã. Para entrar no recesso com tranquilidade, vale revisar 4 pontos no escritório.\n\nDeslize e confira o checklist.\n\nNo JC Jurídico, agenda, clientes e financeiro ficam no mesmo sistema, o que facilita essa revisão.\n\nSalve e use no seu planejamento.\n\n#advocacia #advogado #cpc #prazos #processocivil #rotinajuridica #gestaojuridica",
+      "ativo": true
+    }
+  ]
 }

@@ -23,6 +23,7 @@ Uso:
   publicar.py --status     lista a agenda com a situação de cada post
   publicar.py --verificar  confere o token e a conta (não publica)
   publicar.py --repetir ID libera um post que falhou para nova tentativa na próxima execução
+  publicar.py --testar ID  envia as mídias do post à Meta e confere se ficam prontas, SEM publicar
 """
 import datetime as dt
 import fcntl
@@ -233,6 +234,19 @@ def main():
         db.execute("DELETE FROM posts WHERE id=? AND situacao IN ('falhou','perdido')", (pid,))
         db.commit()
         print('liberado:', pid)
+        return
+
+    if '--testar' in args:
+        pid = sys.argv[sys.argv.index('--testar') + 1]
+        post = next(p for p in baixar_agenda(env) if p['id'] == pid)
+        token, _ = token_atual(db, env)
+        for m in post['midia']:
+            u = m if m.startswith('http') else env['MIDIA_BASE'] + m
+            p = {'is_carousel_item': 'true'} if len(post['midia']) > 1 else {}
+            p.update({'media_type': 'VIDEO', 'video_url': u} if u.lower().endswith('.mp4') else {'image_url': u})
+            c = chamar(env, token, 'POST', f"{env['IG_USER_ID']}/media", p)['id']
+            aguardar_pronto(env, token, c, 120)
+            print('ok (não publicado):', m)
         return
 
     if '--verificar' in args:

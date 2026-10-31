@@ -30,6 +30,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-01-silencio-story",
+      "quando": "2026-11-01T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/silencio_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-01-flagrante",
       "quando": "2026-11-01T19:00:00-03:00",
       "tipo": "carrossel",
@@ -41,6 +50,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-01-flagrante-story",
+      "quando": "2026-11-01T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/flagrante_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-02-feriado-dobro",
       "quando": "2026-11-02T09:00:00-03:00",
       "tipo": "imagem",
@@ -48,6 +66,15 @@
         "v22/feriado-dobro_01.jpg"
       ],
       "legenda": "Hoje é feriado de Finados. Se você está trabalhando, vale saber:\n\nO trabalho em feriado que não for compensado com uma folga em outro dia deve ser pago em dobro, sem prejuízo da remuneração do repouso.\n\nBase legal: Lei 605/1949, art. 9º, e Súmula 146 do TST.\n\nAtenção: algumas categorias têm regras próprias em convenção coletiva.\n\nEnvie este post para um amigo que está trabalhando hoje.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #feriado #finados",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-feriado-dobro-story",
+      "quando": "2026-11-02T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/feriado-dobro_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -64,6 +91,15 @@
         "v22/heranca-mitos_07.jpg"
       ],
       "legenda": "No Dia de Finados, muitas famílias lembram também das questões de herança. E é aí que aparecem os mitos.\n\nDeslize e veja 5 coisas que muita gente acredita, mas que a lei diz de outro jeito:\n\n1. Deserdar sem motivo\n2. Deixar tudo para quem quiser\n3. Dívidas passando para os filhos\n4. Cônjuge sem herança\n5. Inventário sem prazo\n\nCada caso tem detalhes próprios. Ficou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nQual desses mitos você já ouviu? Conte nos comentários.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #inventario",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-heranca-mitos-story",
+      "quando": "2026-11-02T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/heranca-mitos_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -84,6 +120,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-03-faltas-justificadas-story",
+      "quando": "2026-11-03T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/faltas-justificadas_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-03-metricool-story",
+      "quando": "2026-11-03T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_03_pdf_01_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-03-cobranca-dobro",
       "quando": "2026-11-03T19:00:00-03:00",
       "tipo": "imagem",
@@ -94,6 +148,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-03-cobranca-dobro-story",
+      "quando": "2026-11-03T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/cobranca-dobro_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-04-novembro-azul",
       "quando": "2026-11-04T09:00:00-03:00",
       "tipo": "imagem",
@@ -101,6 +164,24 @@
         "v22/novembro-azul_01.jpg"
       ],
       "legenda": "Novembro Azul é o mês de conscientização sobre a saúde do homem e a prevenção do câncer de próstata.\n\nE muita gente não sabe: a CLT permite faltar ao trabalho, sem desconto no salário, até 3 dias a cada 12 meses para fazer exames preventivos de câncer, desde que comprovados.\n\nBase legal: CLT, art. 473, XII, incluído pela Lei 13.767/2018.\n\nCuide da saúde e compartilhe com quem precisa ouvir isso.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #novembroazul #saude",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-04-novembro-azul-story",
+      "quando": "2026-11-04T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/novembro-azul_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-04-metricool-story",
+      "quando": "2026-11-04T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_04_calculos_01_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -115,6 +196,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-04-pensao-18-story",
+      "quando": "2026-11-04T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/pensao-18_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-05-preco-menor",
       "quando": "2026-11-05T09:00:00-03:00",
       "tipo": "imagem",
@@ -122,6 +212,24 @@
         "v22/preco-menor_01.jpg"
       ],
       "legenda": "Viu um preço na prateleira e outro no caixa? Não precisa pagar o maior.\n\nPela Lei 10.962/2004, no caso de divergência de preços para o mesmo produto entre os sistemas de informação do estabelecimento, o consumidor pagará o menor dentre eles.\n\nBase legal: Lei 10.962/2004, art. 5º.\n\nDica: tire uma foto da etiqueta antes de ir ao caixa.\n\nCompartilhe com quem faz as compras da casa.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-05-preco-menor-story",
+      "quando": "2026-11-05T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/preco-menor_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-05-metricool-story",
+      "quando": "2026-11-05T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_05_bpc_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -140,6 +248,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-05-voo-atrasado-story",
+      "quando": "2026-11-05T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/voo-atrasado_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-06-amostra-gratis",
       "quando": "2026-11-06T09:00:00-03:00",
       "tipo": "imagem",
@@ -147,6 +264,24 @@
         "v22/amostra-gratis_01.jpg"
       ],
       "legenda": "Chegou um cartão, um produto ou um serviço que você não pediu? A lei protege você.\n\nO Código de Defesa do Consumidor proíbe enviar produto ou fornecer serviço sem solicitação prévia. E, se isso acontecer, o produto ou serviço é equiparado a amostra grátis, sem obrigação de pagamento.\n\nBase legal: CDC, art. 39, III e parágrafo único.\n\nVocê já passou por isso? Conte nos comentários.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-06-amostra-gratis-story",
+      "quando": "2026-11-06T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/amostra-gratis_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-06-metricool-story",
+      "quando": "2026-11-06T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_06_pergunta_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -165,6 +300,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-06-golpe-pix-story",
+      "quando": "2026-11-06T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/golpe-pix_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-07-habeas-corpus",
       "quando": "2026-11-07T09:00:00-03:00",
       "tipo": "carrossel",
@@ -176,6 +320,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-07-habeas-corpus-story",
+      "quando": "2026-11-07T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/habeas-corpus_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-07-juizado",
       "quando": "2026-11-07T19:00:00-03:00",
       "tipo": "imagem",
@@ -183,6 +336,15 @@
         "v22/juizado_01.jpg"
       ],
       "legenda": "Você sabia que dá para entrar com uma ação no Juizado Especial Cível sem advogado?\n\nNas causas de valor até 20 salários mínimos, a assistência de advogado é facultativa. Acima disso, e até 40 salários mínimos, o advogado é obrigatório.\n\nBase legal: Lei 9.099/1995, art. 9º.\n\nAtenção: para recorrer da sentença, é preciso advogado. E, mesmo em causas pequenas, a orientação profissional ajuda a não perder direitos.\n\nSalve para consultar quando precisar.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #juizadoespecial",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-07-juizado-story",
+      "quando": "2026-11-07T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/juizado_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -202,6 +364,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-08-inquilino-story",
+      "quando": "2026-11-08T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/inquilino_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-08-nome-sujo-5anos",
       "quando": "2026-11-08T19:00:00-03:00",
       "tipo": "imagem",
@@ -212,6 +383,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-08-nome-sujo-5anos-story",
+      "quando": "2026-11-08T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/nome-sujo-5anos_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-09-arrependimento",
       "quando": "2026-11-09T09:00:00-03:00",
       "tipo": "imagem",
@@ -219,6 +399,24 @@
         "v22/arrependimento_01.jpg"
       ],
       "legenda": "Comprou pela internet, por telefone ou por catálogo e se arrependeu? Você tem 7 dias.\n\nO direito de arrependimento vale para compras feitas fora do estabelecimento comercial. O prazo é de 7 dias a contar da assinatura ou do recebimento do produto, e os valores pagos devem ser devolvidos, inclusive o frete.\n\nBase legal: CDC, art. 49.\n\nNão precisa explicar o motivo.\n\nSalve para a Black Friday.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #comprasonline",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-09-arrependimento-story",
+      "quando": "2026-11-09T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/arrependimento_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-09-metricool-story",
+      "quando": "2026-11-09T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_09_agenda_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -238,6 +436,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-09-ferias-regras-story",
+      "quando": "2026-11-09T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/ferias-regras_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-10-cobranca-vexatoria",
       "quando": "2026-11-10T09:00:00-03:00",
       "tipo": "imagem",
@@ -245,6 +452,24 @@
         "v22/cobranca-vexatoria_01.jpg"
       ],
       "legenda": "Dever não tira a dignidade de ninguém.\n\nO Código de Defesa do Consumidor proíbe cobranças que exponham o consumidor ao ridículo ou que usem constrangimento, ameaça ou afirmações falsas. Em alguns casos, a conduta é até crime.\n\nBase legal: CDC, art. 42 (cobrança de dívidas) e art. 71 (crime).\n\nExemplos comuns: ligações para o trabalho expondo a dívida, cobrança na frente de outras pessoas e ameaças.\n\nCompartilhe com quem está passando por isso.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #cobranca",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-10-cobranca-vexatoria-story",
+      "quando": "2026-11-10T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/cobranca-vexatoria_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-10-metricool-story",
+      "quando": "2026-11-10T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_10_rescisao_01_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -256,6 +481,15 @@
         "v22/testamento-tudo_02.jpg"
       ],
       "legenda": "Verdadeiro ou falso: dá para deixar todos os bens para uma pessoa só em testamento?\n\nResposta no segundo slide. 👉\n\nSe houver herdeiros necessários (descendentes, ascendentes ou cônjuge), metade dos bens é a chamada legítima e pertence a eles por lei. O testamento só pode dispor da outra metade.\n\nBase legal: Código Civil, arts. 1.789, 1.845 e 1.846.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #testamento",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-10-testamento-tudo-story",
+      "quando": "2026-11-10T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/testamento-tudo_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -274,6 +508,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-11-gestante-story",
+      "quando": "2026-11-11T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/gestante_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-11-metricool-story",
+      "quando": "2026-11-11T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_11_advogai_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-11-celular-volante",
       "quando": "2026-11-11T19:00:00-03:00",
       "tipo": "imagem",
@@ -284,6 +536,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-11-celular-volante-story",
+      "quando": "2026-11-11T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/celular-volante_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-12-prazo-trabalhista",
       "quando": "2026-11-12T09:00:00-03:00",
       "tipo": "imagem",
@@ -291,6 +552,24 @@
         "v22/prazo-trabalhista_01.jpg"
       ],
       "legenda": "Saiu da empresa e acha que tem direitos a receber? Atenção ao prazo.\n\nO trabalhador tem até 2 anos depois do fim do contrato para entrar com a ação trabalhista. E a ação alcança os créditos dos últimos 5 anos, contados da data em que ela é proposta.\n\nBase legal: CF, art. 7º, XXIX.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nEnvie para quem saiu do emprego recentemente.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #prescricao",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-12-prazo-trabalhista-story",
+      "quando": "2026-11-12T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/prazo-trabalhista_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-12-metricool-story",
+      "quando": "2026-11-12T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_12_modelos_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -309,6 +588,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-12-produto-defeito-story",
+      "quando": "2026-11-12T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/produto-defeito_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-13-pensao-avos",
       "quando": "2026-11-13T09:00:00-03:00",
       "tipo": "imagem",
@@ -316,6 +604,24 @@
         "v22/pensao-avos_01.jpg"
       ],
       "legenda": "Pensão alimentícia não é só assunto de pai e mãe.\n\nPelo Código Civil, a obrigação alimentar se estende aos ascendentes. Segundo o STJ, a obrigação dos avós é complementar e subsidiária: só se configura quando os pais não conseguem arcar total ou parcialmente com a pensão.\n\nBase legal: Código Civil, arts. 1.696 e 1.698, e Súmula 596 do STJ.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #pensaoalimenticia",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-13-pensao-avos-story",
+      "quando": "2026-11-13T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/pensao-avos_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-13-metricool-story",
+      "quando": "2026-11-13T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_13_parceiros_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -327,6 +633,15 @@
         "v22/bafometro_02.jpg"
       ],
       "legenda": "Verdadeiro ou falso: quem recusa o bafômetro escapa da multa?\n\nResposta no segundo slide. 👉\n\nO Código de Trânsito prevê infração específica para quem se recusa a fazer o teste, com as mesmas penalidades da embriaguez: multa multiplicada por 10 e suspensão do direito de dirigir por 12 meses.\n\nBase legal: CTB, art. 165-A.\n\nSe beber, não dirija. Compartilhe.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #transito #leiseca",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-13-bafometro-story",
+      "quando": "2026-11-13T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/bafometro_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -344,6 +659,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-14-ir-5mil-story",
+      "quando": "2026-11-14T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/ir-5mil_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-14-lgpd-dados",
       "quando": "2026-11-14T19:00:00-03:00",
       "tipo": "imagem",
@@ -351,6 +675,15 @@
         "v22/lgpd-dados_01.jpg"
       ],
       "legenda": "Recebe ligação de empresa que você nunca contratou? Você tem o direito de saber o que ela sabe sobre você.\n\nA Lei Geral de Proteção de Dados garante ao titular, entre outros, o direito de confirmar se a empresa trata seus dados, de acessá-los, de corrigi-los e de pedir a eliminação em determinadas situações.\n\nBase legal: Lei 13.709/2018 (LGPD), art. 18.\n\nSalve e compartilhe.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #lgpd #protecaodedados",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-14-lgpd-dados-story",
+      "quando": "2026-11-14T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/lgpd-dados_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -364,6 +697,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-15-constituicoes-story",
+      "quando": "2026-11-15T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/constituicoes_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-15-voto-idade",
       "quando": "2026-11-15T19:00:00-03:00",
       "tipo": "carrossel",
@@ -372,6 +714,15 @@
         "v22/voto-idade_02.jpg"
       ],
       "legenda": "Verdadeiro ou falso: o voto é obrigatório para todos os eleitores?\n\nResposta no segundo slide. 👉\n\nPela Constituição, o alistamento eleitoral e o voto são obrigatórios para os maiores de 18 anos e facultativos para os analfabetos, os maiores de 70 anos e os maiores de 16 e menores de 18 anos.\n\nBase legal: CF, art. 14, § 1º.\n\nVocê acertou? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #eleicoes #voto",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-15-voto-idade-story",
+      "quando": "2026-11-15T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/voto-idade_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -390,6 +741,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-16-tipos-demissao-story",
+      "quando": "2026-11-16T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/tipos-demissao_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-16-metricool-story",
+      "quando": "2026-11-16T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_16_checklist_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-16-prisao-pensao",
       "quando": "2026-11-16T19:00:00-03:00",
       "tipo": "imagem",
@@ -400,6 +769,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-16-prisao-pensao-story",
+      "quando": "2026-11-16T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/prisao-pensao_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-17-intervalo-almoco",
       "quando": "2026-11-17T09:00:00-03:00",
       "tipo": "imagem",
@@ -407,6 +785,24 @@
         "v22/intervalo-almoco_01.jpg"
       ],
       "legenda": "Almoça em 15 minutos porque a empresa não libera o intervalo completo? Isso tem consequência.\n\nPela CLT, a não concessão ou a concessão parcial do intervalo para repouso e alimentação obriga o empregador a pagar o período suprimido com acréscimo de 50% sobre o valor da hora normal.\n\nBase legal: CLT, art. 71, § 4º.\n\nPara quem trabalha mais de 6 horas por dia, o intervalo mínimo é de 1 hora.\n\nEnvie para um colega de trabalho.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #intervalo",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-17-intervalo-almoco-story",
+      "quando": "2026-11-17T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/intervalo-almoco_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-17-metricool-story",
+      "quando": "2026-11-17T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_17_financeiro_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -426,6 +822,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-17-uniao-estavel-story",
+      "quando": "2026-11-17T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/uniao-estavel_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-18-cinema-pipoca",
       "quando": "2026-11-18T09:00:00-03:00",
       "tipo": "carrossel",
@@ -437,6 +842,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-18-cinema-pipoca-story",
+      "quando": "2026-11-18T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/cinema-pipoca_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-18-metricool-story",
+      "quando": "2026-11-18T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_18_descontos_01_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-18-adicional-noturno",
       "quando": "2026-11-18T19:00:00-03:00",
       "tipo": "imagem",
@@ -444,6 +867,15 @@
         "v22/adicional-noturno_01.jpg"
       ],
       "legenda": "Trabalha à noite? A hora noturna vale mais, e é mais curta.\n\nPara o trabalhador urbano, o trabalho entre 22h e 5h tem adicional de, no mínimo, 20% sobre a hora diurna. E cada hora noturna é contada como 52 minutos e 30 segundos: 7 horas de relógio equivalem a 8 horas de trabalho.\n\nBase legal: CLT, art. 73.\n\nRural e outras categorias têm regras próprias.\n\nEnvie para quem trabalha no turno da noite.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #adicionalnoturno",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-18-adicional-noturno-story",
+      "quando": "2026-11-18T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/adicional-noturno_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -462,6 +894,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-19-bpc-leigo-story",
+      "quando": "2026-11-19T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/bpc-leigo_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-19-metricool-story",
+      "quando": "2026-11-19T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_19_marketplace_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-19-usucapiao",
       "quando": "2026-11-19T19:00:00-03:00",
       "tipo": "imagem",
@@ -469,6 +919,15 @@
         "v22/usucapiao_01.jpg"
       ],
       "legenda": "Mora há anos em um imóvel que não está no seu nome? Talvez a usucapião seja o caminho.\n\nNa usucapião especial urbana, quem possui como seu, por 5 anos ininterruptos e sem oposição, área urbana de até 250 m², usando-a como moradia própria ou da família, adquire o domínio, desde que não seja proprietário de outro imóvel.\n\nBase legal: CF, art. 183, e Código Civil, art. 1.240.\n\nExistem outras modalidades, com prazos diferentes. Ficou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #usucapiao #imoveis",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-19-usucapiao-story",
+      "quando": "2026-11-19T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/usucapiao_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -482,6 +941,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-20-injuria-racial-story",
+      "quando": "2026-11-20T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/injuria-racial_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-20-metricool-story",
+      "quando": "2026-11-20T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_20_consciencia_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-20-desconto-salario",
       "quando": "2026-11-20T19:00:00-03:00",
       "tipo": "imagem",
@@ -492,6 +969,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-20-desconto-salario-story",
+      "quando": "2026-11-20T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/desconto-salario_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-21-bagagem",
       "quando": "2026-11-21T09:00:00-03:00",
       "tipo": "imagem",
@@ -499,6 +985,15 @@
         "v22/bagagem_01.jpg"
       ],
       "legenda": "Sua mala não chegou? Registre a reclamação ainda no aeroporto e fique atento aos prazos.\n\nPela Resolução 400 da ANAC, a companhia aérea tem até 7 dias para devolver a bagagem extraviada em voos domésticos e até 21 dias em voos internacionais. Se não devolver, deve indenizar o passageiro.\n\nBase legal: Resolução ANAC 400/2016, art. 32.\n\nGuarde o comprovante de despacho e os gastos de emergência.\n\nSalve para a próxima viagem.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #anac #viagem",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-21-bagagem-story",
+      "quando": "2026-11-21T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/bagagem_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -513,6 +1008,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-21-prisao-divida-story",
+      "quando": "2026-11-21T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/prisao-divida_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-22-negativacao-aviso",
       "quando": "2026-11-22T09:00:00-03:00",
       "tipo": "imagem",
@@ -520,6 +1024,15 @@
         "v22/negativacao-aviso_01.jpg"
       ],
       "legenda": "Descobriu que estava com o nome negativado só na hora de pedir crédito? A lei exige aviso prévio.\n\nPelo Código de Defesa do Consumidor, a abertura de cadastro com dados do consumidor deve ser comunicada por escrito a ele. Segundo o STJ, essa notificação cabe ao órgão mantenedor do cadastro, antes da inscrição.\n\nBase legal: CDC, art. 43, § 2º, e Súmula 359 do STJ.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #nomesujo",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-22-negativacao-aviso-story",
+      "quando": "2026-11-22T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/negativacao-aviso_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -538,6 +1051,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-22-mitos-trabalho-story",
+      "quando": "2026-11-22T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/mitos-trabalho_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-23-plano-saude-24h",
       "quando": "2026-11-23T09:00:00-03:00",
       "tipo": "imagem",
@@ -545,6 +1067,24 @@
         "v22/plano-saude-24h_01.jpg"
       ],
       "legenda": "Acabou de contratar o plano de saúde e precisou de atendimento de urgência? A carência máxima é de 24 horas.\n\nPela Lei dos Planos de Saúde, os prazos máximos de carência são de 24 horas para urgência e emergência e de 300 dias para parto a termo. Para os demais casos, o limite é de 180 dias.\n\nBase legal: Lei 9.656/1998, art. 12, V.\n\nCompartilhe com quem acabou de contratar um plano.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #planodesaude",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-23-plano-saude-24h-story",
+      "quando": "2026-11-23T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/plano-saude-24h_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-23-metricool-story",
+      "quando": "2026-11-23T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_23_funil_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -559,6 +1099,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-23-gravar-conversa-story",
+      "quando": "2026-11-23T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/gravar-conversa_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-24-13-proporcional",
       "quando": "2026-11-24T09:00:00-03:00",
       "tipo": "imagem",
@@ -569,6 +1118,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-24-13-proporcional-story",
+      "quando": "2026-11-24T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/13-proporcional_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-24-metricool-story",
+      "quando": "2026-11-24T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_24_painel_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-24-teste-gravidez",
       "quando": "2026-11-24T19:00:00-03:00",
       "tipo": "imagem",
@@ -576,6 +1143,15 @@
         "v22/teste-gravidez_01.jpg"
       ],
       "legenda": "Pedir teste de gravidez para contratar ou manter alguém no emprego é crime no Brasil.\n\nA Lei 9.029/1995 proíbe qualquer prática discriminatória para acesso ou manutenção do emprego e define como crime a exigência de teste, exame, perícia, laudo, atestado ou declaração relativos à esterilização ou ao estado de gravidez.\n\nBase legal: Lei 9.029/1995, arts. 1º e 2º.\n\nCompartilhe com quem está em processo seletivo.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #discriminacao",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-24-teste-gravidez-story",
+      "quando": "2026-11-24T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/teste-gravidez_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -590,6 +1166,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-25-troca-gosto-story",
+      "quando": "2026-11-25T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/troca-gosto_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-25-metricool-story",
+      "quando": "2026-11-25T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_25_cnis_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-25-seguro-desemprego",
       "quando": "2026-11-25T19:00:00-03:00",
       "tipo": "imagem",
@@ -597,6 +1191,15 @@
         "v22/seguro-desemprego_01.jpg"
       ],
       "legenda": "Pensando em pedir demissão? Saiba que o seguro-desemprego não vem junto.\n\nO seguro-desemprego é devido ao trabalhador dispensado sem justa causa, inclusive na rescisão indireta (quando a falta grave é do empregador), desde que cumpridos os requisitos de tempo de trabalho. Quem pede demissão ou faz acordo com a empresa não tem direito.\n\nBase legal: Lei 7.998/1990, art. 3º, e CLT, art. 484-A, § 4º.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitotrabalhista #clt #trabalhador #direitos #advocacia #advogado #segurodesemprego",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-25-seguro-desemprego-story",
+      "quando": "2026-11-25T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/seguro-desemprego_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -615,6 +1218,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-26-inventario-story",
+      "quando": "2026-11-26T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/inventario_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-26-metricool-story",
+      "quando": "2026-11-26T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_26_equipe_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-26-maquiagem-preco",
       "quando": "2026-11-26T19:00:00-03:00",
       "tipo": "imagem",
@@ -622,6 +1243,15 @@
         "v22/maquiagem-preco_01.jpg"
       ],
       "legenda": "A Black Friday é amanhã. E a famosa \"metade do dobro\" continua aparecendo.\n\nAumentar o preço dias antes para anunciar um desconto que não existe é publicidade enganosa: informação capaz de induzir o consumidor a erro sobre o preço. É proibida pelo Código de Defesa do Consumidor.\n\nBase legal: CDC, art. 37, § 1º.\n\nDica: acompanhe o histórico de preços dos produtos que você quer comprar.\n\nMarque quem vai às compras amanhã.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #blackfriday",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-26-maquiagem-preco-story",
+      "quando": "2026-11-26T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/maquiagem-preco_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -640,6 +1270,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-27-black-friday-story",
+      "quando": "2026-11-27T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/black-friday_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-27-metricool-story",
+      "quando": "2026-11-27T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_27_blackfriday_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-27-oferta-vincula",
       "quando": "2026-11-27T19:00:00-03:00",
       "tipo": "imagem",
@@ -647,6 +1295,15 @@
         "v22/oferta-vincula_01.jpg"
       ],
       "legenda": "Anúncio com preço baixo e a loja se recusou a vender? A oferta obriga quem anuncia.\n\nPelo CDC, a informação suficientemente precisa da oferta vincula o fornecedor. Se ele recusar, o consumidor pode exigir o cumprimento forçado, aceitar produto equivalente ou desistir, com devolução do que pagou.\n\nBase legal: CDC, arts. 30 e 35.\n\nAtenção: a Justiça costuma afastar erros grosseiros e evidentes, como um televisor anunciado a R$ 1.\n\nVocê já passou por isso? Conte nos comentários.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #blackfriday",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-27-oferta-vincula-story",
+      "quando": "2026-11-27T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/oferta-vincula_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -661,6 +1318,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-28-filho-fora-story",
+      "quando": "2026-11-28T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/filho-fora_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-28-divorcio-cartorio",
       "quando": "2026-11-28T19:00:00-03:00",
       "tipo": "imagem",
@@ -668,6 +1334,15 @@
         "v22/divorcio-cartorio_01.jpg"
       ],
       "legenda": "Divórcio não precisa, necessariamente, passar pelo Judiciário.\n\nO divórcio consensual pode ser feito por escritura pública em cartório, com a assistência de advogado, desde que observados os requisitos legais (como as questões envolvendo filhos menores). É, em regra, mais rápido que o processo judicial.\n\nBase legal: CPC, art. 733, e normas do CNJ sobre atos notariais.\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #divorcio",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-28-divorcio-cartorio-story",
+      "quando": "2026-11-28T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/divorcio-cartorio_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -681,6 +1356,15 @@
       "ativo": true
     },
     {
+      "id": "2026-11-29-recesso-story",
+      "quando": "2026-11-29T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/recesso_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-29-prazo-uteis",
       "quando": "2026-11-29T19:00:00-03:00",
       "tipo": "carrossel",
@@ -689,6 +1373,15 @@
         "v22/prazo-uteis_02.jpg"
       ],
       "legenda": "Verdadeiro ou falso: no processo civil, o prazo conta sábado e domingo?\n\nResposta no segundo slide. 👉\n\nDesde o CPC de 2015, na contagem de prazo em dias, estabelecido por lei ou pelo juiz, computam-se somente os dias úteis. A regra vale para prazos processuais. No processo penal, os prazos continuam em dias corridos.\n\nBase legal: CPC, art. 219.\n\nAdvogado, salve e compartilhe com o estagiário. 😄\n\n#advocacia #advogado #cpc #prazos #processocivil #rotinajuridica",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-29-prazo-uteis-story",
+      "quando": "2026-11-29T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/prazo-uteis_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -707,6 +1400,24 @@
       "ativo": true
     },
     {
+      "id": "2026-11-30-cpc-curiosidades-story",
+      "quando": "2026-11-30T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/cpc-curiosidades_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-30-metricool-story",
+      "quando": "2026-11-30T12:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/metricool_30_13salario_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-30-fechamento-ano",
       "quando": "2026-11-30T19:00:00-03:00",
       "tipo": "carrossel",
@@ -719,6 +1430,15 @@
         "v22/fechamento-ano_06.jpg"
       ],
       "legenda": "Dezembro chega amanhã. Para entrar no recesso com tranquilidade, vale revisar 4 pontos no escritório.\n\nDeslize e confira o checklist.\n\nNo JC Jurídico, agenda, clientes e financeiro ficam no mesmo sistema, o que facilita essa revisão.\n\nSalve e use no seu planejamento.\n\n#advocacia #advogado #cpc #prazos #processocivil #rotinajuridica #gestaojuridica",
+      "ativo": true
+    },
+    {
+      "id": "2026-11-30-fechamento-ano-story",
+      "quando": "2026-11-30T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/fechamento-ano_story.jpg"
+      ],
       "ativo": true
     }
   ]

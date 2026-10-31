@@ -58,45 +58,59 @@ def numero(spec, out):
 
 
 def desenhar(post):
-    """Desenha um post e devolve a lista de mídias (caminhos dos JPEGs no repositório)."""
-    k, bg, t = post['id'], post['bg'], post['tipo']
+    """Desenha um post na identidade "JC Explica" e devolve a lista de mídias (JPEGs no repositório).
+    Fundo alternado: claro nos posts das 9h, navy nos das 19h."""
+    k, t = post['id'], post['tipo']
+    fundo = 'claro' if post['hora'] < '12:00' else 'navy'
+    tema = post.get('kicker', '')
     midia = []
 
-    def salvar(fn, spec, n):
+    def salvar(spec, n):
         png = os.path.join(TMP, f'{k}_{n:02d}.png')
-        fn(spec, png)
+        P.explica(dict(spec, fundo=fundo), png)
         midia.append(jpg(png, f'{k}_{n:02d}.jpg'))
+        return png
 
     if t == 'fato':
-        salvar(texto, dict(bg=bg, kicker=post['kicker'], title=post['title'], size=post.get('size', 64), sub=post['sub'],
-                           callout=post['base'], callout_label=BASE, icon=post.get('icon', 'scale'), icon_r=100), 1)
+        capa = salvar(dict(tema=tema, title=post['title'], size=post.get('size', 64), sub=post['sub'], base=post['base']), 1)
     elif t == 'numero':
-        salvar(numero, post, 1)
+        capa = salvar(dict(tema=tema, numero=post['number'], unidade=post['unit'], title=post['title'], sub=post['sub'],
+                           base=post.get('base')), 1)
     elif t == 'quiz':
-        salvar(P.statement, dict(bg=bg, kicker='VERDADEIRO OU FALSO?', title=post['pergunta'], size=post.get('size', 74),
-                                 sub='Pense na resposta e **arraste para o lado.**', icon=post.get('icon', 'scale'), icon_r=95, swipe=True), 1)
-        salvar(texto, dict(bg=bg, kicker='RESPOSTA', title=f"**{post['resposta']}.**", size=110, sub=post['explicacao'],
-                           callout=post['base'], callout_label=BASE, icon='check' if post['resposta'] == 'Verdadeiro' else 'shield',
-                           icon_r=90, right='2/2'), 2)
+        capa = salvar(dict(tema='Verdadeiro ou falso?', title=post['pergunta'], size=post.get('size', 72),
+                           sub='Pense na resposta e **arraste para o lado.**', swipe=True), 1)
+        salvar(dict(tema='Resposta', title=f"**{post['resposta']}.**", size=110, sub=post['explicacao'], base=post['base'],
+                    right='2/2'), 2)
     elif t in ('lista', 'mitos'):
         itens = post['itens']
         n = len(itens)
-        salvar(P.statement, dict(bg=bg, kicker=post['kicker'], title=post['title'], size=post.get('size', 76), sub=post.get('sub'),
-                                 icon=post.get('icon', 'scale'), icon_r=100, swipe=True), 1)
+        capa = salvar(dict(tema=tema, title=post['title'], size=post.get('size', 72), sub=post.get('sub'), swipe=True), 1)
         for i, (a, b, base) in enumerate(itens):
             if t == 'mitos':
-                spec = dict(bg=bg, kicker='MITO', title=f'“{a}”', size=56, sub=f'**Na verdade:** {b}', sub_size=34, callout=base, callout_label=BASE,
-                            icon='shield', icon_r=90, right=sl(i + 1, n), num=f'{i + 1:02d}', y=300)
+                spec = dict(tema='Mito', title=f'“{a}”', size=58, sub=f'**Na verdade:** {b}', base=base)
             else:
-                spec = dict(bg=bg, title=a, size=62, sub=b, sub_size=34, callout=base, callout_label=BASE, icon=post.get('icon_itens', 'check'),
-                            icon_r=90, right=sl(i + 1, n), num=f'{i + 1:02d}', y=300)
-            salvar(texto, spec, i + 2)
-        salvar(P.statement, dict(bg=bg, title=post.get('fim', 'Salve e **compartilhe**'),
-                                 sub=post.get('fim_sub', 'Envie para quem precisa saber disso.'), icon='users', icon_r=100,
-                                 cta=post.get('cta', 'SALVE ESTE POST')), n + 2)
+                spec = dict(tema=tema, title=a, size=62, sub=b, base=base)
+            salvar(dict(spec, right=sl(i + 1, n)), i + 2)
+        salvar(dict(tema=tema, title=post.get('fim', 'Salve e **compartilhe**'), sub=post.get('fim_sub', 'Envie para quem precisa saber disso.'),
+                    cta=post.get('cta', 'SALVE ESTE POST')), n + 2)
     else:
         raise ValueError(t)
-    return midia
+    # story com a capa do post (vai ao ar 2 minutos depois do feed)
+    st = os.path.join(TMP, f'{k}_story.png')
+    P.story(capa, st, fundo)
+    return midia, jpg(st, f'{k}_story.jpg'), fundo
+
+
+# Posts do Metricool em novembro (12h): ganham story pelo agendador próprio às 12h02, com a capa de cada um.
+METRICOOL = [(3, '03_pdf_01'), (4, '04_calculos_01'), (5, '05_bpc'), (6, '06_pergunta'), (9, '09_agenda'), (10, '10_rescisao_01'),
+             (11, '11_advogai'), (12, '12_modelos'), (13, '13_parceiros'), (16, '16_checklist'), (17, '17_financeiro'),
+             (18, '18_descontos_01'), (19, '19_marketplace'), (20, '20_consciencia'), (23, '23_funil'), (24, '24_painel'),
+             (25, '25_cnis'), (26, '26_equipe'), (27, '27_blackfriday'), (30, '30_13salario')]
+
+
+def mais_2min(hora):
+    h, m = map(int, hora.split(':'))
+    return f'{h:02d}:{m + 2:02d}'
 
 
 def main():
@@ -109,16 +123,26 @@ def main():
     for p in POSTS:
         assert p['id'] not in ids, p['id']
         ids.add(p['id'])
-        midia = desenhar(p)
+        midia, story, _ = desenhar(p)
         tipo = 'imagem' if len(midia) == 1 else 'carrossel'
         legenda = p['legenda'].strip() + '\n\n' + p['tags']
         assert len(legenda) <= 2200 and legenda.count('#') <= 30, p['id']
-        agenda.append({'id': f"2026-11-{p['dia']:02d}-{p['id']}", 'quando': f"2026-11-{p['dia']:02d}T{p['hora']}:00-03:00",
+        base_id = f"2026-11-{p['dia']:02d}-{p['id']}"
+        agenda.append({'id': base_id, 'quando': f"2026-11-{p['dia']:02d}T{p['hora']}:00-03:00",
                        'tipo': tipo, 'midia': midia, 'legenda': legenda, 'ativo': True})
+        agenda.append({'id': base_id + '-story', 'quando': f"2026-11-{p['dia']:02d}T{mais_2min(p['hora'])}:00-03:00",
+                       'tipo': 'story', 'midia': [story], 'ativo': True})
+    for i, (dia, nome) in enumerate(METRICOOL):
+        st = os.path.join(TMP, f'metricool_{nome}_story.png')
+        P.story(os.path.join(RAIZ, 'v21', nome + '.png'), st, 'claro' if i % 2 == 0 else 'navy')
+        agenda.append({'id': f'2026-11-{dia:02d}-metricool-story', 'quando': f'2026-11-{dia:02d}T12:02:00-03:00', 'tipo': 'story',
+                       'midia': [jpg(st, f'metricool_{nome}_story.jpg')], 'ativo': True})
+    caminho = os.path.join(RAIZ, 'agendador', 'agenda.json')
+    agenda += [a for a in json.load(open(caminho, encoding='utf-8'))['posts'] if not a['id'].startswith('2026-11-')]
     agenda.sort(key=lambda a: a['quando'])
-    with open(os.path.join(RAIZ, 'agendador', 'agenda.json'), 'w', encoding='utf-8') as f:
+    with open(caminho, 'w', encoding='utf-8') as f:
         json.dump({'posts': agenda}, f, ensure_ascii=False, indent=2)
-    print(len(agenda), 'posts,', sum(len(a['midia']) for a in agenda), 'imagens')
+    print(len(agenda), 'itens na agenda,', sum(len(a['midia']) for a in agenda), 'imagens')
 
 
 if __name__ == '__main__':

@@ -103,6 +103,22 @@
       "ativo": false
     },
     {
+      "id": "2026-11-01-consumidor-proibido",
+      "quando": "2026-11-01T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v23/consumidor_01_01.jpg",
+        "v23/consumidor_01_02.jpg",
+        "v23/consumidor_01_03.jpg",
+        "v23/consumidor_01_04.jpg",
+        "v23/consumidor_01_05.jpg",
+        "v23/consumidor_01_06.jpg",
+        "v23/consumidor_01_07.jpg"
+      ],
+      "legenda": "Lojas e bancos fazem isso todos os dias, e muita gente acha normal. Mas a lei proíbe.\n\n1. Cobrar errado e não devolver em dobro (CDC, art. 42, parágrafo único)\n2. Consumação mínima e venda casada (CDC, art. 39, I)\n3. Mandar cartão ou produto que você não pediu (CDC, art. 39, III)\n4. Negativar seu nome sem avisar antes (CDC, art. 43, § 2º, e Súmula 359 do STJ)\n5. Cobrar dívida expondo você ao ridículo (CDC, art. 42)\n\nFicou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nQual dessas já aconteceu com você? Conta nos comentários e salve para consultar depois.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
       "id": "2026-11-01-silencio-story",
       "quando": "2026-11-01T09:02:00-03:00",
       "tipo": "story",
@@ -110,6 +126,15 @@
         "v22/silencio_story.jpg"
       ],
       "ativo": false
+    },
+    {
+      "id": "2026-11-01-consumidor-proibido-story",
+      "quando": "2026-11-01T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v23/consumidor_01_story.jpg"
+      ],
+      "ativo": true
     },
     {
       "id": "2026-11-01-flagrante",
@@ -240,6 +265,22 @@
       "ativo": false
     },
     {
+      "id": "2026-11-04-direitos-trabalhador",
+      "quando": "2026-11-04T09:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v23/direitos_trabalhador_04_01.jpg",
+        "v23/direitos_trabalhador_04_02.jpg",
+        "v23/direitos_trabalhador_04_03.jpg",
+        "v23/direitos_trabalhador_04_04.jpg",
+        "v23/direitos_trabalhador_04_05.jpg",
+        "v23/direitos_trabalhador_04_06.jpg",
+        "v23/direitos_trabalhador_04_07.jpg"
+      ],
+      "legenda": "Tem direito que a empresa não costuma lembrar. E o primeiro combina com o Novembro Azul.\n\n1. Faltar até 3 dias por ano para exame preventivo de câncer, sem desconto (CLT, art. 473, XII)\n2. 1 dia de folga por ano para doar sangue (CLT, art. 473, IV)\n3. 1 dia por ano para levar o filho de até 6 anos ao médico (CLT, art. 473, XI)\n4. Intervalo de almoço não concedido pago com 50% a mais (CLT, art. 71, § 4º)\n5. Férias pagas até 2 dias antes do início (CLT, art. 145)\n\nConvenções coletivas podem prever ainda mais direitos.\n\nVocê sabia de todos? Marque um colega de trabalho e salve para consultar depois.\n\n#direitotrabalhista #clt #trabalhador #novembroazul #direitos #advocacia #advogado",
+      "ativo": true
+    },
+    {
       "id": "2026-11-04-novembro-azul-story",
       "quando": "2026-11-04T09:02:00-03:00",
       "tipo": "story",
@@ -247,6 +288,15 @@
         "v22/novembro-azul_story.jpg"
       ],
       "ativo": false
+    },
+    {
+      "id": "2026-11-04-direitos-trabalhador-story",
+      "quando": "2026-11-04T09:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v23/direitos_trabalhador_04_story.jpg"
+      ],
+      "ativo": true
     },
     {
       "id": "2026-11-04-metricool-story",

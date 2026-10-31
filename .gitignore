@@ -3,3 +3,4 @@ agendador/estado.db
 agendador/*.log
 agendador/.trava
 scripts/__pycache__/
+agendador/painel.html

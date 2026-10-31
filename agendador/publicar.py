@@ -179,6 +179,13 @@ def publicar(env, token, post):
             p['thumb_offset'] = str(post['capa_ms'])
         c = chamar(env, token, 'POST', f'{uid}/media', p)['id']
         aguardar_pronto(env, token, c)
+    elif tipo == 'story':
+        # Stories não têm legenda; links, enquetes e figurinhas não são suportados pela API.
+        u = urls[0]
+        p = {'media_type': 'STORIES'}
+        p.update({'video_url': u} if u.lower().endswith('.mp4') else {'image_url': u})
+        c = chamar(env, token, 'POST', f'{uid}/media', p)['id']
+        aguardar_pronto(env, token, c)
     else:
         raise ErroApi(f'tipo desconhecido: {tipo}')
     media_id = chamar(env, token, 'POST', f'{uid}/media_publish', {'creation_id': c})['id']
@@ -187,7 +194,7 @@ def publicar(env, token, post):
         link = chamar(env, token, 'GET', media_id, {'fields': 'permalink'}).get('permalink')
     except ErroApi:
         pass
-    if post.get('primeiro_comentario'):
+    if post.get('primeiro_comentario') and tipo != 'story':
         try:
             chamar(env, token, 'POST', f'{media_id}/comments', {'message': post['primeiro_comentario']})
         except ErroApi as e:

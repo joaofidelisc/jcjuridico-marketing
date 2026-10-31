@@ -1,0 +1,4 @@
+agendador/.env
+agendador/estado.db
+agendador/*.log
+agendador/.trava

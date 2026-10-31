@@ -13,7 +13,7 @@ Configuração (arquivo .env ao lado deste script, permissão 600):
   IG_USER_ID=...           id da conta do Instagram
   IG_TOKEN=...             token de acesso (instagram_business_basic + instagram_business_content_publish)
   GRAPH_HOST=graph.facebook.com    (token de usuário do sistema do login unificado, não expira; use graph.instagram.com para token do login do Instagram)
-  AGENDA_URL=https://raw.githubusercontent.com/joaofidelisc/jcjuridico-marketing/main/agendador/agenda.json
+  AGENDA_URL=https://api.github.com/repos/joaofidelisc/jcjuridico-marketing/contents/agendador/agenda.json?ref=main
   MIDIA_BASE=https://raw.githubusercontent.com/joaofidelisc/jcjuridico-marketing/main/
   TOLERANCIA_MIN=120       atraso máximo para ainda publicar (ex.: VM fora do ar); depois disso marca 'perdido'
 
@@ -55,7 +55,8 @@ def carregar_env():
                 k, v = linha.split('=', 1)
                 env[k.strip()] = v.strip().strip('"').strip("'")
     env.setdefault('GRAPH_HOST', 'graph.instagram.com')
-    env.setdefault('AGENDA_URL', 'https://raw.githubusercontent.com/joaofidelisc/jcjuridico-marketing/main/agendador/agenda.json')
+    # API do GitHub (sem o cache de ~5 min do raw.githubusercontent); 60 leituras/hora sem token, o cron faz 12
+    env.setdefault('AGENDA_URL', 'https://api.github.com/repos/joaofidelisc/jcjuridico-marketing/contents/agendador/agenda.json?ref=main')
     env.setdefault('MIDIA_BASE', 'https://raw.githubusercontent.com/joaofidelisc/jcjuridico-marketing/main/')
     env.setdefault('TOLERANCIA_MIN', '120')
     return env
@@ -206,9 +207,10 @@ def publicar(env, token, post):
 # ─── Agenda ────────────────────────────────────────────────────────────────────
 def baixar_agenda(env):
     url = env['AGENDA_URL']
-    if url.startswith('http'):  # evita cópia antiga em cache
+    if url.startswith('https://raw.'):  # evita cópia antiga em cache
         url += ('&' if '?' in url else '?') + f't={int(time.time())}'
-    with urllib.request.urlopen(url, timeout=30) as r:
+    req = urllib.request.Request(url, headers={'Accept': 'application/vnd.github.raw', 'User-Agent': 'jc-agendador'})
+    with urllib.request.urlopen(req, timeout=30) as r:
         dados = json.load(r)
     posts = []
     for p in dados.get('posts', []):

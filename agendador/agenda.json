@@ -163,7 +163,7 @@
       "midia": [
         "v24/destaque_calculos_01.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-calculos-02",
@@ -172,7 +172,7 @@
       "midia": [
         "v24/destaque_calculos_02.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-calculos-03",
@@ -181,7 +181,7 @@
       "midia": [
         "v24/destaque_calculos_03.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-calculos-04",
@@ -190,7 +190,7 @@
       "midia": [
         "v24/destaque_calculos_04.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-calculos-05",
@@ -199,7 +199,7 @@
       "midia": [
         "v24/destaque_calculos_05.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-calculos-06",
@@ -208,7 +208,7 @@
       "midia": [
         "v24/destaque_calculos_06.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-advogai-01",
@@ -217,7 +217,7 @@
       "midia": [
         "v24/destaque_advogai_01.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-advogai-02",
@@ -226,7 +226,7 @@
       "midia": [
         "v24/destaque_advogai_02.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-parceiros-01",
@@ -235,7 +235,7 @@
       "midia": [
         "v24/destaque_parceiros_01.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-parceiros-02",
@@ -244,7 +244,7 @@
       "midia": [
         "v24/destaque_parceiros_02.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-parceiros-03",
@@ -253,7 +253,7 @@
       "midia": [
         "v24/destaque_parceiros_03.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-parceiros-04",
@@ -262,7 +262,7 @@
       "midia": [
         "v24/destaque_parceiros_04.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-parceiros-05",
@@ -271,7 +271,7 @@
       "midia": [
         "v24/destaque_parceiros_05.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-jc-explica-01",
@@ -280,7 +280,7 @@
       "midia": [
         "v24/destaque_jc-explica_01.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-jc-explica-02",
@@ -289,7 +289,7 @@
       "midia": [
         "v24/destaque_jc-explica_02.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-destaque-jc-explica-03",
@@ -298,7 +298,7 @@
       "midia": [
         "v24/destaque_jc-explica_03.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-feriado-dobro",

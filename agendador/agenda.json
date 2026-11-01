@@ -137,22 +137,22 @@
       "ativo": true
     },
     {
-      "id": "2026-11-01-flagrante",
-      "quando": "2026-11-01T19:00:00-03:00",
-      "tipo": "carrossel",
+      "id": "2026-11-01-gravacao-video",
+      "quando": "2026-11-01T18:00:00-03:00",
+      "tipo": "reels",
       "midia": [
-        "v22/flagrante_01.jpg",
-        "v22/flagrante_02.jpg"
+        "v25/gravacao_escondido.mp4"
       ],
-      "legenda": "Verdadeiro ou falso: qualquer pessoa pode prender alguém em flagrante?\n\nResposta no segundo slide. 👉\n\nO Código de Processo Penal diz que qualquer do povo PODE e as autoridades policiais DEVEM prender quem esteja em flagrante delito. Atenção: o uso da força deve ser só o necessário, e a pessoa presa deve ser entregue à autoridade policial.\n\nBase legal: CPP, art. 301.\n\nVocê acertou? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #direitopenal",
+      "legenda": "Gravei a conversa sem a pessoa saber. Vale como prova?\n\nNa maioria dos casos, vale. Para o STF (Tema 237), a gravação feita por quem participa da conversa é prova lícita, mesmo sem avisar o outro.\n\nMas atenção:\n• Só vale se você participa da conversa. Gravar a conversa dos outros, sem estar nela, pode dar problema.\n• Sigilo profissional e processo eleitoral têm regra própria.\n• Usar como prova é uma coisa. Divulgar o áudio na internet pode gerar indenização.\n\nBase legal: STF, RE 583.937 (Tema 237); CF, art. 5º, X; Código Civil, arts. 186 e 927.\n\nCada caso tem detalhes. Procure um advogado de sua confiança.\n\nSalve este vídeo e mande para quem vive dizendo \"eu gravei\".\n\n#direito #vocesabia #provas #gravacao #direitos #advocacia #advogado",
+      "capa_ms": 1900,
       "ativo": true
     },
     {
-      "id": "2026-11-01-flagrante-story",
-      "quando": "2026-11-01T19:02:00-03:00",
+      "id": "2026-11-01-gravacao-video-story",
+      "quando": "2026-11-01T18:05:00-03:00",
       "tipo": "story",
       "midia": [
-        "v22/flagrante_story.jpg"
+        "v25/gravacao_story.jpg"
       ],
       "ativo": true
     },
@@ -1355,6 +1355,17 @@
       "ativo": true
     },
     {
+      "id": "2026-11-23-flagrante",
+      "quando": "2026-11-23T19:00:00-03:00",
+      "tipo": "carrossel",
+      "midia": [
+        "v22/flagrante_01.jpg",
+        "v22/flagrante_02.jpg"
+      ],
+      "legenda": "Verdadeiro ou falso: qualquer pessoa pode prender alguém em flagrante?\n\nResposta no segundo slide. 👉\n\nO Código de Processo Penal diz que qualquer do povo PODE e as autoridades policiais DEVEM prender quem esteja em flagrante delito. Atenção: o uso da força deve ser só o necessário, e a pessoa presa deve ser entregue à autoridade policial.\n\nBase legal: CPP, art. 301.\n\nVocê acertou? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #direitopenal",
+      "ativo": true
+    },
+    {
       "id": "2026-11-23-gravar-conversa",
       "quando": "2026-11-23T19:00:00-03:00",
       "tipo": "carrossel",
@@ -1363,6 +1374,15 @@
         "v22/gravar-conversa_02.jpg"
       ],
       "legenda": "Verdadeiro ou falso: gravar uma conversa sem o outro saber vale como prova?\n\nResposta no segundo slide. 👉\n\nO STF firmou, com repercussão geral, que é lícita a prova consistente em gravação ambiental realizada por um dos interlocutores sem o conhecimento do outro. Atenção: isso é diferente de grampear conversa de terceiros, que é crime sem autorização judicial.\n\nBase legal: STF, RE 583.937 (Tema 237).\n\nVocê acertou? Conte nos comentários.\n\n#direito #curiosidadesjuridicas #vocesabia #direitos #advocacia #advogado #provas",
+      "ativo": false
+    },
+    {
+      "id": "2026-11-23-flagrante-story",
+      "quando": "2026-11-23T19:02:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v22/flagrante_story.jpg"
+      ],
       "ativo": true
     },
     {
@@ -1372,7 +1392,7 @@
       "midia": [
         "v22/gravar-conversa_story.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-24-13-proporcional",

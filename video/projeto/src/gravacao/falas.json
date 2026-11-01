@@ -1,0 +1,147 @@
+{
+ "capa": 78,
+ "outro": 84,
+ "total": 1826,
+ "clips": [
+  {
+   "n": 0,
+   "at": 92,
+   "frames": 37,
+   "src": "voz/gravacao/0.mp3",
+   "quem": "C",
+   "texto": "Eu **nunca** disse isso!",
+   "cena": "gancho"
+  },
+  {
+   "n": 1,
+   "at": 137,
+   "frames": 82,
+   "src": "voz/gravacao/1.mp3",
+   "quem": "A",
+   "texto": "Disse, sim. **Eu gravei.**",
+   "cena": "gancho"
+  },
+  {
+   "n": 2,
+   "at": 225,
+   "frames": 117,
+   "src": "voz/gravacao/2.mp3",
+   "quem": "C",
+   "texto": "Gravou **escondido?!** Isso é ilegal! Você nem me avisou!",
+   "cena": "gancho"
+  },
+  {
+   "n": 3,
+   "at": 351,
+   "frames": 100,
+   "src": "voz/gravacao/3.mp3",
+   "quem": "A",
+   "texto": "Calma, Carlos. **Vale como prova.** Já te explico.",
+   "cena": "gancho"
+  },
+  {
+   "n": 4,
+   "at": 485,
+   "frames": 206,
+   "src": "voz/gravacao/4.mp3",
+   "quem": "A",
+   "texto": "Para o STF, a gravação feita por **quem participa da conversa** é prova lícita, mesmo sem avisar o outro.",
+   "cena": "regra"
+  },
+  {
+   "n": 5,
+   "at": 725,
+   "frames": 219,
+   "src": "voz/gravacao/5.mp3",
+   "quem": "A",
+   "texto": "O segredo é **participar**. Gravar a conversa dos outros, sem estar nela, **não vale** e ainda dá problema.",
+   "cena": "participar"
+  },
+  {
+   "n": 6,
+   "at": 954,
+   "frames": 46,
+   "src": "voz/gravacao/6.mp3",
+   "quem": "C",
+   "texto": "Eu estava só... **passando por aqui.**",
+   "cena": "participar"
+  },
+  {
+   "n": 7,
+   "at": 1034,
+   "frames": 213,
+   "src": "voz/gravacao/7.mp3",
+   "quem": "A",
+   "texto": "Tem exceções: **sigilo profissional** e **processo eleitoral** têm regra própria.",
+   "cena": "excecoes"
+  },
+  {
+   "n": 8,
+   "at": 1281,
+   "frames": 50,
+   "src": "voz/gravacao/8.mp3",
+   "quem": "C",
+   "texto": "Então eu **posto o áudio** na internet!",
+   "cena": "divulgar"
+  },
+  {
+   "n": 9,
+   "at": 1337,
+   "frames": 159,
+   "src": "voz/gravacao/9.mp3",
+   "quem": "A",
+   "texto": "Calma! Usar como prova é uma coisa. **Divulgar** pode gerar **indenização.**",
+   "cena": "divulgar"
+  },
+  {
+   "n": 10,
+   "at": 1530,
+   "frames": 109,
+   "src": "voz/gravacao/10.mp3",
+   "quem": "A",
+   "texto": "**Salva** esse vídeo e manda pra quem vive dizendo: **“eu gravei”.**",
+   "cena": "fecho"
+  },
+  {
+   "n": 11,
+   "at": 1651,
+   "frames": 53,
+   "src": "voz/gravacao/11.mp3",
+   "quem": "C",
+   "texto": "Eu vou **apagar** aquele áudio do grupo.",
+   "cena": "fecho"
+  }
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "ini": 78,
+   "fim": 471
+  },
+  {
+   "id": "regra",
+   "ini": 471,
+   "fim": 711
+  },
+  {
+   "id": "participar",
+   "ini": 711,
+   "fim": 1020
+  },
+  {
+   "id": "excecoes",
+   "ini": 1020,
+   "fim": 1267
+  },
+  {
+   "id": "divulgar",
+   "ini": 1267,
+   "fim": 1516
+  },
+  {
+   "id": "fecho",
+   "ini": 1516,
+   "fim": 1742
+  }
+ ]
+}

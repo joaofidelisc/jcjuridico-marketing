@@ -245,9 +245,15 @@ def main():
         for m in post['midia']:
             u = m if m.startswith('http') else env['MIDIA_BASE'] + m
             p = {'is_carousel_item': 'true'} if len(post['midia']) > 1 else {}
-            p.update({'media_type': 'VIDEO', 'video_url': u} if u.lower().endswith('.mp4') else {'image_url': u})
+            if post.get('tipo') == 'reels':
+                p = {'media_type': 'REELS', 'video_url': u, 'share_to_feed': 'true'}
+            elif post.get('tipo') == 'story':
+                p = {'media_type': 'STORIES'}
+                p.update({'video_url': u} if u.lower().endswith('.mp4') else {'image_url': u})
+            else:
+                p.update({'media_type': 'VIDEO', 'video_url': u} if u.lower().endswith('.mp4') else {'image_url': u})
             c = chamar(env, token, 'POST', f"{env['IG_USER_ID']}/media", p)['id']
-            aguardar_pronto(env, token, c, 120)
+            aguardar_pronto(env, token, c, 600 if post.get('tipo') == 'reels' else 120)
             print('ok (não publicado):', m)
         return
 

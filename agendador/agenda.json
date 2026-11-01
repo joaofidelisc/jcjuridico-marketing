@@ -157,6 +157,150 @@
       "ativo": true
     },
     {
+      "id": "2026-11-02-destaque-calculos-01",
+      "quando": "2026-11-02T03:00:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_calculos_01.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-calculos-02",
+      "quando": "2026-11-02T03:05:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_calculos_02.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-calculos-03",
+      "quando": "2026-11-02T03:10:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_calculos_03.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-calculos-04",
+      "quando": "2026-11-02T03:15:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_calculos_04.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-calculos-05",
+      "quando": "2026-11-02T03:20:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_calculos_05.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-calculos-06",
+      "quando": "2026-11-02T03:25:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_calculos_06.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-advogai-01",
+      "quando": "2026-11-02T03:30:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_advogai_01.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-advogai-02",
+      "quando": "2026-11-02T03:35:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_advogai_02.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-parceiros-01",
+      "quando": "2026-11-02T03:40:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_parceiros_01.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-parceiros-02",
+      "quando": "2026-11-02T03:45:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_parceiros_02.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-parceiros-03",
+      "quando": "2026-11-02T03:50:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_parceiros_03.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-parceiros-04",
+      "quando": "2026-11-02T03:55:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_parceiros_04.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-parceiros-05",
+      "quando": "2026-11-02T04:00:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_parceiros_05.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-jc-explica-01",
+      "quando": "2026-11-02T04:05:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_jc-explica_01.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-jc-explica-02",
+      "quando": "2026-11-02T04:10:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_jc-explica_02.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-destaque-jc-explica-03",
+      "quando": "2026-11-02T04:15:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v24/destaque_jc-explica_03.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-02-feriado-dobro",
       "quando": "2026-11-02T09:00:00-03:00",
       "tipo": "imagem",

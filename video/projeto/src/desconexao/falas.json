@@ -1,0 +1,156 @@
+{
+ "capa": 78,
+ "outro": 84,
+ "total": 2066,
+ "clips": [
+  {
+   "n": 0,
+   "at": 92,
+   "frames": 105,
+   "src": "voz/desconexao/0.mp3",
+   "quem": "C",
+   "texto": "**22h47** e o chefe quer o relatório **agora!**",
+   "cena": "gancho"
+  },
+  {
+   "n": 1,
+   "at": 206,
+   "frames": 138,
+   "src": "voz/desconexao/1.mp3",
+   "quem": "A",
+   "texto": "Calma, Carlos. **Antes de responder**, você precisa saber uma coisa.",
+   "cena": "gancho"
+  },
+  {
+   "n": 2,
+   "at": 350,
+   "frames": 80,
+   "src": "voz/desconexao/2.mp3",
+   "quem": "C",
+   "texto": "Se eu **não responder**, ele me demite?",
+   "cena": "gancho"
+  },
+  {
+   "n": 3,
+   "at": 439,
+   "frames": 63,
+   "src": "voz/desconexao/3.mp3",
+   "quem": "A",
+   "texto": "Respira. **Já te explico.**",
+   "cena": "gancho"
+  },
+  {
+   "n": 4,
+   "at": 536,
+   "frames": 189,
+   "src": "voz/desconexao/4.mp3",
+   "quem": "A",
+   "texto": "Fora do expediente, **o seu tempo é seu.** Em regra, você **não é obrigado** a responder na hora.",
+   "cena": "regra"
+  },
+  {
+   "n": 5,
+   "at": 759,
+   "frames": 247,
+   "src": "voz/desconexao/5.mp3",
+   "quem": "A",
+   "texto": "Mas se a empresa **cobra resposta** e você trabalha depois do horário, pode virar **hora extra**, com adicional de no mínimo **50%.**",
+   "cena": "hora"
+  },
+  {
+   "n": 6,
+   "at": 1015,
+   "frames": 49,
+   "src": "voz/desconexao/6.mp3",
+   "quem": "C",
+   "texto": "Mas eu só respondi um **“ok”!**",
+   "cena": "hora"
+  },
+  {
+   "n": 7,
+   "at": 1072,
+   "frames": 205,
+   "src": "voz/desconexao/7.mp3",
+   "quem": "A",
+   "texto": "Um “ok” isolado é pouco. Mas **se vira rotina**, esse tempo pode ser contado.",
+   "cena": "hora"
+  },
+  {
+   "n": 8,
+   "at": 1311,
+   "frames": 181,
+   "src": "voz/desconexao/8.mp3",
+   "quem": "A",
+   "texto": "Ficar de **plantão**, esperando ser chamado, é **sobreaviso**, e pode ser **pago à parte.**",
+   "cena": "plantao"
+  },
+  {
+   "n": 9,
+   "at": 1526,
+   "frames": 156,
+   "src": "voz/desconexao/9.mp3",
+   "quem": "A",
+   "texto": "E **guarde os prints**, com dia e hora. Quem pede o direito **precisa provar.**",
+   "cena": "prova"
+  },
+  {
+   "n": 10,
+   "at": 1691,
+   "frames": 54,
+   "src": "voz/desconexao/10.mp3",
+   "quem": "C",
+   "texto": "Eu tirei print até do **bom dia** dele.",
+   "cena": "prova"
+  },
+  {
+   "n": 11,
+   "at": 1779,
+   "frames": 122,
+   "src": "voz/desconexao/11.mp3",
+   "quem": "A",
+   "texto": "**Salva** esse vídeo e manda pra quem **nunca desliga** o WhatsApp do trabalho.",
+   "cena": "fecho"
+  },
+  {
+   "n": 12,
+   "at": 1913,
+   "frames": 31,
+   "src": "voz/desconexao/12.mp3",
+   "quem": "C",
+   "texto": "**Boa noite**, chefe.",
+   "cena": "fecho"
+  }
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "ini": 78,
+   "fim": 522
+  },
+  {
+   "id": "regra",
+   "ini": 522,
+   "fim": 745
+  },
+  {
+   "id": "hora",
+   "ini": 745,
+   "fim": 1297
+  },
+  {
+   "id": "plantao",
+   "ini": 1297,
+   "fim": 1512
+  },
+  {
+   "id": "prova",
+   "ini": 1512,
+   "fim": 1765
+  },
+  {
+   "id": "fecho",
+   "ini": 1765,
+   "fim": 1982
+  }
+ ]
+}

@@ -320,6 +320,26 @@
       "ativo": true
     },
     {
+      "id": "2026-11-02-desconexao-video",
+      "quando": "2026-11-02T18:00:00-03:00",
+      "tipo": "reels",
+      "midia": [
+        "v26/desconexao_chefe.mp4"
+      ],
+      "legenda": "O chefe mandou mensagem às 22h47. Você é obrigado a responder?\n\nEm regra, não. Fora do expediente, o seu tempo é seu.\n\nMas atenção:\n• Se a empresa cobra resposta e você trabalha depois do horário, esse tempo pode virar hora extra, com adicional de no mínimo 50%.\n• Ficar de plantão, esperando ser chamado, pode caracterizar sobreaviso, que pode ser pago à parte.\n• Guarde os prints, com dia e hora: quem pede o direito precisa provar os fatos.\n\nBase legal: CF, art. 7º, XIII e XVI; CLT, art. 6º (parágrafo único), art. 66 e art. 818; TST, Súmula 428.\n\nCada caso tem detalhes. Procure um advogado de sua confiança.\n\nSalve este vídeo e mande para quem nunca desliga o WhatsApp do trabalho.\n\n#direitodotrabalho #direitotrabalhista #horaextra #sobreaviso #vocesabia #clt #advocacia",
+      "capa_ms": 2300,
+      "ativo": true
+    },
+    {
+      "id": "2026-11-02-desconexao-video-story",
+      "quando": "2026-11-02T18:05:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v26/desconexao_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-02-heranca-mitos",
       "quando": "2026-11-02T19:00:00-03:00",
       "tipo": "carrossel",
@@ -333,7 +353,7 @@
         "v22/heranca-mitos_07.jpg"
       ],
       "legenda": "No Dia de Finados, muitas famílias lembram também das questões de herança. E é aí que aparecem os mitos.\n\nDeslize e veja 5 coisas que muita gente acredita, mas que a lei diz de outro jeito:\n\n1. Deserdar sem motivo\n2. Deixar tudo para quem quiser\n3. Dívidas passando para os filhos\n4. Cônjuge sem herança\n5. Inventário sem prazo\n\nCada caso tem detalhes próprios. Ficou com dúvida sobre o seu caso? Procure um advogado de sua confiança.\n\nQual desses mitos você já ouviu? Conte nos comentários.\n\n#direitodefamilia #direitodassucessoes #heranca #direitos #advocacia #advogado #inventario",
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-02-heranca-mitos-story",
@@ -342,7 +362,7 @@
       "midia": [
         "v22/heranca-mitos_story.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-03-faltas-justificadas",

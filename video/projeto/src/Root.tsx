@@ -7,6 +7,7 @@ import {ViralRescisao, V_TOTAL} from './viral/Rescisao';
 import {AdvogAITeste, ADVOGAI_TESTE_DUR} from './advogai/Teste';
 import {AdvogAIApresentacao, ADVOGAI_TOTAL} from './advogai/Apresentacao';
 import {GravacaoEscondida, GRAVACAO_TOTAL} from './gravacao/Gravacao';
+import {DesconexaoChefe, DESCONEXAO_TOTAL} from './desconexao/Desconexao';
 
 const V = {width: 1080, height: 1920, fps: 30};
 
@@ -28,5 +29,6 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="AdvogAITeste" component={AdvogAITeste} durationInFrames={ADVOGAI_TESTE_DUR} {...V} />
     <Composition id="AdvogAIApresentacao" component={AdvogAIApresentacao} durationInFrames={ADVOGAI_TOTAL} {...V} defaultProps={{music: 'music/pixabay-calm-corporate.mp3'}} />
     <Composition id="GravacaoEscondida" component={GravacaoEscondida} durationInFrames={GRAVACAO_TOTAL} {...V} defaultProps={{music: 'music/pixabay-upbeat-happy-corporate.mp3'}} />
+    <Composition id="DesconexaoChefe" component={DesconexaoChefe} durationInFrames={DESCONEXAO_TOTAL} {...V} defaultProps={{music: 'music/pixabay-upbeat-happy-corporate.mp3'}} />
   </>
 );

@@ -320,26 +320,6 @@
       "ativo": true
     },
     {
-      "id": "2026-11-02-desconexao-video",
-      "quando": "2026-11-02T18:00:00-03:00",
-      "tipo": "reels",
-      "midia": [
-        "v26/desconexao_chefe.mp4"
-      ],
-      "legenda": "O chefe mandou mensagem às 22h47. Você é obrigado a responder?\n\nEm regra, não. Fora do expediente, o seu tempo é seu.\n\nMas atenção:\n• Se a empresa cobra resposta e você trabalha depois do horário, esse tempo pode virar hora extra, com adicional de no mínimo 50%.\n• Ficar de plantão, esperando ser chamado, pode caracterizar sobreaviso, que pode ser pago à parte.\n• Guarde os prints, com dia e hora: quem pede o direito precisa provar os fatos.\n\nBase legal: CF, art. 7º, XIII e XVI; CLT, art. 6º (parágrafo único), art. 66 e art. 818; TST, Súmula 428.\n\nCada caso tem detalhes. Procure um advogado de sua confiança.\n\nSalve este vídeo e mande para quem nunca desliga o WhatsApp do trabalho.\n\n#direitodotrabalho #direitotrabalhista #horaextra #sobreaviso #vocesabia #clt #advocacia",
-      "capa_ms": 2300,
-      "ativo": true
-    },
-    {
-      "id": "2026-11-02-desconexao-video-story",
-      "quando": "2026-11-02T18:05:00-03:00",
-      "tipo": "story",
-      "midia": [
-        "v26/desconexao_story.jpg"
-      ],
-      "ativo": true
-    },
-    {
       "id": "2026-11-02-heranca-mitos",
       "quando": "2026-11-02T19:00:00-03:00",
       "tipo": "carrossel",
@@ -400,6 +380,26 @@
       "ativo": true
     },
     {
+      "id": "2026-11-03-split-video",
+      "quando": "2026-11-03T18:00:00-03:00",
+      "tipo": "reels",
+      "midia": [
+        "v27/split_payment.mp4"
+      ],
+      "legenda": "Em 2027, o imposto vai sair no meio do pagamento. E quase ninguém está explicando o que isso muda para o advogado.\n\nÉ o split payment (pagamento dividido): na hora em que o pagamento é liquidado, o banco separa a CBS e o IBS e manda direto para o governo. Quem vendeu recebe o valor líquido.\n\nO que já se sabe:\n• Pelo cronograma previsto, começa em 2027, de forma opcional e só entre empresas.\n• Pix entre pessoas não muda.\n• Não é imposto novo: muda o jeito de recolher.\n\nE o advogado?\n• Quando uma empresa paga honorários, o split também pode separar o imposto ali.\n• A advocacia tem redução de 30% nas alíquotas do IBS e da CBS (profissões intelectuais regulamentadas).\n• Escritórios no Simples Nacional seguem regras próprias.\n• Vale revisar os contratos de honorários (preço com ou sem tributo) e planejar o caixa.\n\nBase legal: LC 214/2025, arts. 31 a 35 (split payment) e art. 127 (redução de 30%). O cronograma ainda pode mudar.\n\nSalve este vídeo e mande para o seu contador.\n\n#reformatributaria #splitpayment #advocacia #advogado #tributario #ibs #cbs",
+      "capa_ms": 1600,
+      "ativo": true
+    },
+    {
+      "id": "2026-11-03-split-video-story",
+      "quando": "2026-11-03T18:05:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v27/split_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-03-cobranca-dobro",
       "quando": "2026-11-03T19:00:00-03:00",
       "tipo": "imagem",
@@ -407,7 +407,7 @@
         "v22/cobranca-dobro_01.jpg"
       ],
       "legenda": "Pagou uma cobrança que não devia? A lei manda devolver em dobro.\n\nPelo Código de Defesa do Consumidor, o consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, com correção monetária e juros. A exceção é o engano justificável.\n\nBase legal: CDC, art. 42, parágrafo único.\n\nGuarde sempre comprovantes e faturas.\n\nMarque alguém que vive reclamando de cobrança errada.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado",
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-03-cobranca-dobro-story",
@@ -416,7 +416,7 @@
       "midia": [
         "v22/cobranca-dobro_story.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-04-novembro-azul",
@@ -468,6 +468,26 @@
       "tipo": "story",
       "midia": [
         "v22/metricool_04_calculos_01_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
+      "id": "2026-11-04-desconexao-video",
+      "quando": "2026-11-04T18:00:00-03:00",
+      "tipo": "reels",
+      "midia": [
+        "v26/desconexao_chefe.mp4"
+      ],
+      "legenda": "O chefe mandou mensagem às 22h47. Você é obrigado a responder?\n\nEm regra, não. Fora do expediente, o seu tempo é seu.\n\nMas atenção:\n• Se a empresa cobra resposta e você trabalha depois do horário, esse tempo pode virar hora extra, com adicional de no mínimo 50%.\n• Ficar de plantão, esperando ser chamado, pode caracterizar sobreaviso, que pode ser pago à parte.\n• Guarde os prints, com dia e hora: quem pede o direito precisa provar os fatos.\n\nBase legal: CF, art. 7º, XIII e XVI; CLT, art. 6º (parágrafo único), art. 66 e art. 818; TST, Súmula 428.\n\nCada caso tem detalhes. Procure um advogado de sua confiança.\n\nSalve este vídeo e mande para quem nunca desliga o WhatsApp do trabalho.\n\n#direitodotrabalho #direitotrabalhista #horaextra #sobreaviso #vocesabia #clt #advocacia",
+      "capa_ms": 2300,
+      "ativo": true
+    },
+    {
+      "id": "2026-11-04-desconexao-video-story",
+      "quando": "2026-11-04T18:05:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v26/desconexao_story.jpg"
       ],
       "ativo": true
     },

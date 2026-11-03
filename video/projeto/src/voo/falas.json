@@ -1,0 +1,147 @@
+{
+ "capa": 78,
+ "outro": 84,
+ "total": 1946,
+ "clips": [
+  {
+   "n": 0,
+   "at": 92,
+   "frames": 100,
+   "src": "voz/voo/0.mp3",
+   "quem": "C",
+   "texto": "Voo **atrasado** de novo! E eu vou ficar aqui **sem nada?**",
+   "cena": "gancho"
+  },
+  {
+   "n": 1,
+   "at": 201,
+   "frames": 150,
+   "src": "voz/voo/1.mp3",
+   "quem": "A",
+   "texto": "Calma, Carlos. A companhia tem **obrigações**, e elas aumentam **a cada hora.**",
+   "cena": "gancho"
+  },
+  {
+   "n": 2,
+   "at": 385,
+   "frames": 189,
+   "src": "voz/voo/2.mp3",
+   "quem": "A",
+   "texto": "Passou de **1 hora?** Ela deve oferecer **comunicação**, como internet e telefone.",
+   "cena": "hora1"
+  },
+  {
+   "n": 3,
+   "at": 582,
+   "frames": 78,
+   "src": "voz/voo/3.mp3",
+   "quem": "C",
+   "texto": "Já é alguma coisa. Qual é a **senha do Wi-Fi?**",
+   "cena": "hora1"
+  },
+  {
+   "n": 4,
+   "at": 694,
+   "frames": 177,
+   "src": "voz/voo/4.mp3",
+   "quem": "A",
+   "texto": "Passou de **2 horas?** **Alimentação** adequada, como voucher ou refeição.",
+   "cena": "hora2"
+  },
+  {
+   "n": 5,
+   "at": 879,
+   "frames": 49,
+   "src": "voz/voo/5.mp3",
+   "quem": "C",
+   "texto": "Agora sim! **Cadê o lanche?**",
+   "cena": "hora2"
+  },
+  {
+   "n": 6,
+   "at": 962,
+   "frames": 179,
+   "src": "voz/voo/6.mp3",
+   "quem": "A",
+   "texto": "Passou de **4 horas?** **Hospedagem**, se tiver pernoite, e o **transporte** de ida e volta.",
+   "cena": "hora4"
+  },
+  {
+   "n": 7,
+   "at": 1150,
+   "frames": 225,
+   "src": "voz/voo/7.mp3",
+   "quem": "A",
+   "texto": "E aí você escolhe: **outro voo**, **reembolso integral** ou **outro transporte.**",
+   "cena": "hora4"
+  },
+  {
+   "n": 8,
+   "at": 1383,
+   "frames": 38,
+   "src": "voz/voo/8.mp3",
+   "quem": "C",
+   "texto": "Eu escolho **chegar na praia!**",
+   "cena": "hora4"
+  },
+  {
+   "n": 9,
+   "at": 1455,
+   "frames": 161,
+   "src": "voz/voo/9.mp3",
+   "quem": "A",
+   "texto": "E **guarde os comprovantes.** Se teve prejuízo, pode caber **indenização**, conforme o caso.",
+   "cena": "dica"
+  },
+  {
+   "n": 10,
+   "at": 1650,
+   "frames": 100,
+   "src": "voz/voo/10.mp3",
+   "quem": "A",
+   "texto": "**Salva** esse vídeo e **marca** quem vai viajar no fim do ano.",
+   "cena": "fecho"
+  },
+  {
+   "n": 11,
+   "at": 1762,
+   "frames": 62,
+   "src": "voz/voo/11.mp3",
+   "quem": "C",
+   "texto": "Já salvei. E o meu **lanche?**",
+   "cena": "fecho"
+  }
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "ini": 78,
+   "fim": 371
+  },
+  {
+   "id": "hora1",
+   "ini": 371,
+   "fim": 680
+  },
+  {
+   "id": "hora2",
+   "ini": 680,
+   "fim": 948
+  },
+  {
+   "id": "hora4",
+   "ini": 948,
+   "fim": 1441
+  },
+  {
+   "id": "dica",
+   "ini": 1441,
+   "fim": 1636
+  },
+  {
+   "id": "fecho",
+   "ini": 1636,
+   "fim": 1862
+  }
+ ]
+}

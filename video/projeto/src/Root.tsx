@@ -10,6 +10,7 @@ import {GravacaoEscondida, GRAVACAO_TOTAL} from './gravacao/Gravacao';
 import {DesconexaoChefe, DESCONEXAO_TOTAL} from './desconexao/Desconexao';
 import {SplitPayment, SPLIT_TOTAL} from './split/Split';
 import {PensaoDezoito, PENSAO_TOTAL} from './pensao/Pensao';
+import {VooAtrasado, VOO_TOTAL} from './voo/Voo';
 
 const V = {width: 1080, height: 1920, fps: 30};
 
@@ -34,5 +35,6 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="DesconexaoChefe" component={DesconexaoChefe} durationInFrames={DESCONEXAO_TOTAL} {...V} />
     <Composition id="SplitPayment" component={SplitPayment} durationInFrames={SPLIT_TOTAL} {...V} />
     <Composition id="PensaoDezoito" component={PensaoDezoito} durationInFrames={PENSAO_TOTAL} {...V} />
+    <Composition id="VooAtrasado" component={VooAtrasado} durationInFrames={VOO_TOTAL} {...V} />
   </>
 );

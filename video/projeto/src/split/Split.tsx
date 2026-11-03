@@ -6,7 +6,7 @@ import falas from './falas.json';
 import {C, FONT} from '../theme';
 
 // "Split payment: o imposto no meio do Pix": blocos isométricos, tubo neon, legenda palavra por palavra e efeitos sonoros.
-// Linha do tempo gerada por voz/gerar_split.py (falas.json). Sem música (só voz e efeitos).
+// Linha do tempo gerada por voz/gerar_split.py (falas.json). Música de fundo baixa: "Tech Explainer Background (Modern Digital)" (Pixabay, livre).
 
 const mono = loadFont('normal', {weights: ['700', '800']}).fontFamily;
 type Word = {w: string; f: number};
@@ -599,5 +599,13 @@ export const SplitPayment: React.FC = () => (
         <Audio src={staticFile(c.src)} />
       </Sequence>
     ))}
+    <Audio
+      src={staticFile('music/pixabay-tech-explainer.mp3')}
+      volume={(f) => {
+        const falando = D.clips.some((c) => f >= c.at - 4 && f < c.at + c.frames + 4);
+        const base = interpolate(f, [0, 15, D.total - 45, D.total - 4], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+        return base * (falando ? 0.07 : 0.13);
+      }}
+    />
   </AbsoluteFill>
 );

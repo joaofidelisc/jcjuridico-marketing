@@ -596,5 +596,13 @@ export const DesconexaoChefe: React.FC = () => (
     <Sequence from={D.total - D.outro} layout="none">
       <Audio src={staticFile('sfx/whoosh.wav')} volume={0.5} />
     </Sequence>
+    <Audio
+      src={staticFile('music/pixabay-sneaky-quirky.mp3')}
+      volume={(f) => {
+        const falando = D.clips.some((c) => f >= c.at - 4 && f < c.at + c.frames + 4);
+        const base = interpolate(f, [0, 15, D.total - 45, D.total - 4], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+        return base * (falando ? 0.07 : 0.13);
+      }}
+    />
   </AbsoluteFill>
 );

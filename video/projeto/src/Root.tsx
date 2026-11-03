@@ -9,6 +9,7 @@ import {AdvogAIApresentacao, ADVOGAI_TOTAL} from './advogai/Apresentacao';
 import {GravacaoEscondida, GRAVACAO_TOTAL} from './gravacao/Gravacao';
 import {DesconexaoChefe, DESCONEXAO_TOTAL} from './desconexao/Desconexao';
 import {SplitPayment, SPLIT_TOTAL} from './split/Split';
+import {PensaoDezoito, PENSAO_TOTAL} from './pensao/Pensao';
 
 const V = {width: 1080, height: 1920, fps: 30};
 
@@ -32,5 +33,6 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="GravacaoEscondida" component={GravacaoEscondida} durationInFrames={GRAVACAO_TOTAL} {...V} defaultProps={{music: 'music/pixabay-upbeat-happy-corporate.mp3'}} />
     <Composition id="DesconexaoChefe" component={DesconexaoChefe} durationInFrames={DESCONEXAO_TOTAL} {...V} />
     <Composition id="SplitPayment" component={SplitPayment} durationInFrames={SPLIT_TOTAL} {...V} />
+    <Composition id="PensaoDezoito" component={PensaoDezoito} durationInFrames={PENSAO_TOTAL} {...V} />
   </>
 );

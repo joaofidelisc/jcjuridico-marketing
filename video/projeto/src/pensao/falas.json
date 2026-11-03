@@ -1,0 +1,142 @@
+{
+ "capa": 78,
+ "outro": 84,
+ "total": 1715,
+ "clips": [
+  {
+   "n": 0,
+   "at": 92,
+   "frames": 150,
+   "src": "voz/pensao/0.mp3",
+   "quem": "C",
+   "texto": "Parabéns, filho! **18 anos!** E o melhor presente: **acabou a pensão!**",
+   "cena": "gancho"
+  },
+  {
+   "n": 1,
+   "at": 251,
+   "frames": 75,
+   "src": "voz/pensao/1.mp3",
+   "quem": "F",
+   "texto": "Ué, pai... mas eu ainda tô na **faculdade.**",
+   "cena": "gancho"
+  },
+  {
+   "n": 2,
+   "at": 335,
+   "frames": 87,
+   "src": "voz/pensao/2.mp3",
+   "quem": "A",
+   "texto": "Calma, Carlos. **Não é bem assim.**",
+   "cena": "gancho"
+  },
+  {
+   "n": 3,
+   "at": 456,
+   "frames": 217,
+   "src": "voz/pensao/3.mp3",
+   "quem": "A",
+   "texto": "Fazer 18 anos **não encerra** a pensão sozinho. Para parar de pagar, é preciso **decisão judicial.**",
+   "cena": "regra"
+  },
+  {
+   "n": 4,
+   "at": 681,
+   "frames": 93,
+   "src": "voz/pensao/4.mp3",
+   "quem": "A",
+   "texto": "E o filho tem o direito de **se manifestar** no processo.",
+   "cena": "regra"
+  },
+  {
+   "n": 5,
+   "at": 782,
+   "frames": 55,
+   "src": "voz/pensao/5.mp3",
+   "quem": "F",
+   "texto": "Eu vou **me manifestar**, sim!",
+   "cena": "regra"
+  },
+  {
+   "n": 6,
+   "at": 871,
+   "frames": 217,
+   "src": "voz/pensao/6.mp3",
+   "quem": "A",
+   "texto": "Se ele **ainda estuda**, numa faculdade ou curso técnico, a Justiça **costuma manter** a pensão, conforme o caso.",
+   "cena": "estudo"
+  },
+  {
+   "n": 7,
+   "at": 1097,
+   "frames": 62,
+   "src": "voz/pensao/7.mp3",
+   "quem": "C",
+   "texto": "E se eu simplesmente **parar de pagar?**",
+   "cena": "estudo"
+  },
+  {
+   "n": 8,
+   "at": 1193,
+   "frames": 132,
+   "src": "voz/pensao/8.mp3",
+   "quem": "A",
+   "texto": "Aí a **dívida continua.** E atraso de pensão pode levar até à **prisão civil.**",
+   "cena": "risco"
+  },
+  {
+   "n": 9,
+   "at": 1334,
+   "frames": 56,
+   "src": "voz/pensao/9.mp3",
+   "quem": "C",
+   "texto": "Tá bom, tá bom. Vou **procurar um advogado.**",
+   "cena": "risco"
+  },
+  {
+   "n": 10,
+   "at": 1424,
+   "frames": 123,
+   "src": "voz/pensao/10.mp3",
+   "quem": "A",
+   "texto": "**Salva** esse vídeo e manda pra quem acha que a pensão **acaba no aniversário.**",
+   "cena": "fecho"
+  },
+  {
+   "n": 11,
+   "at": 1559,
+   "frames": 34,
+   "src": "voz/pensao/11.mp3",
+   "quem": "F",
+   "texto": "E o meu **presente**, pai?",
+   "cena": "fecho"
+  }
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "ini": 78,
+   "fim": 442
+  },
+  {
+   "id": "regra",
+   "ini": 442,
+   "fim": 857
+  },
+  {
+   "id": "estudo",
+   "ini": 857,
+   "fim": 1179
+  },
+  {
+   "id": "risco",
+   "ini": 1179,
+   "fim": 1410
+  },
+  {
+   "id": "fecho",
+   "ini": 1410,
+   "fim": 1631
+  }
+ ]
+}

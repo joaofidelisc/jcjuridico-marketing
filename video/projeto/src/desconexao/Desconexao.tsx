@@ -386,7 +386,11 @@ const Gancho: React.FC = () => {
         <Boneco kind="carlos" x={810} flip pose={car} face={g < clip(2).at ? 'worry' : 'worry'} mouth={lvl([0, 2], g)} phone={g < clip(2).at + 8} sweat={g > clip(0).at + 30} />
         <Balao x={560} y={0} at={clip(0).at - iniDe('gancho') - 4} hora="22:47" l1="Preciso do relatório" l2="AGORA!" />
       </Stage>
-      <Sfx at={clip(0).at - 4} />
+      <Sfx at={iniDe('gancho')} src="sfx/whoosh.wav" v={0.5} />
+      <Sfx at={clip(0).at - 4} src="sfx/msg.wav" v={0.8} />
+      <Sfx at={clip(0).at + 30} src="sfx/boom.wav" v={0.6} />
+      <Sfx at={clip(2).at + 4} src="sfx/gulp.wav" v={0.6} />
+      <Sfx at={clip(3).at} src="sfx/pop.wav" v={0.5} />
     </Cena>
   );
 };
@@ -402,7 +406,9 @@ const Regra: React.FC = () => {
         <Boneco kind="carlos" x={790} flip pose={POSE.worry} face="smile" />
         <Badge x={560} y={200} ok at={c.at + 40 - ini} label="DESCANSAR" />
       </Stage>
-      <Sfx at={c.at + 40} />
+      <Sfx at={ini} src="sfx/whoosh.wav" v={0.5} />
+      <Sfx at={c.at + 40} src="sfx/stamp.wav" v={0.7} />
+      <Sfx at={c.at + 42} />
       <Base texto="CF, art. 7º, XIII · CLT, art. 66" sub="Limite da jornada e descanso entre jornadas" at={c.at + 52 - ini} />
     </Cena>
   );
@@ -430,7 +436,10 @@ const Hora: React.FC = () => {
         {g >= clip(6).at && g < END(7) && <Balaozinho x={985} y={215} txt="ok" />}
         <TileTop at={a.at + 70 - ini} titulo="HORA EXTRA" sub="no mínimo +50%" icon="clock" />
       </Stage>
-      <Sfx at={a.at + 70} src="viral/tick.wav" v={0.7} />
+      <Sfx at={ini} src="sfx/whoosh.wav" v={0.5} />
+      <Sfx at={a.at + 70} src="sfx/kaching.wav" v={0.7} />
+      <Sfx at={clip(6).at} src="sfx/pop.wav" v={0.6} />
+      <Sfx at={clip(7).at} src="sfx/glitch.wav" v={0.4} />
       <Base texto="CLT, art. 6º, parágrafo único" sub="CF, art. 7º, XVI · hora extra de no mínimo 50%" at={a.at + 90 - ini} />
     </Cena>
   );
@@ -447,7 +456,10 @@ const Plantao: React.FC = () => {
         <Boneco kind="carlos" x={830} flip pose={poseAt(g, [[0, 'phone']])} face="worry" phone sweat />
         <TileTop at={c.at + 50 - ini} titulo="SOBREAVISO" sub="pode ser pago à parte" icon="phone" />
       </Stage>
-      <Sfx at={c.at + 50} src="viral/tick.wav" v={0.7} />
+      <Sfx at={ini} src="sfx/whoosh.wav" v={0.5} />
+      <Sfx at={c.at + 10} src="sfx/msg.wav" v={0.5} />
+      <Sfx at={c.at + 50} src="sfx/pop.wav" v={0.6} />
+      <Sfx at={c.at + 80} src="sfx/msg.wav" v={0.5} />
       <Base texto="TST, Súmula 428" sub="Sobreaviso por meios telemáticos" at={c.at + 70 - ini} />
     </Cena>
   );
@@ -465,7 +477,11 @@ const Prova: React.FC = () => {
         <Boneco kind="carlos" x={830} flip pose={poseAt(g, [[0, 'idle'], [c.at - 4, 'idle'], [c.at + 10, 'phone']])} face={g >= c.at ? 'smirk' : 'worry'} mouth={lvl([10], g)} phone={g >= c.at} />
         <TileTop at={a.at + 30 - ini} titulo="GUARDE OS PRINTS" sub="com dia e hora" icon="camera" />
       </Stage>
-      <Sfx at={a.at + 30} src="viral/tick.wav" v={0.7} />
+      <Sfx at={ini} src="sfx/whoosh.wav" v={0.5} />
+      <Sfx at={a.at + 30} src="sfx/shutter.wav" v={0.8} />
+      <Sfx at={c.at + 12} src="sfx/shutter.wav" v={0.7} />
+      <Sfx at={c.at + 20} src="sfx/shutter.wav" v={0.7} />
+      <Sfx at={c.at + 28} src="sfx/shutter.wav" v={0.7} />
       <Base texto="CLT, art. 818" sub="Quem pede o direito precisa provar os fatos" at={a.at + 56 - ini} />
     </Cena>
   );
@@ -505,8 +521,10 @@ const Fecho: React.FC = () => {
           {corta > 0 && <path d={`M 40 ${20} L ${40 + 56 * corta} ${20 + 72 * corta}`} stroke={C.bordoLight} strokeWidth={10} strokeLinecap="round" />}
         </g>
       </Stage>
-      <Sfx at={a.at + 40} />
-      <Sfx at={c.at + 40} src="viral/tick.wav" v={0.8} />
+      <Sfx at={ini} src="sfx/whoosh.wav" v={0.5} />
+      <Sfx at={a.at + 40} src="sfx/pop.wav" v={0.7} />
+      <Sfx at={c.at - 6} src="sfx/msg.wav" v={0.5} />
+      <Sfx at={c.at + 40} src="sfx/mute.wav" v={0.8} />
     </Cena>
   );
 };
@@ -552,7 +570,7 @@ const Outro: React.FC = () => {
   );
 };
 
-export const DesconexaoChefe: React.FC<{music: string}> = ({music}) => (
+export const DesconexaoChefe: React.FC = () => (
   <AbsoluteFill style={{background: '#000'}}>
     <Sequence from={0} durationInFrames={D.capa}>
       <Capa />
@@ -570,6 +588,13 @@ export const DesconexaoChefe: React.FC<{music: string}> = ({music}) => (
         <Audio src={staticFile(c.src)} />
       </Sequence>
     ))}
-    <Audio src={staticFile(music)} volume={(f) => interpolate(f, [0, 20, D.total - 50, D.total - 6], [0, 0.12, 0.12, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} />
+    {Array.from({length: 21}).map((_, i) => (
+      <Sequence key={`tap${i}`} from={i * 2} durationInFrames={6} layout="none">
+        <Audio src={staticFile('sfx/tap.wav')} volume={0.5} />
+      </Sequence>
+    ))}
+    <Sequence from={D.total - D.outro} layout="none">
+      <Audio src={staticFile('sfx/whoosh.wav')} volume={0.5} />
+    </Sequence>
   </AbsoluteFill>
 );

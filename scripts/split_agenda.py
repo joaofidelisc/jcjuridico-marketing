@@ -33,6 +33,7 @@ LEG = ("Em 2027, o imposto vai sair no meio do pagamento. E quase ninguém está
        "• Vale revisar os contratos de honorários (preço com ou sem tributo) e planejar o caixa.\n\n"
        "Base legal: LC 214/2025, arts. 31 a 35 (split payment) e art. 127 (redução de 30%). O cronograma ainda pode mudar.\n\n"
        "Salve este vídeo e mande para o seu contador.\n\n"
+       "E você: cobra seus honorários com ou sem tributo? Conta aqui nos comentários.\n\n"
        "#reformatributaria #splitpayment #advocacia #advogado #tributario #ibs #cbs")
 
 p = os.path.join(RAIZ, 'agendador', 'agenda.json')

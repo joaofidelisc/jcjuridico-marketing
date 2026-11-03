@@ -539,21 +539,52 @@ const Fazer: React.FC = () => {
 const Fecho: React.FC = () => {
   const g = useG();
   const c = clip(14);
+  const q = clip(15);
   const k = sp(g, c.at + 2, 9, 200);
   const kC = sp(g, W(14, 7), 10, 200);
+  const sai = lin(g, q.at - 6, q.at + 6);
+  const kq = sp(g, q.at, 11, 190);
+  const kb = [sp(g, W(15, 7), 10, 220), sp(g, W(15, 7) + 8, 10, 220)];
   return (
-    <Cena tag="SALVE ESTE VÍDEO">
-      <Palco z0={1.0} z1={1.06}>
-        <Box x={-110} y={-110} w={220} d={220} h={220 * k} tone="bordo" glow />
-        <g transform={`translate(${P(0, 0, 220)[0]}, ${P(0, 0, 220)[1] - 150}) scale(${k})`}>
-          <path d="M -60 -90 L 60 -90 L 60 90 L 0 50 L -60 90 Z" fill="#fff" style={{filter: `drop-shadow(0 0 24px ${C.ice})`}} />
-        </g>
-      </Palco>
-      <div style={{position: 'absolute', top: 1150, left: 0, right: 0, textAlign: 'center', opacity: kC, transform: `scale(${0.8 + 0.2 * kC})`}}>
-        <span style={{fontFamily: mono, fontWeight: 800, fontSize: 34, color: C.ice, letterSpacing: 3}}>→ ENVIE PARA O SEU CONTADOR</span>
+    <Cena tag={g < q.at ? 'SALVE ESTE VÍDEO' : 'COMENTA AQUI'}>
+      <div style={{opacity: 1 - sai}}>
+        <Palco z0={1.0} z1={1.06}>
+          <Box x={-110} y={-110} w={220} d={220} h={220 * k} tone="bordo" glow />
+          <g transform={`translate(${P(0, 0, 220)[0]}, ${P(0, 0, 220)[1] - 150}) scale(${k})`}>
+            <path d="M -60 -90 L 60 -90 L 60 90 L 0 50 L -60 90 Z" fill="#fff" style={{filter: `drop-shadow(0 0 24px ${C.ice})`}} />
+          </g>
+        </Palco>
+        <div style={{position: 'absolute', top: 1150, left: 0, right: 0, textAlign: 'center', opacity: kC, transform: `scale(${0.8 + 0.2 * kC})`}}>
+          <span style={{fontFamily: mono, fontWeight: 800, fontSize: 34, color: C.ice, letterSpacing: 3}}>→ ENVIE PARA O SEU CONTADOR</span>
+        </div>
       </div>
+      {g >= q.at - 2 && (
+        <div style={{position: 'absolute', top: 420, left: 90, right: 90, opacity: cl(kq * 2), transform: `translateY(${(1 - kq) * 80}px) scale(${0.9 + 0.1 * kq})`, background: '#fff', borderRadius: 34, padding: '38px 40px', boxShadow: `0 0 60px rgba(150,190,250,0.45)`}}>
+          <div style={{display: 'flex', alignItems: 'center', gap: 18}}>
+            <div style={{width: 64, height: 64, borderRadius: 32, background: C.navy, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: FONT, fontWeight: 900, fontSize: 26, color: '#fff'}}>JC</div>
+            <div>
+              <div style={{fontFamily: FONT, fontWeight: 800, fontSize: 28, color: C.navy}}>jcjuridico.br</div>
+              <div style={{fontFamily: FONT, fontWeight: 500, fontSize: 22, color: '#6B7591'}}>pergunta para você</div>
+            </div>
+          </div>
+          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 50, lineHeight: 1.15, color: C.navy, marginTop: 26}}>
+            Você cobra honorários <span style={{color: C.bordoLight}}>com ou sem tributo?</span>
+          </div>
+          <div style={{display: 'flex', gap: 18, marginTop: 30}}>
+            {['COM TRIBUTO', 'SEM TRIBUTO'].map((t, i) => (
+              <div key={t} style={{flex: 1, textAlign: 'center', transform: `scale(${kb[i]})`, opacity: cl(kb[i] * 2), border: `4px solid ${i ? C.bordoLight : C.navy}`, color: i ? C.bordoLight : C.navy, borderRadius: 20, padding: '18px 0', fontFamily: mono, fontWeight: 800, fontSize: 30}}>
+                {t}
+              </div>
+            ))}
+          </div>
+          <div style={{fontFamily: FONT, fontWeight: 700, fontSize: 26, color: '#6B7591', marginTop: 24}}>Responda nos comentários</div>
+        </div>
+      )}
       <Sfx at={c.at + 2} s="boom" v={0.8} />
       <Sfx at={W(14, 7)} s="pop" v={0.7} />
+      <Sfx at={q.at} s="whoosh" v={0.6} />
+      <Sfx at={W(15, 7)} s="pop" v={0.6} />
+      <Sfx at={W(15, 7) + 8} s="pop" v={0.6} />
       <Base texto="LC 214/2025" sub="Cronograma previsto pela Receita Federal e pelo Comitê Gestor; pode mudar" at={20} />
     </Cena>
   );

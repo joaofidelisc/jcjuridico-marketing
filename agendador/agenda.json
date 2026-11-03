@@ -386,7 +386,7 @@
       "midia": [
         "v27/split_payment.mp4"
       ],
-      "legenda": "Em 2027, o imposto vai sair no meio do pagamento. E quase ninguém está explicando o que isso muda para o advogado.\n\nÉ o split payment (pagamento dividido): na hora em que o pagamento é liquidado, o banco separa a CBS e o IBS e manda direto para o governo. Quem vendeu recebe o valor líquido.\n\nO que já se sabe:\n• Pelo cronograma previsto, começa em 2027, de forma opcional e só entre empresas.\n• Pix entre pessoas não muda.\n• Não é imposto novo: muda o jeito de recolher.\n\nE o advogado?\n• Quando uma empresa paga honorários, o split também pode separar o imposto ali.\n• A advocacia tem redução de 30% nas alíquotas do IBS e da CBS (profissões intelectuais regulamentadas).\n• Escritórios no Simples Nacional seguem regras próprias.\n• Vale revisar os contratos de honorários (preço com ou sem tributo) e planejar o caixa.\n\nBase legal: LC 214/2025, arts. 31 a 35 (split payment) e art. 127 (redução de 30%). O cronograma ainda pode mudar.\n\nSalve este vídeo e mande para o seu contador.\n\n#reformatributaria #splitpayment #advocacia #advogado #tributario #ibs #cbs",
+      "legenda": "Em 2027, o imposto vai sair no meio do pagamento. E quase ninguém está explicando o que isso muda para o advogado.\n\nÉ o split payment (pagamento dividido): na hora em que o pagamento é liquidado, o banco separa a CBS e o IBS e manda direto para o governo. Quem vendeu recebe o valor líquido.\n\nO que já se sabe:\n• Pelo cronograma previsto, começa em 2027, de forma opcional e só entre empresas.\n• Pix entre pessoas não muda.\n• Não é imposto novo: muda o jeito de recolher.\n\nE o advogado?\n• Quando uma empresa paga honorários, o split também pode separar o imposto ali.\n• A advocacia tem redução de 30% nas alíquotas do IBS e da CBS (profissões intelectuais regulamentadas).\n• Escritórios no Simples Nacional seguem regras próprias.\n• Vale revisar os contratos de honorários (preço com ou sem tributo) e planejar o caixa.\n\nBase legal: LC 214/2025, arts. 31 a 35 (split payment) e art. 127 (redução de 30%). O cronograma ainda pode mudar.\n\nSalve este vídeo e mande para o seu contador.\n\nE você: cobra seus honorários com ou sem tributo? Conta aqui nos comentários.\n\n#reformatributaria #splitpayment #advocacia #advogado #tributario #ibs #cbs",
       "capa_ms": 1600,
       "ativo": true
     },
@@ -503,17 +503,6 @@
       "ativo": false
     },
     {
-      "id": "2026-11-04-pensao-video",
-      "quando": "2026-11-04T19:00:00-03:00",
-      "tipo": "reels",
-      "midia": [
-        "v28/pensao_18.mp4"
-      ],
-      "legenda": "O filho fez 18 anos. A pensão acaba automaticamente?\n\nNão. Completar 18 anos não encerra a pensão sozinho. Segundo o STJ, o cancelamento da pensão do filho que atingiu a maioridade depende de decisão judicial, e o filho tem o direito de se manifestar.\n\nAtenção:\n• Se o filho ainda estuda (faculdade ou curso técnico), a Justiça costuma manter a pensão, conforme o caso.\n• Parar de pagar por conta própria não apaga a dívida: as parcelas continuam vencendo.\n• Atraso de pensão pode levar à prisão civil.\n\nBase legal: STJ, Súmula 358; Código Civil, arts. 1.694 e 1.695; CPC, art. 528, §§ 3º e 7º.\n\nCada caso tem detalhes. Procure um advogado de sua confiança.\n\nSalve este vídeo e mande para quem acha que a pensão acaba no aniversário.\n\n#pensaoalimenticia #direitodefamilia #direito #vocesabia #familia #advocacia #advogado",
-      "capa_ms": 1900,
-      "ativo": true
-    },
-    {
       "id": "2026-11-04-pensao-18-story",
       "quando": "2026-11-04T19:02:00-03:00",
       "tipo": "story",
@@ -521,15 +510,6 @@
         "v22/pensao-18_story.jpg"
       ],
       "ativo": false
-    },
-    {
-      "id": "2026-11-04-pensao-video-story",
-      "quando": "2026-11-04T19:05:00-03:00",
-      "tipo": "story",
-      "midia": [
-        "v28/pensao_story.jpg"
-      ],
-      "ativo": true
     },
     {
       "id": "2026-11-05-preco-menor",
@@ -560,6 +540,26 @@
       "ativo": true
     },
     {
+      "id": "2026-11-05-pensao-video",
+      "quando": "2026-11-05T18:00:00-03:00",
+      "tipo": "reels",
+      "midia": [
+        "v28/pensao_18.mp4"
+      ],
+      "legenda": "O filho fez 18 anos. A pensão acaba automaticamente?\n\nNão. Completar 18 anos não encerra a pensão sozinho. Segundo o STJ, o cancelamento da pensão do filho que atingiu a maioridade depende de decisão judicial, e o filho tem o direito de se manifestar.\n\nAtenção:\n• Se o filho ainda estuda (faculdade ou curso técnico), a Justiça costuma manter a pensão, conforme o caso.\n• Parar de pagar por conta própria não apaga a dívida: as parcelas continuam vencendo.\n• Atraso de pensão pode levar à prisão civil.\n\nBase legal: STJ, Súmula 358; Código Civil, arts. 1.694 e 1.695; CPC, art. 528, §§ 3º e 7º.\n\nCada caso tem detalhes. Procure um advogado de sua confiança.\n\nSalve este vídeo e mande para quem acha que a pensão acaba no aniversário.\n\n#pensaoalimenticia #direitodefamilia #direito #vocesabia #familia #advocacia #advogado",
+      "capa_ms": 1900,
+      "ativo": true
+    },
+    {
+      "id": "2026-11-05-pensao-video-story",
+      "quando": "2026-11-05T18:05:00-03:00",
+      "tipo": "story",
+      "midia": [
+        "v28/pensao_story.jpg"
+      ],
+      "ativo": true
+    },
+    {
       "id": "2026-11-05-voo-atrasado",
       "quando": "2026-11-05T19:00:00-03:00",
       "tipo": "carrossel",
@@ -572,7 +572,7 @@
         "v22/voo-atrasado_06.jpg"
       ],
       "legenda": "Com as viagens de fim de ano chegando, salve este post.\n\nA Resolução 400 da ANAC define a assistência que a companhia aérea deve dar ao passageiro em caso de atraso:\n\n• 1 hora: comunicação\n• 2 horas: alimentação\n• 4 horas: hospedagem (se houver pernoite) e transporte\n• Mais de 4 horas: reacomodação, reembolso integral ou outro transporte\n\nGuarde comprovantes e registre a reclamação.\n\nMarque quem vai viajar no fim do ano.\n\n#direitodoconsumidor #cdc #consumidor #direitos #advocacia #advogado #voo #anac",
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-05-voo-atrasado-story",
@@ -581,7 +581,7 @@
       "midia": [
         "v22/voo-atrasado_story.jpg"
       ],
-      "ativo": true
+      "ativo": false
     },
     {
       "id": "2026-11-06-amostra-gratis",

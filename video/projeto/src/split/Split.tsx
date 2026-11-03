@@ -6,7 +6,7 @@ import falas from './falas.json';
 import {C, FONT} from '../theme';
 
 // "Split payment: o imposto no meio do Pix": blocos isométricos, tubo neon, legenda palavra por palavra e efeitos sonoros.
-// Linha do tempo gerada por voz/gerar_split.py (falas.json). Música: Aries Beats, "90s Retro Electro" (Pixabay, livre).
+// Linha do tempo gerada por voz/gerar_split.py (falas.json). Sem música (só voz e efeitos).
 
 const mono = loadFont('normal', {weights: ['700', '800']}).fontFamily;
 type Word = {w: string; f: number};
@@ -61,7 +61,7 @@ const Box: React.FC<{x: number; y: number; z?: number; w: number; d: number; h: 
   return (
     <g opacity={opacity}>
       <polygon points={pts(P(x, y + d, z), P(x + w, y + d, z), P(x + w, y, z), P(x + w, y, z - 2))} fill="rgba(0,0,0,0)" />
-      <ellipse cx={P(x + w / 2, y + d / 2, 0)[0]} cy={P(x + w / 2, y + d / 2, 0)[1]} rx={(w + d) * 0.62} ry={(w + d) * 0.24} fill="rgba(0,0,0,0.35)" style={{filter: 'blur(14px)'}} />
+      {z <= 0 && <ellipse cx={P(x + w / 2, y + d / 2, 0)[0]} cy={P(x + w / 2, y + d / 2, 0)[1]} rx={(w + d) * 0.62} ry={(w + d) * 0.24} fill="rgba(0,0,0,0.35)" style={{filter: 'blur(14px)'}} />}
       <polygon points={pts(P(x, y + d, z), P(x + w, y + d, z), P(x + w, y + d, z + h), P(x, y + d, z + h))} fill={left} />
       <polygon points={pts(P(x + w, y, z), P(x + w, y + d, z), P(x + w, y + d, z + h), P(x + w, y, z + h))} fill={right} />
       <polygon points={pts(P(x, y, z + h), P(x + w, y, z + h), P(x + w, y + d, z + h), P(x, y + d, z + h))} fill={top} style={glow ? {filter: `drop-shadow(0 0 18px ${C.ice})`} : undefined} />
@@ -79,32 +79,32 @@ const Box: React.FC<{x: number; y: number; z?: number; w: number; d: number; h: 
   );
 };
 
-// Tubo neon ao longo do eixo x (de x0 a x1), com fluxo animado
-const Tube: React.FC<{x0: number; x1: number; y: number; z: number; on?: number; color?: string}> = ({x0, x1, y, z, on = 1, color = C.ice}) => {
+// Tubo neon sólido ao longo do eixo x (de x0 a x1), ligando os blocos, com faixas de luz correndo por cima
+const Tube: React.FC<{x0: number; x1: number; y: number; z: number; on?: number; color?: string}> = ({x0, x1, y, z, on = 1}) => {
   const g = useCurrentFrame();
-  const a = P(x0, y, z);
-  const b = P(x0 + (x1 - x0) * on, y, z);
+  const r = 16;
+  const xe = x0 + (x1 - x0) * on;
+  if (xe - x0 < 2) return null;
+  const n = Math.floor((xe - x0) / 56);
+  const off = (g * 7) % 56;
   return (
     <g>
-      <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={color} strokeOpacity={0.18} strokeWidth={60} strokeLinecap="round" />
-      <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={color} strokeOpacity={0.45} strokeWidth={34} strokeLinecap="round" style={{filter: `drop-shadow(0 0 16px ${color})`}} />
-      <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke="#fff" strokeOpacity={0.9} strokeWidth={8} strokeLinecap="round" strokeDasharray="26 30" strokeDashoffset={-g * 6} />
+      <ellipse cx={P((x0 + xe) / 2, y, 0)[0]} cy={P((x0 + xe) / 2, y, 0)[1]} rx={(xe - x0) * 0.5} ry={34} fill="rgba(150,190,250,0.16)" style={{filter: 'blur(18px)'}} />
+      <Box x={x0} y={y - r} z={z - r} w={xe - x0} d={2 * r} h={2 * r} tone="ice" />
+      {Array.from({length: n}).map((_, i) => {
+        const xa = x0 + off + i * 56;
+        if (xa + 22 > xe) return null;
+        return <polygon key={i} points={pts(P(xa, y - 6, z + r + 1), P(xa + 22, y - 6, z + r + 1), P(xa + 22, y + 6, z + r + 1), P(xa, y + 6, z + r + 1))} fill="#fff" />;
+      })}
     </g>
   );
 };
 
-// Tubo vertical (sobe do ponto (x, y, z0) até z1)
-const VTube: React.FC<{x: number; y: number; z0: number; z1: number; on?: number; color?: string}> = ({x, y, z0, z1, on = 1, color = C.bordoLight}) => {
-  const g = useCurrentFrame();
-  const a = P(x, y, z0);
-  const b = P(x, y, z0 + (z1 - z0) * on);
-  return (
-    <g>
-      <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={color} strokeOpacity={0.25} strokeWidth={50} strokeLinecap="round" />
-      <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={color} strokeOpacity={0.6} strokeWidth={26} strokeLinecap="round" style={{filter: `drop-shadow(0 0 14px ${color})`}} />
-      <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke="#fff" strokeOpacity={0.85} strokeWidth={6} strokeLinecap="round" strokeDasharray="20 24" strokeDashoffset={-g * 6} />
-    </g>
-  );
+// Tubo sólido ao longo do eixo y (de y0 a y1), na cor bordô (caminho do imposto)
+const TubeY: React.FC<{x: number; y0: number; y1: number; z: number; on?: number}> = ({x, y0, y1, z, on = 1}) => {
+  const ye = y1 + (y0 - y1) * (1 - on);
+  if (y0 - ye < 2) return null;
+  return <Box x={x - 15} y={ye} z={z - 15} w={30} d={y0 - ye} h={30} tone="bordo" />;
 };
 
 // Pacote (cubo pequeno) com rótulo flutuante
@@ -319,16 +319,16 @@ const SplitCena: React.FC = () => {
   return (
     <Cena tag="SPLIT PAYMENT">
       <Palco punch={[clip(2).at + 4, chega]} z0={0.92} z1={0.98}>
-        <Tube x0={-250} x1={250} y={60} z={50} />
-        <VTube x={0} y={60} z0={120} z1={330} on={lin(g, chega, chega + 14)} />
         <Box x={-90} y={-330} w={180} d={150} h={190} z={0} label="GOVERNO" side="CBS · IBS" fs={26} opacity={lin(g, chega - 10, chega + 6)} />
+        <TubeY x={0} y0={20} y1={-180} z={70} on={lin(g, chega, chega + 14)} />
+        <Tube x0={-250} x1={250} y={60} z={50} />
         <Box x={-470} y={-40} w={210} d={200} h={230} label="EMPRESA A" fs={30} />
         <Box x={260} y={-40} w={210} d={200} h={230} label="EMPRESA B" fs={30} />
         <Box x={-70} y={10} w={140} d={100} h={130} tone="navy" label="BANCO" fs={24} />
         {!dividido && g >= t3 - 8 && <Pacote x={px} y={60} z={150} tag="R$ 1.000" k={sp(g, t3 - 8)} s={80} />}
         {dividido && (
           <>
-            <Pacote x={0} y={60 - 360 * io(sobe)} z={150 + 120 * io(sobe) - 140 * io(lin(g, clip(5).at + 26, clip(5).at + 40))} tone="bordo" tag="CBS + IBS" s={54} k={1 - lin(g, clip(5).at + 34, clip(5).at + 42)} />
+            <Pacote x={0} y={60 - 315 * io(sobe)} z={150 - 70 * io(lin(g, clip(5).at - 6, clip(5).at + 6))} tone="bordo" tag="CBS + IBS" s={54} k={sp(g, chega - 2, 10, 200) * (1 - lin(g, clip(5).at + 26, clip(5).at + 32))} />
             <Pacote x={250 * io(segue)} y={60} z={150 - 100 * io(segue)} tag={g >= clip(6).at ? 'LÍQUIDO' : 'R$ ...'} s={66} />
           </>
         )}
@@ -583,7 +583,7 @@ const Outro: React.FC = () => {
   );
 };
 
-export const SplitPayment: React.FC<{music: string; musicFrom: number}> = ({music, musicFrom}) => (
+export const SplitPayment: React.FC = () => (
   <AbsoluteFill style={{background: '#000'}}>
     {D.cenas.map((c) => (
       <Sequence key={c.id} from={c.ini} durationInFrames={c.fim - c.ini}>
@@ -599,14 +599,5 @@ export const SplitPayment: React.FC<{music: string; musicFrom: number}> = ({musi
         <Audio src={staticFile(c.src)} />
       </Sequence>
     ))}
-    <Audio
-      src={staticFile(music)}
-      trimBefore={musicFrom}
-      volume={(f) => {
-        const falando = D.clips.some((c) => f >= c.at - 3 && f < c.at + c.frames + 3);
-        const base = interpolate(f, [0, 8, D.total - 40, D.total - 4], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-        return base * (falando ? 0.13 : 0.24);
-      }}
-    />
   </AbsoluteFill>
 );
